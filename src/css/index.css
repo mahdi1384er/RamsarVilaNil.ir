@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  body {
+    background: #f8f8f8;
+    direction: rtl;
+    font-family: "MyFont";
+  }
+
+  .navbars {
+    transition: transform 300ms ease 12s;
+  }
+
+  .HeaderBg {
+    background-image: url("../public/img/111111.jpg");
+    border-radius: 0 0 15px 15px;
+    background-repeat: no-repeat;
+  }
+
+  .Color {
+    color: #0373f3;
+  }
+
+  .color-white {
+    color: white;
+  }
+
+  @font-face {
+    font-family: "MyFont";
+    src: local("MyFont"), url(../public//font/Vazir-Medium.woff) format("woff");
+  }
+
+  .ter {
+    height: 100px;
+  }
+
+  .swiper-slide {
+    margin: 0 40px;
+    position: relative;
+    left: 120px;
+    z-index: 0;
+  }
+
+  .swiper-wrapper2 {
+    margin: 0 -24px;
+  }
+
+  .swiper-wrapper3 {
+    margin: 0 -44px;
+  }
+
+  .imgsBackGround {
+    position: absolute;
+    bottom: 0px;
+    top: 3px;
+    right: -8px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    padding-bottom: 1rem;
+    width: 104px;
+    border-radius: 0 0 10px 10px;
+    height: 32px;
+  }
+
+  .rs-drawer-wrapper {
+    background-color: gray;
+    position: relative;
+    bottom: 800px;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+  }
+
+  .sizeItemsBox {
+    margin: 0 -7px;
+  }
+}

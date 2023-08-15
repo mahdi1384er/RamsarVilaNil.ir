@@ -1,0 +1,151 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "جنگلی",
+      "src": "./public/img/we.jpg",
+      "author": "۳۳ اقامتگاه",
+      "star": "8.9"
+    },
+    {
+      "id": 2,
+      "title": "ساحلی",
+      "src": "./public/img/rt.jpg",
+      "author": "۱۵ اقامتگاه",
+      "star": "5.9"
+    },
+    {
+      "id": 3,
+      "title": "کلبه",
+      "src": "./public/img/a.jpg",
+      "author": "۲۲ اقامتگاه",
+      "star": "7.9"
+    },
+    {
+      "id": 4,
+      "title": "ویلا های ییلاقی",
+      "src": "./public/img/09.jpg",
+      "author": "۲۲ اقامتگاه",
+      "star": "7.9"
+    },
+    {
+      "name": "sd",
+      "email": "fdg@fggfd",
+      "contect": "",
+      "id": 5
+    }
+  ],
+  "bestItem": [
+    {
+      "id": 1,
+      "title": "اجاره کلبه استخردار",
+      "src": "./public/img/65.jpg",
+      "author": " کد ۳۳"
+    },
+    {
+      "id": 2,
+      "title": "اجاره ویلا دو خواب ",
+      "src": "./public/img/90.jpg",
+      "author": " کد ۷۴۰"
+    },
+    {
+      "id": 3,
+      "title": "اجاره ویلا ساحلی",
+      "src": "./public/img/a.jpg",
+      "author": " کد ۲۲"
+    },
+    {
+      "id": 4,
+      "title": "اجاره ویلا ساحلی 3",
+      "src": "./public/img/658.jpg",
+      "author": "کد ۸۰۸"
+    },
+    {
+      "id": 5,
+      "title": "اجاره ویلا ساحلی 3",
+      "src": "./public/img/698.jpg",
+      "author": "کد ۵۴۵"
+    },
+    {
+      "id": 6,
+      "title": "اجاره ویلا ساحلی 3",
+      "src": "./public/img/47.jpg",
+      "author": "کد ۵۴۵"
+    }
+  ],
+  "special":[
+    {
+      "id": 1,
+      "title": "اجاره کلبه چوبی در جاده اسالم رامسر",
+      "src": "./public/img/r5.jpg",
+      "author": "2 خواب , 220 متر ,  تا12 نفر ",
+      "description": "رزرو فوری"
+    },
+    {
+      "id": 2,
+      "title": "اجاره کلبه جنگلی در رامسر",
+      "src": "./public/img/900.jpg",
+      "author": "1 خوابه . 55 متر . تا 5 مهمان",
+      "description": "ممتاز"
+    },
+    {
+      "id": 3,
+      "title": "رزرو ویلا دوبلکس استخردار نزدیک کوهپایه",
+      "src": "./public/img/890.jpg",
+      "author": "5خوابه. 650 متر .تا 30 مهمان",
+      "description": "رزرو فوری"
+    },
+    {
+      "id": 4,
+      "title": "باغ ویلا با استخر روباز آبگرم در جواهرده",
+      "src": "./public/img/963.jpg",
+      "author": "1 خوابه . 90 متر . تا 10 مهمان",
+      "description": "ممتاز"
+    },
+    {
+      "id": 5,
+      "title": "اجاره باغ ویلا در دالخانی",
+      "src": "./public/img/985.jpg",
+      "author": "2 خوابه . 80 متر . تا 6 مهمان",
+      "description": "رزرو فوری"
+    }
+  ],
+  "luxury":[
+    {
+      "id": 1,
+      "title": "اجاره کلبه چوبی در جاده اسالم رامسر",
+      "src": "./public/img/56.jpg",
+      "author": "2 خواب , 220 متر ,  تا12 نفر ",
+      "description": "رزرو فوری"
+    },
+    {
+      "id": 2,
+      "title": "اجاره کلبه جنگلی در رامسر",
+      "src": "./public/img/741.jpeg",
+      "author": "1 خوابه . 55 متر . تا 5 مهمان",
+      "description": "ممتاز"
+    },
+    {
+      "id": 3,
+      "title": "رزرو ویلا دوبلکس استخردار نزدیک کوهپایه",
+      "src": "./public/img/59.jpg",
+      "author": "5خوابه. 650 متر .تا 30 مهمان",
+      "description": "رزرو فوری"
+    },
+    {
+      "id": 4,
+      "title": "باغ ویلا با استخر روباز آبگرم در جواهرده",
+      "src": "./public/img/988.jpg",
+      "author": "1 خوابه . 90 متر . تا 10 مهمان",
+      "description": "ممتاز"
+    },
+    {
+      "id": 5,
+      "title": "اجاره باغ ویلا در دالخانی",
+      "src": "./public/img/742.jpg",
+      "author": "2 خوابه . 80 متر . تا 6 مهمان",
+      "description": "رزرو فوری"
+    }
+  ]
+
+}
