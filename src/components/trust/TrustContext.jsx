@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Autoplay } from "swiper/modules";
 
 const TrustData = [
   {
@@ -31,22 +32,27 @@ const TrustContext = () => {
   return (
     <section className="flex items-center justify-start">
       <Swiper
+        modules={[Autoplay]}
         centeredSlides={true}
-        autoplay={false}
         className="swiper-wrapper2"
-        spaceBetween={-95}
+        spaceBetween={-20}
         slidesPerView={2.5}
-        onAutoplay= {
-           2500}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
       >
         {TrustData.map((item, index) => {
           return (
-            <SwiperSlide
-              key={index}
-            >
-              <div className="flex items-center justify-around w-[120px] h-[29px] rounded-[10px] border-solid border-[1px] border-gray-400 ml-[10px] mr-[20px]">
-                <img src={item.imgs} data-swiper-autoplay="2000" className="w-[20px] h-[20px]" alt="" />
-                <p className="text-[10px] text-[#5A5B5E]">{item.titel}</p>
+            <SwiperSlide key={index}>
+              <div className="flex items-center justify-evenly w-[150px] h-[29px] rounded-[10px] border-solid border-[1px] border-gray-400 ml-[10px] mr-[0px]">
+                <img
+                  src={item.imgs}
+                  data-swiper-autoplay="2000"
+                  className="w-[20px] h-[20px]"
+                  alt=""
+                />
+                <p className="text-[12px] text-[#5A5B5E]">{item.titel}</p>
               </div>
             </SwiperSlide>
           );

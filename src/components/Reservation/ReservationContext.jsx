@@ -1,20 +1,20 @@
-import LKuxuryItems from "./luxuryItems";
+import ReservationItems from "./ReservationItems"; 
 
-const LuxuryContext = () => {
+const ReservationContext = () => {
   return (
-    <section className="w-full mt-[10px] h-[226px] m-auto">
+    <section className="w-full mt-[30px] h-[247px] m-auto">
       <div className="w-[95%]   m-auto">
         <div className="flex flex-col">
           <div className="h-[20px]">
-            <h2 className="font-bold">ویلا های لوکس و مجلل</h2>
+            <h2 className="font-bold">اقامتگاه های رزرو فوری</h2>
           </div>
           <div>
             <span className="text-[#5A5B5E] text-[13px]">
-            ویلا های لوکس و زیبا برای خاض پسند ها
+             رزرو فوری بدون نیاز به تایید میزبان
             </span>
           </div>
           <div className="flex items-center justify-between overflow-scroll mt-[0] ml-[-8px] mr-[-8px] relative bottom-[28px]">
-            <LKuxuryItems />
+            <ReservationItems />
           </div>
         </div>
       </div>
@@ -22,4 +22,4 @@ const LuxuryContext = () => {
   );
 };
 
-export default LuxuryContext;
+export default ReservationContext;

@@ -21,7 +21,7 @@
     "react-slider": "^2.0.6",
     "rsuite": "^5.37.3",
     "slick-carousel": "^1.8.1",
-    "swiper": "^10.1.0"
+    "swiper": "^10.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

@@ -3,7 +3,7 @@ import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoHeartCircleSharp } from "react-icons/io5";
 
-const SpecialItems = () => {
+const ReservationItems = () => {
   const [data, setdata] = useState([]);
 
   return (
@@ -92,4 +92,4 @@ const SpecialItems = () => {
   );
 };
 
-export default SpecialItems;
+export default ReservationItems;

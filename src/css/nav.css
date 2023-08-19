@@ -1,0 +1,15 @@
+.testimonials__container {
+  width: 97%;
+  height: 200px;
+  padding-bottom: 4rem;
+}
+
+
+
+.swiper-slide {
+  position: relative;
+  left: 220px;
+  z-index: 0;
+}
+
+

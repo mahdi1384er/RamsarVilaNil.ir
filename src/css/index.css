@@ -9,12 +9,29 @@
     direction: rtl;
     font-family: "MyFont";
   }
-  .bgImgs {
-    background-image: url("../../public//img/as.svg");
-    border-radius: 10px 10px 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+  :root {
+    --color-text:#0373F3;
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+  
+    --transition: all 400ms ease;
+  
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
   }
+
+
+
+
+  .bgImgs {
+    border-radius: 10px 10px 0 0;
+    }
 
   .navbars {
     transition: transform 300ms ease 12s;
@@ -87,4 +104,12 @@
     margin: 0 -7px;
   }
   
+  .instagram {
+    background: linear-gradient(125deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 55%, rgb(252, 176, 69) 100%);
+  }
+
+  
+
+  
+
 }

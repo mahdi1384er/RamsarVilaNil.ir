@@ -2,15 +2,16 @@ import React, { useState, useEffect } from "react";
 import { BiHome } from "react-icons/bi";
 import { MdOutlineVilla } from "react-icons/md";
 import { LuConciergeBell } from "react-icons/lu";
-import { RiContactsLine } from "react-icons/ri";
+import { AiOutlineUser } from "react-icons/ai";
 
 const NavBarsBottoms = () => {
   const navbarsBottom = [
     { id: 1, name: "خانه", icons: <BiHome /> },
     { id: 2, name: "اقامتگاه ها", icons: <MdOutlineVilla /> },
     { id: 3, name: "میزبانی", icons: <LuConciergeBell /> },
-    { id: 4, name: "ارتباط با ما", icons: <RiContactsLine /> },
+    { id: 4, name: "ارتباط با ما", icons: <AiOutlineUser /> },
   ];
+
 
   const [show, setShow] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);

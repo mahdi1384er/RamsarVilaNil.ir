@@ -5,6 +5,8 @@ import Trust from "./components/trust/TrustItems";
 import SpecialContext from "./components/special/specialContext";
 import LuxuryContext from "./components/luxury/luxuryContext";
 import TripContext from "./components/trip/TripContext";
+import ReservationContext from "./components/Reservation/ReservationContext";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
       <Trust />
       <SpecialContext />
       <LuxuryContext />
+      <ReservationContext />
       <TripContext />
+      <Footer />
     </div>
   );
 };
