@@ -16,10 +16,12 @@ const Footer = () => {
     }),
     (
       <section className="w-full mt-[120px] h-[347px] m-auto bg-[#D9D9D9]">
-        <div className="w-[95%]  p-2">
+        <div className="w-[95%]  p-2 flex flex-col justify-between">
           <div className="flex items-center justify-between m-auto">
-            <div>
-              <span className="text-[12px] font-bold">جهت ارتباط با ما</span>
+            <div className="">
+              <span className="text-[10px] font-bold ml-[5px]">
+                جهت ارتباط با ما
+              </span>
             </div>
             <div>
               <div className="flex items-center">
@@ -34,10 +36,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-[70%] items-center justify-center m-auto mt-[20px]">
+          <div className="flex flex-col w-[100%] items-center justify-center m-auto mt-[20px] max-sm:flex max-sm:flex-initial">
             <div className="text-center">
               <span className="text-[12px] font-bold">
-                با خیال راحت به رامسر ویلا نیل اعتماد کنید{" "}
+                با خیال راحت به رامسر نیل اعتماد کنید{" "}
               </span>
             </div>
             <div className="flex items-center w-[120px] justify-between mt-[10px]">
@@ -66,7 +68,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-[70%] items-center justify-center m-auto mt-[20px]">
+          <div className="flex flex-col w-[100%] items-center justify-center m-auto mt-[20px]">
             <div>
               <span className="text-[12px] font-bold text-center">
                 جستجوی سریع
@@ -76,7 +78,10 @@ const Footer = () => {
               {data.map((item, index) => {
                 return (
                   <div>
-                    <div key={index} class="p-[3px] rounded-[4px] bg-[#f0f0f0] text-[#000] text-[9px] mr-[6px] mt-[4px]">
+                    <div
+                      key={index}
+                      class="p-[3px] rounded-[4px] bg-[#f0f0f0] text-[#000] text-[9px] mr-[6px] mt-[4px]"
+                    >
                       <span className="text-[8px] font-bold">{item.title}</span>
                     </div>
                   </div>
@@ -85,10 +90,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
         <div className="w-full  bg-[#a1a1a1] mt-[10px] h-[23px] flex items-center justify-center">
-              <div>
-                <span className="text-[9px] text-[#ffffff]">تمامی حقوق برای رامسر ویلا نیل محفوظ می باشد.</span>
-              </div>
+          <div>
+            <span className="text-[9px] text-[#ffffff]">
+              تمامی حقوق برای رامسر نیل محفوظ می باشد.
+            </span>
+          </div>
         </div>
       </section>
     )

@@ -2,7 +2,7 @@ import PopularItems from "./PopularItems";
 
 const PopularIContext = () => {
   return (
-    <section className="w-full mt-[30px] m-auto">
+    <section className="w-full mt-[20px] m-auto">
       <div className="w-[95%]   m-auto">
         <div className="flex flex-col">
           <div>

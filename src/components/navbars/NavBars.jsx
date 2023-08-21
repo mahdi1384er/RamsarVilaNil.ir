@@ -38,7 +38,7 @@ const NavBarsScrool = () => {
         <ul className="flex items-center justify-between backdrop-blur-2xl fixed top-0 right-0 left-0 z-10 p-2  animated">
           <li className="flex justify-center items-center bg-[#0373F3] pr-[1px]  w-[21px] h-[20px] rounded-md text-white">
           <AiOutlineMenu className="text-[12px] font-bold"/>
-          </li>
+            </li>
           <li>
             <img src={img} alt="" className="w-[31px]" />
           </li>

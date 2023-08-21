@@ -2,7 +2,7 @@ import LKuxuryItems from "./luxuryItems";
 
 const LuxuryContext = () => {
   return (
-    <section className="w-full mt-[10px] h-[226px] m-auto">
+    <section className="w-full mt-[10px] h-[229px] m-auto">
       <div className="w-[95%]   m-auto">
         <div className="flex flex-col">
           <div className="h-[20px]">

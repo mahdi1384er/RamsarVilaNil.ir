@@ -19,8 +19,8 @@ const TripItems = () => {
     }),
     (
       <section>
-        <div className="w-[95%] m-auto flex items-center flex-col">
-          <div className="flex  flex-col w-full">
+        <div className="w-[100%] m-auto flex items-center flex-col">
+          <div className="flex  flex-col w-full pr-2">
             <div>
               <p className="font-bold">در سفر، تجربه کن</p>
             </div>
@@ -50,7 +50,7 @@ const TripItems = () => {
                   key={index}
                   className="pl-[35px] pr-[10px] testimonials"
                 >
-                  <div className="mr-[80px] w-[80%] h-[190px] shadow-lg border-solid border-[1px] text-[#818181] mt-[30px] rounded-[10px] flex flex-col ">
+                  <div className="mr-[50px] w-[80%] h-[190px] shadow-lg border-solid border-[1px] text-[#818181] mt-[30px] rounded-[10px] flex flex-col ">
                     <img
                       className="bgImgs w-full h-[70%] bg-red-300  rounded-[10px] "
                       src={item.src}

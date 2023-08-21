@@ -20,14 +20,15 @@ const ReservationItems = () => {
           centeredSlides={true}
           autoplay={false}
           className="swiper-wrapper3"
-          spaceBetween={12}
-          slidesPerView={1.9}
+          // spaceBetween={12}
+          width={225}
+          slidesPerView={1.8}
         >
           {data.map((item, index) => {
             return (
               <SwiperSlide
                 key={index}
-                className="w-[404px] h-[176px] relative left-[365px]"
+                className="w-[404px] h-[176px] relative left-[165px]"
               >
                 <div>
                   <div className="m-[10px] flex items-center  w-[404px] h-[217px]">

@@ -23,8 +23,9 @@ const LKuxuryItems = () => {
           centeredSlides={true}
           autoplay={false}
           className="swiper-wrapper3"
-          spaceBetween={12}
-          slidesPerView={1.9}
+          // spaceBetween={12}
+          width={225}
+          slidesPerView={1.8}
         >
           {data.map((item, index) => {
             return (

@@ -23,7 +23,7 @@ const PopularItems = () => {
           centeredSlides={true}
           autoplay={false}
           className="mySwiper"
-          spaceBetween={-15}
+          width={200}
           slidesPerView={2}
         >
           {data.map((item, index) => {

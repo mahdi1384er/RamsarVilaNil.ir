@@ -27,7 +27,7 @@ const Header = () => {
             </form>
           </div>
           <div>
-            <h2 className="text-white text-[11px] mt-[9px]">رامسر ویلا نیل</h2>
+            <h2 className="text-white text-[11px] mt-[9px]">رامسر نیل</h2>
           </div>
 
           <div>

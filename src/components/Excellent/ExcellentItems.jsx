@@ -22,8 +22,9 @@ const ExcellentItems = () => {
           centeredSlides={true}
           autoplay={false}
           className="swiper-wrapper2"
-          spaceBetween={-90}
-          slidesPerView={3}
+          // spaceBetween={-90}
+           width={140}
+          slidesPerView={3.4}
         >
           {data.map((item, index) => {
             return (
