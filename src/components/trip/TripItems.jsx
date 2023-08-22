@@ -22,7 +22,7 @@ const TripItems = () => {
         <div className="w-[100%] m-auto flex items-center flex-col">
           <div className="flex  flex-col w-full pr-2">
             <div>
-              <p className="font-bold">در سفر، تجربه کن</p>
+              <p className="font-bold text-black text-[15px]">در سفر، تجربه کن</p>
             </div>
             <div>
               <p className="text-[#575757] text-[12px]">
@@ -32,7 +32,7 @@ const TripItems = () => {
           </div>
 
           <Swiper
-            className="container testimonials__container h-[267px] "
+            className="container testimonials__container h-[300px] "
             // install Swiper modules
             modules={[Pagination, Autoplay]}
             spaceBetween={-126}

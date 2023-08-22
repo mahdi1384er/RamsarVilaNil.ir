@@ -1,10 +1,15 @@
+@import "rsuite/dist/rsuite.css";
+
+body {
+  background: #f8f8f8;
+  direction: rtl;
+  font-family: "MyFont";
+}
 .testimonials__container {
   width: 97%;
   height: 200px;
   padding-bottom: 4rem;
 }
-
-
 
 .swiper-slide {
   position: relative;
@@ -12,4 +17,104 @@
   z-index: 0;
 }
 
+.navbarsSidBar {
+  border-radius: 15px 0 0 15px;
+  height: 400px;
+}
 
+.bgImgs {
+  border-radius: 10px 10px 0 0;
+}
+
+.navbars {
+  transition: transform 300ms ease 12s;
+}
+
+.HeaderBg {
+  background-image: url("../public/img/111111.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  border-radius: 0 0 15px 15px;
+  background-repeat: no-repeat;
+}
+
+.Color {
+  color: #0373f3;
+}
+
+.color-white {
+  color: white;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: local("MyFont"), url(../public//font/Vazir-Medium.woff) format("woff");
+}
+
+.ter {
+  height: 100px;
+}
+
+.swiper-slide {
+  margin: 0 40px;
+  position: relative;
+  left: 94px;
+  z-index: 0;
+}
+
+.swiper-wrapper2 {
+  margin: 0 10px;
+  position: relative;
+  /* left: 4px;  */
+}
+
+.swiper-wrapper3 {
+  margin: 0 30px;
+  position: relative;
+  left: 0px;
+  z-index: 0;
+}
+
+.container4 {
+  position: relative;
+  left: 0px;
+  z-index: 0;
+}
+
+.imgsBackGround {
+  position: absolute;
+  bottom: 0px;
+  top: 3px;
+  right: -8px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  padding-bottom: 1rem;
+  width: 104px;
+  border-radius: 0 0 10px 10px;
+  height: 32px;
+}
+
+.rs-drawer-wrapper {
+  background-color: gray;
+  position: relative;
+  bottom: 800px;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+.sizeItemsBox {
+  margin: 0 -7px;
+}
+
+.instagram {
+  background: linear-gradient(
+    125deg,
+    rgb(131, 58, 180) 0%,
+    rgb(253, 29, 29) 55%,
+    rgb(252, 176, 69) 100%
+  );
+}

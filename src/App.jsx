@@ -7,11 +7,14 @@ import LuxuryContext from "./components/luxury/luxuryContext";
 import TripContext from "./components/trip/TripContext";
 import ReservationContext from "./components/Reservation/ReservationContext";
 import Footer from "./components/Footer/Footer";
+import DrawerPlacement from "./components/navbars/Drawer";
+
 
 const App = () => {
   return (
     <div className="w-[100%] m-auto h-[1990px]">
       <Header />
+      <DrawerPlacement />
       <PopularIContext />
       <ExcellentContext />
       <Trust />

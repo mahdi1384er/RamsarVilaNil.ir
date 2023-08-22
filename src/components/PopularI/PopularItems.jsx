@@ -40,12 +40,12 @@ const PopularItems = () => {
                         />
                       </div>
 
-                      <div className="flex items-center justify-between relative bottom-[43px] right-[8px]">
+                      <div className="flex items-center justify-between relative bottom-[63px] right-[8px]">
                         <div className="flex flex-col">
-                          <div>
-                            <h2 className="color-white">{item.title}</h2>
+                          <div className="relative top-[10px]">
+                            <h2 className="color-white text-[11px] ">{item.title}</h2>
                           </div>
-                          <div>
+                          <div className="relative  bottom-[4px] left-[2px]">
                             <p className="color-white text-[8px]  pr-[2px]">
                               {item.author}
                             </p>

@@ -19,18 +19,18 @@ const Footer = () => {
         <div className="w-[95%]  p-2 flex flex-col justify-between">
           <div className="flex items-center justify-between m-auto">
             <div className="">
-              <span className="text-[10px] font-bold ml-[5px]">
+              <span className="text-[10px] font-bold ml-[5px] text-black">
                 جهت ارتباط با ما
               </span>
             </div>
             <div>
               <div className="flex items-center">
-                <div className="p-[3px] rounded-[4px] bg-[#f0f0f0] text-[#000] text-[9px]">
-                  <a href="tel:09300616152">تلفن ضروری : ۰۹۳۰۰۶۱۶۱۵۲</a>
+                <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[9px]">
+                  <a href="tel:09300616152" className="text-[#080808]">تلفن ضروری : ۰۹۳۰۰۶۱۶۱۵۲</a>
                 </div>
                 <div className="mr-[4px]">
-                  <div className="p-[3px] rounded-[4px] bg-[#f0f0f0] text-[#000] text-[9px]">
-                    <a href="tel:01155215255">تماس با ما : ۵۵۲۱۵۲۵۵</a>
+                  <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[9px]">
+                    <a href="tel:01155215255" className="text-[#080808]">تماس با ما : ۵۵۲۱۵۲۵۵</a>
                   </div>
                 </div>
               </div>
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col w-[100%] items-center justify-center m-auto mt-[20px] max-sm:flex max-sm:flex-initial">
             <div className="text-center">
-              <span className="text-[12px] font-bold">
+              <span className="text-[12px] font-bold text-black">
                 با خیال راحت به رامسر نیل اعتماد کنید{" "}
               </span>
             </div>
@@ -52,25 +52,25 @@ const Footer = () => {
             </div>
             <div className="mt-[23px]">
               <div>
-                <span className="text-[12px] font-bold">باما همراه شوید</span>
+                <span className="text-[12px] font-bold text-black">باما همراه شوید</span>
                 <div className="mt-[8px]">
-                  <div className="instagram w-[70px] h-[23px] p-[4px] rounded-[6px] flex items-center justify-around">
-                    <div>
-                      <span className="text-[12px] text-white">20k</span>
-                    </div>
-                    <div>
-                      <a href="https://www.instagram.com/ramsar_vila_nil">
+                  <a href="https://instagram.com/ramsar_vila_nil?igshid=OGQ5ZDc2ODk2ZA==">
+                    <div className="instagram w-[70px] h-[23px] p-[4px] rounded-[6px] flex items-center justify-around">
+                      <div>
+                        <span className="text-[12px] text-white">20k</span>
+                      </div>
+                      <div>
                         <AiOutlineInstagram className="text-[18px] text-white " />
-                      </a>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col w-[100%] items-center justify-center m-auto mt-[20px]">
             <div>
-              <span className="text-[12px] font-bold text-center">
+              <span className="text-[12px] font-bold text-center text-black">
                 جستجوی سریع
               </span>
             </div>
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-full  bg-[#a1a1a1] mt-[10px] h-[23px] flex items-center justify-center">
+        <div className="w-full  bg-[#a1a1a1] mt-[8px] h-[36px] flex items-center justify-center">
           <div>
             <span className="text-[9px] text-[#ffffff]">
               تمامی حقوق برای رامسر نیل محفوظ می باشد.

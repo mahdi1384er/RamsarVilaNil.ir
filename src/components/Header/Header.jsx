@@ -4,30 +4,30 @@ import NavBarsBottoms from "../navbars/NavBarsBottom";
 
 const Header = () => {
   return (
-    <header className="HeaderBg  bg-fixed bg-contain overflow-auto  h-[190px] w-full">
-      <div className="w-[94%] m-auto">
+    <header className="HeaderBg  bg-fixed bg-contain overflow-auto  h-[210px] w-full">
+      <div className="w-[94%] h-full m-auto">
         {/* Navigation */}
         <NavBarsScrool />
 
         <NavBarsBottoms />
 
-        <div className="flex items-center flex-col justify-center mt-[84px]">
+        <div className="flex items-center flex-col justify-center mt-0 relative top-[57px]">
           <div>
             <h2 className="text-[16px] text-white font-bold">
               اجاره ویلا در شمال ایران رامسر
             </h2>
           </div>
-          <div className="mt-[10px]">
+          <div>
             <form>
               <input
                 type="text"
                 placeholder="کد ویلاتو سرچ کن ...."
-                className="h-[18px] w-[120px]  p-[11px] pb-[10px] rounded-[14px] bg-white text-[#8D8E8F] text-[9px] font-bold "
+                className="h-[18px] w-[170px]  p-[11px] pb-[13px] rounded-[14px] bg-white text-[#8D8E8F] text-[9px] font-bold focus:outline-none"
               />
             </form>
           </div>
           <div>
-            <h2 className="text-white text-[11px] mt-[9px]">رامسر نیل</h2>
+            <h2 className="text-white text-[11px]">رامسر نیل</h2>
           </div>
 
           <div>

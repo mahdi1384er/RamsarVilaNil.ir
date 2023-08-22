@@ -5,12 +5,14 @@ const ExcellentContext = () => {
     <section className="w-full mt-[40px] m-auto h-[222px]">
       <div className="w-[95%]   m-auto">
         <div className="flex flex-col">
-          <div>
+          <div className="relative bottom-[7px]">
             <div className="h-[20px]">
-              <h2 className="font-bold">اقامتگاه های ممتاز</h2>
+              <h2 className="font-bold text-[15px] text-black  relative bottom-[5px]">
+                اقامتگاه های ممتاز
+              </h2>
             </div>
             <div>
-              <span className="text-[#5A5B5E] text-[13px]">
+              <span className="text-[#5A5B5E] text-[13px] font-[900px] relative top-[13px]">
                 گلچینی از اﻗﺎﻣﺘﮕﺎه‌ﻫﺎی ﺑﺎکیفیت ﺑﺎ میزبانهای مهمان نواز
               </span>
             </div>

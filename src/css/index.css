@@ -3,11 +3,15 @@
 @tailwind utilities;
 
 
+
+
+
 @layer utilities {
   body {
     background: #f8f8f8;
     direction: rtl;
     font-family: "MyFont";
+
   }
 
   :root {
@@ -35,10 +39,13 @@
 
   .navbars {
     transition: transform 300ms ease 12s;
+    border-top: 1px solid rgb(237 237 237)
   }
 
   .HeaderBg {
     background-image: url("../public/img/111111.jpg");
+    background-attachment: fixed;
+    background-size: contain;
     border-radius: 0 0 15px 15px;
     background-repeat: no-repeat;
   }
