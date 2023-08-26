@@ -8,11 +8,13 @@ import {
 
 import { AiOutlineMenu } from "react-icons/ai";
 import { Sidenav, Nav } from "rsuite";
-import PhoneIcon from "@rsuite/icons/Phone";
-import GroupIcon from "@rsuite/icons/legacy/Group";
-import MagicIcon from "@rsuite/icons/legacy/Magic";
-import GearCircleIcon from "@rsuite/icons/legacy/GearCircle";
+// import PhoneIcon from "@rsuite/icons/Phone";
+import { BiHome } from "react-icons/bi";
+import { AiOutlineHeart } from "react-icons/ai";
+import { MdVilla } from "react-icons/md";
+import { TfiHeadphoneAlt } from "react-icons/tfi";
 import "../../css/nav.css";
+import { NavLink } from "react-router-dom";
 
 export default function DrawerPlacement() {
   const [openRight, setOpenRight] = React.useState(false);
@@ -22,7 +24,7 @@ export default function DrawerPlacement() {
 
   return (
     <React.Fragment>
-      <div className="flex  w-[100px] fixed top-[18px] right-[12px] left-0 z-[500]  ">
+      <div className="flex  w-[100px] fixed top-[18px] right-[13px] left-0 z-[1000]  ">
         <Button onClick={openDrawerRight}>
           <AiOutlineMenu className="text-[12px] font-bold" />
         </Button>
@@ -31,58 +33,91 @@ export default function DrawerPlacement() {
         placement="right"
         open={openRight}
         onClose={closeDrawerRight}
-        className="navbarsSidBar p-4 bg-slate-100  h-[400px] z-[500]"
+        className="navbarsSidBar p-4 bg-slate-100  h-[400px] z-[5000]"
       >
-        <div className="mb-6 flex items-center justify-between">
-          <Typography variant="h5" color="blue-gray">
+        <div className="flex items-center justify-between text-[10px]">
+          <Typography variant="h5" color="blue-gray" className="text-[13px]">
             <Sidenav defaultOpenKeys={["3", "4"]}>
               <Sidenav.Body>
                 <Nav activeKey="1">
-                  <Nav.Item eventKey="2" icon={<PhoneIcon />}>
-                    خانه
-                  </Nav.Item>
+                  <div className="flex items-center w-[280px] h-[40px]">
+                    <div className="relative   z-[500]">
+                      <BiHome className="w-[28px] h-[18px]" />
+                    </div>
+                    <Nav.Item
+                      eventKey="2"
+                      className="texthome relative left-[18px] top-[3px]"
+                    >
+                      <span>خانه</span>
+                    </Nav.Item>
+                  </div>
+                </Nav>
 
-                  <Nav.Item eventKey="2" icon={<GroupIcon />}>
-                    علاقه مندی ها
-                  </Nav.Item>
-                  <Nav.Menu eventKey="3" title="داشبورد" icon={<MagicIcon />}>
-                    <Nav.Item eventKey="3-1">ثبت اقامتگاه</Nav.Item>
-                    <Nav.Item eventKey="3-2">ارتباط با ما</Nav.Item>
-                    <Nav.Item eventKey="3-3">شکایت</Nav.Item>
-                  </Nav.Menu>
-                  <Nav.Menu
-                    eventKey="4"
-                    title="درباره ما"
-                    icon={<GearCircleIcon />}
-                  >
-                    <Nav.Item eventKey="4-2">قوانین وبسایت</Nav.Item>
-                    <Nav.Item eventKey="4-3">پشتیبانی</Nav.Item>
-                  </Nav.Menu>
+                <Nav activeKey="1">
+                  <div className="flex items-center w-[280px] h-[40px]">
+                    <div className="relative   z-[500]">
+                      <AiOutlineHeart className="w-[28px] h-[18px]" />
+                    </div>
+                    <Nav.Item
+                      eventKey="2"
+                      className="texthome relative left-[18px] top-[3px]"
+                    >
+                      <span>علاقه مندی ها</span>
+                    </Nav.Item>
+                  </div>
+                </Nav>
+
+                <Nav activeKey="1">
+                  <div className="flex items-center w-[280px] h-[40px]">
+                    <div className="relative   z-[500]">
+                      <TfiHeadphoneAlt className="w-[28px] h-[18px]" />
+                    </div>
+                    <Nav.Item
+                      eventKey="2"
+                      className="texthome relative left-[18px] top-[3px]"
+                    >
+                      <span>ارتباط با ما</span>
+                    </Nav.Item>
+                  </div>
+                </Nav>
+
+                <Nav activeKey="1">
+                  <div className="flex items-center w-[280px] h-[40px]">
+                    <div className="relative   z-[500]">
+                      <MdVilla className="w-[28px] h-[18px]" />
+                    </div>
+                    <Nav.Item
+                      eventKey="2"
+                      className="texthome relative left-[18px] top-[3px]"
+                    >
+                      <span>ثبت اقامتگاه</span>
+                    </Nav.Item>
+                  </div>
                 </Nav>
               </Sidenav.Body>
             </Sidenav>
+              <IconButton
+                variant="text"
+                color="blue-gray"
+                onClick={closeDrawerRight}
+                className="relative bottom-[148px] right-[256px]  z-[500]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  className="h-5 w-5"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </IconButton>
           </Typography>
-          <IconButton
-            variant="text"
-            color="blue-gray"
-            onClick={closeDrawerRight}
-            className="relative bottom-[191px] right-[10px] z-[500]"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </IconButton>
         </div>
       </Drawer>
     </React.Fragment>

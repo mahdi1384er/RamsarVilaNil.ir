@@ -1,6 +1,5 @@
 import "../../css/index.css";
 import NavBarsScrool from "../navbars/NavBars";
-import NavBarsBottoms from "../navbars/NavBarsBottom";
 
 const Header = () => {
   return (
@@ -9,7 +8,6 @@ const Header = () => {
         {/* Navigation */}
         <NavBarsScrool />
 
-        <NavBarsBottoms />
 
         <div className="flex items-center flex-col justify-center mt-0 relative top-[57px]">
           <div>
@@ -22,14 +20,13 @@ const Header = () => {
               <input
                 type="text"
                 placeholder="کد ویلاتو سرچ کن ...."
-                className="h-[18px] w-[170px]  p-[11px] pb-[13px] rounded-[14px] bg-white text-[#8D8E8F] text-[9px] font-bold focus:outline-none"
+                className="h-[18px] w-[170px]  p-[11px] pt-[12px] pb-[13px] rounded-[14px] bg-white text-[#8D8E8F] text-[9px] font-bold focus:outline-none"
               />
             </form>
           </div>
           <div>
-            <h2 className="text-white text-[11px]">رامسر نیل</h2>
+            <h2 className="text-white text-[14px]">رامسر نیل</h2>
           </div>
-
           <div>
             <div className="animate-bounce  mt-[4px]">
               <svg

@@ -43,7 +43,7 @@ const PopularItems = () => {
                       <div className="flex items-center justify-between relative bottom-[63px] right-[8px]">
                         <div className="flex flex-col">
                           <div className="relative top-[10px]">
-                            <h2 className="color-white text-[11px] ">{item.title}</h2>
+                            <h2 className="color-white text-[15px] ">{item.title}</h2>
                           </div>
                           <div className="relative  bottom-[4px] left-[2px]">
                             <p className="color-white text-[8px]  pr-[2px]">

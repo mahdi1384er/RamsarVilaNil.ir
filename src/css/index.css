@@ -39,7 +39,15 @@
 
   .navbars {
     transition: transform 300ms ease 12s;
-    border-top: 1px solid rgb(237 237 237)
+  }
+
+  .links:focus {
+    border: none;
+  }
+
+  .links:active  {
+    color: rgb(12, 131, 185);
+    border: none;
   }
 
   .HeaderBg {
@@ -49,6 +57,25 @@
     border-radius: 0 0 15px 15px;
     background-repeat: no-repeat;
   }
+
+  .HeaderRooms {
+    background-image: url("../../public//img/985.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .Headerhost{
+    background-image: url("../../public//img/شششش.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  
 
   .Color {
     color: #0373f3;
@@ -66,7 +93,7 @@
   .ter {
     height: 100px;
   }
-
+  a {outline : none;}
   .swiper-slide {
     margin: 0 40px;
     position: relative;
@@ -84,6 +111,7 @@
   .swiper-wrapper3 {
     margin: 0 30px;
     position: relative;
+    padding-left: 20px;
     left: 0px;
     z-index: 0;
   }
@@ -127,8 +155,28 @@
     background: linear-gradient(125deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 55%, rgb(252, 176, 69) 100%);
   }
 
+  .loader:empty {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    border: 1.1em solid rgba(0, 0, 0, 0.2);
+    border-left: 1.1em solid #000000;
+    border-radius: 50%;
+    animation: load8 1.1s infinite linear;
+  }
+  
+  @keyframes load8 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
   
 
-  
+
 
 }

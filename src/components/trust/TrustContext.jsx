@@ -35,8 +35,8 @@ const TrustContext = () => {
         modules={[Autoplay]}
         centeredSlides={true}
         className="swiper-wrapper2"
-        width={390}
-        slidesPerView={4.8}
+        width={220}
+        slidesPerView={2.6}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
