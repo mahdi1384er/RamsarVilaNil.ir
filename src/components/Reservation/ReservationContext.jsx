@@ -2,7 +2,7 @@ import ReservationItems from "./ReservationItems";
 
 const ReservationContext = () => {
   return (
-    <section className="w-full mt-[20px] h-[247px] m-auto">
+    <section className="w-full  h-[247px] m-auto">
       <div className="w-[95%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">

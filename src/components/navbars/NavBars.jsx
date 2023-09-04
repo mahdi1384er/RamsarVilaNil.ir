@@ -39,8 +39,13 @@ const NavBarsScrool = () => {
           <li className="flex justify-center items-center bg-[#0373F3] pr-[1px]  w-[21px] h-[20px] rounded-md text-white">
           {/* <DrawerPlacement /> */}
           </li>
-          <li>
+          <li className="flex items-center">
+            <span className="pl-[4px] text-white">
+            𝙍𝙖𝙢𝙨𝙖𝙧𝘽𝙖𝙢𝙖
+            </span>
+            <span>
             <img src={img} alt="" className="w-[31px]" />
+            </span>
           </li>
         </ul>
       </nav>

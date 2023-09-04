@@ -1,5 +1,21 @@
 @import "rsuite/dist/rsuite.css";
 
+
+
+.rdrNextButton i{
+  position: relative;
+  right: 7px;
+}
+
+.currentColor {
+  display: none;
+}
+
+.rdrMonth {
+  width: 100%;
+}
+
+
 .rs-sidenav-nav > .rs-sidenav-item,
 .rs-sidenav-nav > .rs-dropdown .rs-dropdown-toggle {
   position: relative;
@@ -16,8 +32,9 @@
 .siwpers {
   padding: 0.625rem 0.5rem 0.625rem 0px;
 }
-a {outline : none;}
-
+a {
+  outline: none;
+}
 
 .rs-sidenav-default .rs-sidenav-item:hover {
   padding: 3px 30px;
@@ -71,6 +88,27 @@ body {
   transition: transform 300ms ease 12s;
 }
 
+.swiper-backface-hidden .sliderItems {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  /* display: flex; */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
 .HeaderBg {
   background-image: url("../public/img/111111.jpg");
   background-attachment: fixed;
@@ -122,6 +160,13 @@ body {
   z-index: 0;
 }
 
+.bgimgsData {
+  background-image: "../../public/img/111.jpg";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .imgsBackGround {
   position: absolute;
   bottom: 0px;
@@ -170,7 +215,7 @@ body {
     border-radius: 50%;
     animation: load8 1.1s infinite linear;
   }
-  
+
   @keyframes load8 {
     0% {
       transform: rotate(0deg);
@@ -179,4 +224,8 @@ body {
       transform: rotate(360deg);
     }
   }
+
+
+
+  
 }

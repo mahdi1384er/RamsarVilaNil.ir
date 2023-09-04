@@ -2,6 +2,7 @@ import { React, useState, useEffect } from "react";
 import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoHeartCircleSharp } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 
 const ReservationItems = () => {
   const [data, setdata] = useState([]);
@@ -30,6 +31,7 @@ const ReservationItems = () => {
                 key={index}
                 className="w-[404px] h-[176px] relative left-[165px]"
               >
+                  <NavLink to={{ pathname: item.path, search: `/${item.title}/` }}>
                 <div>
                   <div className="m-[10px] flex items-center  w-[404px] h-[217px]">
                     <div className="rounded-[15px] h-[200px]">
@@ -84,6 +86,7 @@ const ReservationItems = () => {
                     </div>
                   </div>
                 </div>
+                  </NavLink>
               </SwiperSlide>
             );
           })}

@@ -2,40 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
 @layer utilities {
   body {
     background: #f8f8f8;
     direction: rtl;
     font-family: "MyFont";
+  }
 
+  .rdrCalendarWrapper {
+    width: 100%;
+  }
+
+  .rdrDateRangeWrapper {
+    width: 100%;
+  }
+
+ 
+
+  .rdrMonthsVertical {
+    width: 100%;
+  }
+  .rdrNextButton i {
+    position: relative;
+    right: 7px;
+  }
+
+  .currentColor {
+    display: none;
+  }
+
+  .rdrMonth {
+    width: 100%;
   }
 
   :root {
-    --color-text:#0373F3;
+    --color-text: #0373f3;
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
-  
+
     --transition: all 400ms ease;
-  
+
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
   }
 
+  .imgsdata {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
 
-
+  .containerItemsBlogs {
+    border-radius: 20px 20px 0 0;
+  }
 
   .bgImgs {
     border-radius: 10px 10px 0 0;
-    }
+  }
 
   .navbars {
     transition: transform 300ms ease 12s;
@@ -45,9 +74,27 @@
     border: none;
   }
 
-  .links:active  {
+  .links:active {
     color: rgb(12, 131, 185);
-    border: none;
+    border-bottom: 4px solid rgb(16, 95, 185);
+    outline: none;
+  }
+
+  .activBorder:focus {
+    color: rgb(12, 131, 185);
+    border-bottom: 4px solid rgb(16, 95, 185);
+  }
+
+  .navbarsReserv {
+    --tw-backdrop-blur: blur(10px);
+    background: rgba(72, 184, 236, 0.534);
+  }
+
+  .serchs {
+    --tw-backdrop-blur: blur(10px);
+    background: rgba(158, 159, 160, 0.534);
+    position: relative;
+    bottom: 0;
   }
 
   .HeaderBg {
@@ -67,7 +114,7 @@
     background-position-y: center;
   }
 
-  .Headerhost{
+  .Headerhost {
     background-image: url("../../public//img/شششش.jpg");
     background-attachment: inherit;
     background-size: cover;
@@ -75,7 +122,46 @@
     background-repeat: no-repeat;
     background-position-y: center;
   }
-  
+
+  .JungleItems {
+    background-image: url("../../public//img/963.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .CoastalHeader {
+    background-image: url("../../public//img/1.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .ItemsBg {
+    background-image: url("../../public//img/14.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .CottageHeaders {
+    background-image: url("../../public//img/صث.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .wiper {
+    z-index: 1;
+  }
 
   .Color {
     color: #0373f3;
@@ -93,7 +179,9 @@
   .ter {
     height: 100px;
   }
-  a {outline : none;}
+  a {
+    outline: none;
+  }
   .swiper-slide {
     margin: 0 40px;
     position: relative;
@@ -106,12 +194,11 @@
     position: relative;
     /* left: 4px;  */
   }
-  
 
   .swiper-wrapper3 {
     margin: 0 30px;
     position: relative;
-    padding-left: 20px;
+    padding-left: 50px;
     left: 0px;
     z-index: 0;
   }
@@ -150,9 +237,14 @@
   .sizeItemsBox {
     margin: 0 -7px;
   }
-  
+
   .instagram {
-    background: linear-gradient(125deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 55%, rgb(252, 176, 69) 100%);
+    background: linear-gradient(
+      125deg,
+      rgb(131, 58, 180) 0%,
+      rgb(253, 29, 29) 55%,
+      rgb(252, 176, 69) 100%
+    );
   }
 
   .loader:empty {
@@ -166,7 +258,7 @@
     border-radius: 50%;
     animation: load8 1.1s infinite linear;
   }
-  
+
   @keyframes load8 {
     0% {
       transform: rotate(0deg);
@@ -175,8 +267,65 @@
       transform: rotate(360deg);
     }
   }
-  
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
+  .slides {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 7px #666;
+    width: 100%;
+    height: 100%;
+  }
 
+  .slides-hidden {
+    display: none;
+  }
 
+  .arrow {
+    position: absolute;
+    filter: drop-shadow(0px 0px 5px #555);
+    width: 2rem;
+    height: 2rem;
+    color: white;
+  }
+
+  .arrow:hover {
+    cursor: pointer;
+  }
+
+  .arrow-left {
+    left: 10px;
+  }
+
+  .arrow-right {
+    right: 10px;
+  }
+
+  .indicators {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .indicator {
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  .indicator-inactive {
+    background-color: grey;
+  }
 }
