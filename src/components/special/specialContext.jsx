@@ -18,7 +18,7 @@ const SpecialContext = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-between overflow-scroll mt-[0] ml-[-8px] mr-[-8px] relative bottom-[28px]">
+          <div className="flex items-center justify-between overflow-scroll mt-[6px] ml-[-8px] mr-[-8px] relative bottom-[28px]">
             <SpecialItems />
           </div>
         </div>

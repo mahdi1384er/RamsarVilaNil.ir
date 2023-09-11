@@ -9,7 +9,12 @@ const HeaderSupport = () => {
           ارتباط با ما
         </span>
       </div>
-      <header className="Headerhost  bg-fixed bg-contain overflow-auto  h-[170px] w-[96%] m-auto mt-[23px]">
+      <header className="Headerhosts  bg-fixed bg-contain overflow-auto  h-[170px] w-[96%] m-auto mt-[23px]">
+        <div class="text-center">
+          <span class="aboust text-white text-[15px] relative top-[70px] backdrop-blur-2xl">
+            رامسر باما اولین وب سایت رسمی اجاره ویلا و کلبه در رامسر
+          </span>
+        </div>
         <div className="w-[94%] h-full m-auto">
           <NavBarsScrool />
         </div>

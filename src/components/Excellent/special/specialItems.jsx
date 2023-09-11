@@ -2,6 +2,8 @@ import { React, useState, useEffect } from "react";
 import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoHeartCircleSharp } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
+
 
 const SpecialItems = () => {
   const [data, setdata] = useState([]);
@@ -10,30 +12,33 @@ const SpecialItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("http://localhost:3000/special")
+        .get("http://localhost:3000/janglepool")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
     (
       <>
-        <Swiper
-          centeredSlides={true}
-          autoplay={false}
-          className="swiper-wrapper3"
-          // spaceBetween={12}
-          width={225}
-          slidesPerView={1.8}
-        >
-          {data.map((item, index) => {
-            return (
-              <SwiperSlide
-                key={index}
-                className="w-[404px] h-[176px] relative left-[365px]"
+      <Swiper
+        centeredSlides={true}
+        autoplay={false}
+        className="swiper-wrapper3"
+        spaceBetween={130}
+        width={140}
+        slidesPerView={1.6}
+      >
+        {data.map((item, index) => {
+          return (
+            <SwiperSlide
+              key={index}
+              className="w-[404px] h-[176px] relative left-[365px]"
+            >
+              <NavLink
+                to={{ pathname: item.path, search: `/${item.title}/` }}
               >
                 <div>
                   <div className="m-[10px] flex items-center  w-[404px] h-[217px]">
                     <div className="rounded-[15px] h-[200px]">
-                      <div className="flex items-center justify-between w-[172px] relative top-[32px] right-[7px]">
+                      <div className="flex items-center justify-between w-[172px] relative top-[23px] right-[7px]">
                         <div className="bg-white rounded-xl w-[46px] h-[15px] text-center flex items-center justify-center">
                           <span className="text-[9px] text-[#0373F3]">
                             {item.description}
@@ -43,25 +48,26 @@ const SpecialItems = () => {
                           <IoHeartCircleSharp className="text-[#0373F3] w-[22px] h-[19px]" />
                         </div>
                       </div>
-                      <div className="flex items-center justify-between w-[187px] h-[126px]">
+                      <div className="flex items-center justify-between w-[195px] h-[121px]">
                         <img
-                          src={item.src}
+                          src={item.img}
                           alt=""
-                          className="w-[320px] h-[107px] rounded-[8px]"
+                          className="w-[320px] h-[121px] rounded-[8px]"
                         />
                       </div>
 
-                      <div className="flex items-center justify-between relative bottom-[14px] right-[4px]">
+
+                      <div className="flex items-center justify-between relative bottom-[9px] right-[4px]">
                         <div className="mt-[24px]">
                           <div>
-                            <p className="text-[#333333]  text-[12px] relative bottom-[14px]">
+                            <p className="text-[#333333]  text-[11px] relative bottom-[14px]">
                               {item.title}
                             </p>
                           </div>
-                          <div className="flex items-center relative w-[121px] justify-between bottom-[14px]">
+                          <div className="flex items-center relative w-[108px] justify-between bottom-[14px]">
                             <div>
-                              <p className="text-[#41413f]  text-[9px] ">
-                                {item.author}
+                              <p className="text-[#41413f]  text-[8px] ">
+                                {item.authors}
                               </p>
                             </div>
                             <div>
@@ -84,11 +90,12 @@ const SpecialItems = () => {
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
-      </>
+              </NavLink>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    </>
     )
   );
 };

@@ -16,14 +16,15 @@ const Apps = () => {
     },
   ]);
 
+
   return (
-    <section className="w-[97%] relative bottom-[0px]  h-[80px] m-auto">
-      <div className="relative top-[0px] w-[95%] h-[500px] m-auto ">
+    <section className="w-[97%] relative bottom-[10px]  h-[291px] top-[57px] m-auto">
+      <div className="relative top-[60px] w-[95%] h-[424px] m-auto ">
         <div className="mb-[10px] flex items-center justify-between"></div>
 
         <div className="mt-[25px]">
           <HiCalendar className="headerIcon dateIcon w-full text-blue-600 hidden" />
-          <div className="dateDropDown w-[100%] m-auto text-center flex items-center justify-around mb-[10px] ">
+          <div className="dateDropDown w-[100%] m-auto text-center flex items-center justify-around mb-[-40px] ">
             {`${format(date[0].startDate, "MM/dd/yyyy")}    از   ${format(
               date[0].endDate,
               "MM/dd/yyyy"
@@ -41,7 +42,7 @@ const Apps = () => {
           <span className="seperator w-full"></span>
         </div>
       </div>
-      <div className="w-[95%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[-40px]"></div>
+      <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[20px]"></div>
     </section>
   );
 };

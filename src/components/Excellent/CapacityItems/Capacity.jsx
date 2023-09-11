@@ -45,7 +45,7 @@ const Capacity = ({
               </div>
             </div>
           </div>
-          <div className="w-[95%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[20px]"></div>
+          <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[20px]"></div>
         </div>
       </section>
     </>

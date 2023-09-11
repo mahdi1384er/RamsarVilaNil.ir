@@ -6,7 +6,7 @@ import imgsclock from "../../../../public/img/clocl.svg";
 const Accommodations = () => {
   return (
     <>
-      <section className="w-full mt-[0] m-auto h-[622px]  relative bottom-[-396px]">
+      <section className="w-full mt-[0] m-auto h-[446px]  relative bottom-[-230px]">
         <div className="w-[95%] flec flex-col  pb-[22px] m-auto">
           <div className="flex items-center p-[3px]  justify-between w-[97%] m-auto rounded-[5px] border-[1px] border-solid border-gray-400">
             <div>
@@ -49,7 +49,7 @@ const Accommodations = () => {
             </div>
           </div>
         </div>
-      <div className="w-[95%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[0px]"></div>
+      <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[0px]"></div>
       </section>
     </>
   );

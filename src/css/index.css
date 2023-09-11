@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer utilities {
+  .rdrMonth {
+    width: 100%;
+  }
+
+  *span {
+    text-align: justify;
+  }
+
   body {
     background: #f8f8f8;
     direction: rtl;
@@ -16,8 +24,6 @@
   .rdrDateRangeWrapper {
     width: 100%;
   }
-
- 
 
   .rdrMonthsVertical {
     width: 100%;
@@ -51,11 +57,15 @@
     --container-width-sm: 90%;
   }
 
+  .rdrMonth {
+    width: 100%;
+  }
+
   .imgsdata {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 200px;
   }
 
   .containerItemsBlogs {
@@ -76,7 +86,7 @@
 
   .links:active {
     color: rgb(12, 131, 185);
-    border-bottom: 4px solid rgb(16, 95, 185);
+    border-bottom: 4px solid #105fb9;
     outline: none;
   }
 
@@ -122,6 +132,14 @@
     background-repeat: no-repeat;
     background-position-y: center;
   }
+  .Headerhosts {
+    background-image: url("../../public/img/جواهرده-1.webp");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
 
   .JungleItems {
     background-image: url("../../public//img/963.jpg");
@@ -159,6 +177,39 @@
     background-position-y: center;
   }
 
+  .MagesageHeaders {
+    background-image: url("../../public//img/ییلاقات-رامسرس.webp");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .MagesageHeaders2 {
+    background-image: url("../../public/img/بلوار-کازینو-از-جاهای-دیدنی-رامسر.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  .MagesageHeaderss {
+    background-image: url("../../public/img/pexels-quang-nguyen-vinh-4669523.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .aboust {
+    --tw-backdrop-blur: blur(90px);
+    background: rgba(114, 114, 114, 0.534);
+    padding: 6px;
+    border-radius: 5px;
+  }
+
   .wiper {
     z-index: 1;
   }
@@ -183,16 +234,19 @@
     outline: none;
   }
   .swiper-slide {
-    margin: 0 40px;
     position: relative;
     left: 94px;
     z-index: 0;
   }
 
+  #imgsSliders {
+    width: 100%;
+  }
+
   .swiper-wrapper2 {
-    margin: 0 10px;
+    margin: 0 40px;
     position: relative;
-    /* left: 4px;  */
+    margin-left: 90px;
   }
 
   .swiper-wrapper3 {
@@ -280,7 +334,7 @@
     border-radius: 0.5rem;
     box-shadow: 0px 0px 7px #666;
     width: 100%;
-    height: 100%;
+    height: 300px;
   }
 
   .slides-hidden {

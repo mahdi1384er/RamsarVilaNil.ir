@@ -1,7 +1,14 @@
-import React, { useState } from "react";
-import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+import React, { useRef, useState } from "react";
 
-import "../../css/index.css";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+// import "../../css/index.css";
+
+import { Pagination, Navigation } from "swiper/modules";
 
 const Carousel = ({
   imgsSliders,
@@ -10,81 +17,84 @@ const Carousel = ({
   imgsSliders4,
   imgsSliders5,
   imgsSliders6,
-}) => {
-  const [slides, setSlide] = useState(0);
-  const data = [
-    {
-      id: 0,
-      imgs: imgsSliders,
-    },
-    {
-      id: 1,
-      imgs: imgsSliders2,
-    },
-    {
-      id: 2,
-      imgs: imgsSliders3,
-    },
-    ,
-    {
-      id: 3,
-      imgs: imgsSliders4,
-    },
-    ,
-    {
-      id: 4,
-      imgs: imgsSliders5,
-    },
-    ,
-    {
-      id: 5,
-      imgs: imgsSliders6,
-    },
-    
-  ];
-
-  const nextSlide = () => {
-    setSlide(slides === data.length - 1 ? 0 : slides + 1);
-  };
-
-  const prevSlide = () => {
-    setSlide(slides === 0 ? data.length - 1 : slides - 1);
-  };
-
-  return (
-    <div className="carousel mt-[17px] mb-[8px]">
-      <BsArrowLeftCircleFill onClick={nextSlide} className="arrow arrow-left" />
-      {data.map(
-        (c) => (
-            <div>
-              <img
-                src={c.imgs}
-                key={c.id}
-                className={slides === c.id ? "slides" : "slides slides-hidden"}
-              />
-            </div>
-        )
-      )}
-
-      <BsArrowRightCircleFill
-        onClick={prevSlide}
-        className="arrow arrow-right"
-      />
-      <span className="indicators">
-        {data.map((_, idx) => {
-          return (
-            <button
-              key={idx}
-              className={
-                slides === idx ? "indicator" : "indicator indicator-inactive"
-              }
-              onClick={() => setSlide(idx)}
-            ></button>
-          );
-        })}
-      </span>
-    </div>
-  );
-};
+  imgsSliders7,
+  imgsSliders8,
+  imgsSliders9,
+}) => (
+  <div className="carousel  mt-[17px] mb-[8px]">
+    <Swiper
+      className="m-auto ml-0 w-[100%] h-[240px] rounded-[14px]  flex items-center justify-center"
+      pagination={{
+        dynamicBullets: true,
+      }}
+      navigation={false}
+      modules={[Pagination, Navigation]}
+      centeredSlides={true}
+      autoplay={false}
+      spaceBetween={200}
+      width={459}
+      slidesPerView={0.9}
+    >
+      <Swiper-wrapper>
+        <SwiperSlide>
+          <img
+            src={imgsSliders2}
+            alt=""
+            className="w-[395px] h-[370px] relative bottom-[88px] left-[-90px]"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={imgsSliders3}
+            alt=""
+            className="w-[393px] h-[370px] relative bottom-[48px] left-[-50px]"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={imgsSliders4}
+            alt=""
+            className="w-[399px] h-[388px]  relative bottom-[148px] left-[-9px]"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={imgsSliders5}
+            alt=""
+            className="w-[393px] h-[388px] relative bottom-[148px] left-[31px]"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={imgsSliders6}
+            alt=""
+            className="w-[393px] h-[370px] relative bottom-[68px] left-[69px]"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={imgsSliders7}
+            alt=""
+            className="w-[399px] h-[370px] relative bottom-[128px] left-[119px]"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={imgsSliders8}
+            alt=""
+            className="w-[392px] h-[370px]  relative bottom-[128px] left-[149px]"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={imgsSliders9}
+            alt=""
+            className="w-[395px]  h-[370px] relative bottom-[128px] left-[194px]"
+          />
+        </SwiperSlide>
+      </Swiper-wrapper>
+    </Swiper>
+  </div>
+);
 
 export default Carousel;

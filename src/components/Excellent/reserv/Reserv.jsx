@@ -17,7 +17,7 @@ const Reserv = ({priecs}) => {
             show && "hidden"
           } navbarsReserv flex items-center justify-between backdrop-blur-2xl fixed  right-[10px] left-[10px] bottom-[23px] z-10 p-2 h-[46px] mb-[30px] pb-[15px] pr-[15px] pl-[15px] rounded-[6px]`}
         >
-            <div className="flex items-center text-center justify-between w-[94%] pt-[7px]">
+            <div className="flex items-center text-center justify-between w-[100%] pt-[7px]">
               <div>
                 <span className="text-black font-bold">{priecs}</span>
               </div>

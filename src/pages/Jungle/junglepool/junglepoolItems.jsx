@@ -7,7 +7,6 @@ import "swiper/css/navigation";
 import { IoHeartCircleSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
-
 const JunglepoolItems = () => {
   const [data, setdata] = useState([]);
 
@@ -15,7 +14,7 @@ const JunglepoolItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("http://localhost:3000/luxury")
+        .get("http://localhost:3000/jangle")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
@@ -25,9 +24,9 @@ const JunglepoolItems = () => {
           centeredSlides={true}
           autoplay={false}
           className="swiper-wrapper3"
-          // spaceBetween={12}
-          width={225}
-          slidesPerView={1.8}
+          spaceBetween={130}
+          width={140}
+          slidesPerView={1.6}
         >
           {data.map((item, index) => {
             return (
@@ -41,7 +40,7 @@ const JunglepoolItems = () => {
                   <div>
                     <div className="m-[10px] flex items-center  w-[404px] h-[217px]">
                       <div className="rounded-[15px] h-[200px]">
-                        <div className="flex items-center justify-between w-[172px] relative top-[32px] right-[7px]">
+                        <div className="flex items-center justify-between w-[172px] relative top-[23px] right-[7px]">
                           <div className="bg-white rounded-xl w-[46px] h-[15px] text-center flex items-center justify-center">
                             <span className="text-[9px] text-[#0373F3]">
                               {item.description}
@@ -51,15 +50,15 @@ const JunglepoolItems = () => {
                             <IoHeartCircleSharp className="text-[#0373F3] w-[22px] h-[19px]" />
                           </div>
                         </div>
-                        <div className="flex items-center justify-between w-[187px] h-[126px]">
+                        <div className="flex items-center justify-between w-[195px] h-[121px]">
                           <img
-                            src={item.src}
+                            src={item.img}
                             alt=""
-                            className="w-[320px] h-[107px] rounded-[8px]"
+                            className="w-[320px] h-[121px] rounded-[8px]"
                           />
                         </div>
 
-                        <div className="flex items-center justify-between relative bottom-[14px] right-[4px]">
+                        <div className="flex items-center justify-between relative bottom-[9px] right-[4px]">
                           <div className="mt-[24px]">
                             <div>
                               <p className="text-[#333333]  text-[11px] relative bottom-[14px]">
@@ -69,7 +68,7 @@ const JunglepoolItems = () => {
                             <div className="flex items-center relative w-[108px] justify-between bottom-[14px]">
                               <div>
                                 <p className="text-[#41413f]  text-[8px] ">
-                                  {item.author}
+                                  {item.authors}
                                 </p>
                               </div>
                               <div>

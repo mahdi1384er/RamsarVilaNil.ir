@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import img from "../../../public/img/13.svg";
 // import DrawerPlacement from "./Drawer";
+import { NavLink } from "react-router-dom";
+
 
 const NavBarsScrool = () => {
   const [show, setShow] = useState(false);
@@ -41,10 +43,12 @@ const NavBarsScrool = () => {
           </li>
           <li className="flex items-center">
             <span className="pl-[4px] text-white">
-            𝙍𝙖𝙢𝙨𝙖𝙧𝘽𝙖𝙢𝙖
+            𝚁𝚊𝚖𝚜𝚊𝚛𝙽𝚒𝚕
             </span>
             <span>
+            <NavLink to={"/"}>
             <img src={img} alt="" className="w-[31px]" />
+            </NavLink>
             </span>
           </li>
         </ul>

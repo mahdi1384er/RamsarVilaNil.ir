@@ -7,12 +7,12 @@ import { Autoplay } from "swiper/modules";
 const TrustData = [
   {
     id: 1,
-    titel: "پاسخگوی 24 ساعته رامسر نیل",
+    titel: "پاسخگوی 24 ساعته رامسر باما",
     imgs: "../../../public/img/logo1.svg",
   },
   {
     id: 2,
-    titel: "بهترین ویلاها در رامسر نیل",
+    titel: "بهترین ویلاها در رامسر باما",
     imgs: "../../../public/img/logo2.svg",
   },
   {

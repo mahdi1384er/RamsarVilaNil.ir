@@ -8,6 +8,7 @@ import ReservationContext from "../../components/Reservation/ReservationContext"
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import DrawerPlacement from "../../components/navbars/Drawer";
+import DataWebsite from "../../components/DataWebsite/DataWebsite";
 const Home = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Home = () => {
       <Trust />
       <SpecialContext />
       <LuxuryContext />
+      <DataWebsite />
       <ReservationContext />
       <TripContext />
       <Footer />

@@ -48,7 +48,9 @@ export default function DrawerPlacement() {
                       eventKey="2"
                       className="texthome relative left-[18px] top-[3px]"
                     >
-                      <span>خانه</span>
+                      <NavLink to="/">
+                        <span>خانه</span>
+                      </NavLink>
                     </Nav.Item>
                   </div>
                 </Nav>
@@ -62,7 +64,9 @@ export default function DrawerPlacement() {
                       eventKey="2"
                       className="texthome relative left-[18px] top-[3px]"
                     >
-                      <span>علاقه مندی ها</span>
+                      <NavLink to="/">
+                        <span>علاقه مندی ها</span>
+                      </NavLink>
                     </Nav.Item>
                   </div>
                 </Nav>
@@ -76,7 +80,11 @@ export default function DrawerPlacement() {
                       eventKey="2"
                       className="texthome relative left-[18px] top-[3px]"
                     >
+                       <NavLink to="/support">
+
                       <span>ارتباط با ما</span>
+                      
+                       </NavLink>
                     </Nav.Item>
                   </div>
                 </Nav>
@@ -96,27 +104,27 @@ export default function DrawerPlacement() {
                 </Nav>
               </Sidenav.Body>
             </Sidenav>
-              <IconButton
-                variant="text"
-                color="blue-gray"
-                onClick={closeDrawerRight}
-                className="relative bottom-[148px] right-[256px]  z-[500]"
+            <IconButton
+              variant="text"
+              color="blue-gray"
+              onClick={closeDrawerRight}
+              className="relative bottom-[148px] right-[256px]  z-[500]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="h-5 w-5"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-              </IconButton>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </IconButton>
           </Typography>
         </div>
       </Drawer>

@@ -15,7 +15,7 @@ const Rooms = () => {
       <DrawerPlacement />
       <PoolContext />
       <CottagelContext />
-      <CoastalContext />
+      {/* <CoastalContext /> */}
       <JungleContext/>
       <Support />
       <SpecialContext />

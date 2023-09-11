@@ -23,7 +23,7 @@ const NilRamsarContext = () => {
           <div className="flex  flex-col w-full pr-2">
             <div className="text-center m-auto">
               <p className="font-bold text-black text-[17px] border-solid pb-[5px] w-[300px] border-blue-600 border-b-[3px] rounded-[10px]">
-                با رامسر ویلا نیل با خیال راحت ویلاتو رزرو کن!
+                با رامسر باما با خیال راحت ویلاتو رزرو کن!
               </p>
             </div>
           </div>
@@ -71,7 +71,7 @@ const NilRamsarContext = () => {
                         <span className="text-white">{item.id}</span>
                       </div>
                       <div className="flex justify-center items-center p-[1px] w-[50px] h-[16px]  rounded-full bg-blue-600 float-left">
-                        <span className="text-white text-[10px]">رامسر نیل</span>
+                        <span className="text-white text-[10px]">رامسر باما</span>
                       </div>
                     </div>
                   </div>

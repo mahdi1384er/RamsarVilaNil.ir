@@ -53,7 +53,7 @@ const SupportItems = () => {
             <div className="bg-blue-600 rounded-[100%] w-[6px] h-[6px] relative top-[15px]"></div>
             <div className="mr-[5px]">
               <span className="text-[15px] text-black font-bold pr-[6px]">
-                با خیال راحت به رامسر ویلا نیل اعتماد کنید :
+                با خیال راحت به رامسر باما اعتماد کنید :
               </span>
             </div>
             <div className="w-[230px]">

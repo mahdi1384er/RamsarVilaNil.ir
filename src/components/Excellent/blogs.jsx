@@ -16,6 +16,7 @@ const Blogs1 = ({ id }) => {
   const [loading, setLoading] = useState(true);
   const params = useParams();
 
+
   useEffect(() => {
     fetch(`http://localhost:3000/bestItem/${params.id}`)
       .then((response) => response.json())
@@ -24,6 +25,8 @@ const Blogs1 = ({ id }) => {
   });
 
 
+ 
+
 
   return (
     <div className="w-full h-[900px] bg-gray-200">
@@ -31,7 +34,7 @@ const Blogs1 = ({ id }) => {
         <img
           src={post.img} // <----- HERE
           alt="2"
-          className="sticky bottom-[14px] opacity-90"
+          className="sticky h-[547px] w-full bottom-[14px] opacity-90"
         />
 
         <div className=" relative bottom-[168px]">
@@ -76,6 +79,9 @@ const Blogs1 = ({ id }) => {
           imgsSliders4={post.imgsSliders4}
           imgsSliders5={post.imgsSliders5}
           imgsSliders6={post.imgsSliders6}
+          imgsSliders7={post.imgsSliders7}
+          imgsSliders8={post.imgsSliders8}
+          imgsSliders9={post.imgsSliders9}
 
         />
 

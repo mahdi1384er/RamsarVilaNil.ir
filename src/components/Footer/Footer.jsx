@@ -106,8 +106,8 @@ const Footer = () => {
 
         <div className="w-full  bg-[#a1a1a1] mt-[8px] h-[36px] flex items-center justify-center">
           <div>
-            <span className="text-[9px] text-[#ffffff]">
-              تمامی حقوق برای رامسر نیل محفوظ می باشد.
+            <span className="text-[10px] text-[#ffffff]">
+              تمامی حقوق برای رامسر باما محفوظ می باشد.
             </span>
           </div>
         </div>

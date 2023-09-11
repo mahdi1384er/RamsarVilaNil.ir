@@ -37,7 +37,7 @@ const Record = () => {
                 <div className="pr-[5px] text-justify">
                   <span className="text-[14px] text-black ">
                     پس از طی مراحل مربوطه کارشناسان ما پس از تأید مدارک محرمیت
-                    میزبان,اقامتگاه شما را در رامسر نیل ثبت میکنند.
+                    میزبان,اقامتگاه شما را در رامسر باما ثبت میکنند.
                   </span>
                 </div>
               </div>
@@ -53,7 +53,7 @@ const Record = () => {
             <div>
               <div>
                 <span className="text-black font-bold text-[13px]">
-                  چگونه میتوانیم اقامتگاه خود را در اپلیکیشن ویلا نیل ثبت کنیم ؟
+                  چگونه میتوانیم اقامتگاه خود را در اپلیکیشن رامسر باما ثبت کنیم ؟
                 </span>
               </div>
               <div className="flex mt-[8px]">

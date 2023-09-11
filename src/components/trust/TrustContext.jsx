@@ -45,7 +45,7 @@ const TrustContext = () => {
         {TrustData.map((item, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="flex items-center justify-evenly w-[150px] h-[29px] rounded-[10px] border-solid border-[1px] border-gray-400 ml-[10px] mr-[0px]">
+              <div className="flex items-center justify-evenly w-[150px] h-[38px] rounded-[10px] border-solid border-[1px] border-gray-400 ml-[10px] mr-[0px]">
                 <img
                   src={item.imgs}
                   data-swiper-autoplay="2000"

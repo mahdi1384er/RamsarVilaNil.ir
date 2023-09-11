@@ -7,7 +7,7 @@ const ExcellentContext = () => {
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[20px]">
-              <h2 className="font-bold text-[15px] text-black  relative bottom-[5px]">
+              <h2 className="font-bold text-[16px] text-black  relative bottom-[5px]">
                 اقامتگاه های ممتاز
               </h2>
             </div>

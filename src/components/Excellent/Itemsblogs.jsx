@@ -23,6 +23,9 @@ const Itemsblogs = ({
   imgsSliders4,
   imgsSliders5,
   imgsSliders6,
+  imgsSliders7,
+  imgsSliders8,
+  imgsSliders9,
   data
 }) => {
   return (
@@ -41,6 +44,9 @@ const Itemsblogs = ({
                 imgsSliders4={imgsSliders4}
                 imgsSliders5={imgsSliders5}
                 imgsSliders6={imgsSliders6}
+                imgsSliders7={imgsSliders7}
+                imgsSliders8={imgsSliders8}
+                imgsSliders9={imgsSliders9}
               />
             </div>
             <div className="mt-[30px]">

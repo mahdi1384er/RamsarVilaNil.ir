@@ -36,7 +36,7 @@ const CoastalItems = () => {
                 <div>
                   <div className="m-[10px] flex items-center  w-[404px] h-[217px]">
                     <div className="rounded-[15px] h-[200px]">
-                      <div className="flex items-center justify-between w-[172px] relative top-[32px] right-[7px]">
+                      <div className="flex items-center justify-between w-[182px] relative top-[32px] right-[7px]">
                         <div className="bg-white rounded-xl w-[46px] h-[15px] text-center flex items-center justify-center">
                           <span className="text-[9px] text-[#0373F3]">
                             {item.description}

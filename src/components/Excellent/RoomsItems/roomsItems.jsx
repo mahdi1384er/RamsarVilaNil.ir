@@ -14,7 +14,7 @@ const RoomsItems = ({ bed1, bed2 }) => {
               </span>
               <span className="font-bold pr-[6px]">2 خواب</span>
             </div>
-            <div className="flex flex-wrap justify-between mt-[14px] w-[88%] h-[67px]">
+            <div className="flex flex-wrap justify-between mt-[14px] w-[93%] h-[67px]">
               <div className="w-[110px] h-[30px] rounded-[6px] bg-gray-300 flex items-center justify-around">
                 <div>
                   <span className="text-[#323232] text-[13px] font-bold">
@@ -47,7 +47,7 @@ const RoomsItems = ({ bed1, bed2 }) => {
               </div>
             </div>
           </div>
-          <div className="w-[95%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[5px]"></div>
+          <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[5px]"></div>
         </div>
       </section>
     </>
