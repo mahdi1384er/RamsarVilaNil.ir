@@ -18,6 +18,7 @@
     "axios": "^1.4.0",
     "cors": "^2.8.5",
     "date-fns": "^2.30.0",
+    "heroku": "^8.4.2",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.3",
     "persian-date": "^1.1.0",
