@@ -15,7 +15,7 @@ const ExceltemsContext = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("http://localhost:3000/luxury")
+        .get("https://elegant-yak-tux.cyclic.app/luxury")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

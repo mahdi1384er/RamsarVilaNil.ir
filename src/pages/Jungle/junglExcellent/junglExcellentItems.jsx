@@ -14,7 +14,7 @@ const JunglExcellentItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("http://localhost:3000/excellent")
+        .get("https://elegant-yak-tux.cyclic.app/excellent")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

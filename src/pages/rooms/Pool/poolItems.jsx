@@ -15,7 +15,7 @@ const PoolItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("http://localhost:3000/booking")
+        .get("https://elegant-yak-tux.cyclic.app/booking")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

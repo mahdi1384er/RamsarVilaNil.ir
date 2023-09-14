@@ -14,7 +14,7 @@ const JungleJacuzziItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("http://localhost:3000/janglepool")
+        .get("https://elegant-yak-tux.cyclic.app/janglepool")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

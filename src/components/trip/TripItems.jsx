@@ -14,7 +14,7 @@ const TripItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("http://localhost:3000/Article")
+        .get("https://elegant-yak-tux.cyclic.app/Article")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

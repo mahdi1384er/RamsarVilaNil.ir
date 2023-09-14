@@ -15,7 +15,7 @@ const CottageItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("http://localhost:3000/Cottage")
+        .get("https://elegant-yak-tux.cyclic.app/Cottage")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

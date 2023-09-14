@@ -18,7 +18,7 @@ const PopularItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("http://localhost:3000/posts")
+        .get("https://elegant-yak-tux.cyclic.app/posts")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

@@ -18,7 +18,7 @@ const Blogs1 = ({ id }) => {
 
 
   useEffect(() => {
-    fetch(`http://localhost:3000/luxury/${params.id}`)
+    fetch(`https://elegant-yak-tux.cyclic.app/luxury/${params.id}`)
       .then((response) => response.json())
       .then((json) => setPost(json))
       .then((json) => setLoading(false));
