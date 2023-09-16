@@ -15,7 +15,7 @@ const CottageItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://elegant-yak-tux.cyclic.app/Cottage")
+        .get("https://alert-pullover-toad.cyclic.cloud/Cottage")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

@@ -14,7 +14,7 @@ const LKuxuryItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://elegant-yak-tux.cyclic.app/luxury")
+        .get("https://alert-pullover-toad.cyclic.cloud/luxury")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

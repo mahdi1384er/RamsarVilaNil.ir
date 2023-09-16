@@ -18,7 +18,7 @@ const Blogs1 = ({ id }) => {
 
 
   useEffect(() => {
-    fetch(`https://elegant-yak-tux.cyclic.app/bestItem/${params.id}`)
+    fetch(`https://alert-pullover-toad.cyclic.cloud/posts/${params.id}`)
       .then((response) => response.json())
       .then((json) => setPost(json))
       .then((json) => setLoading(false));

@@ -15,7 +15,7 @@ const ExcellentItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://elegant-yak-tux.cyclic.app/bestItem")
+        .get("https://alert-pullover-toad.cyclic.cloud/bestItem")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

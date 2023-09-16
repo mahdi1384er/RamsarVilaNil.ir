@@ -11,7 +11,7 @@ const SpecialItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://elegant-yak-tux.cyclic.app/special")
+        .get("https://alert-pullover-toad.cyclic.cloud/special")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

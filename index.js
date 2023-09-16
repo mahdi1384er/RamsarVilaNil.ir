@@ -3,7 +3,7 @@ const cors = require('cors')
 const path = require('path')
 
 const server = jsonServer.create()
-const router = jsonServer.router(path.join(__dirname, '/vite-project/item.json'))
+const router = jsonServer.router(path.join(__dirname, '../../9/db.json'))
 const middlewares = jsonServer.defaults()
 
 server.use(cors())
