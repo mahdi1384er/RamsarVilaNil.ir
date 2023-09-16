@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     useEffect(() => {
       axios
-        .get("https://alert-pullover-toad.cyclic.cloud/search")
+        .get("https://elegant-yak-tux.cyclic.app/search")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

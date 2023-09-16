@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import img from "../../../../../9/img/13.svg";
+import img from "../../../public/img/13.svg";
 // import DrawerPlacement from "./Drawer";
 import { NavLink } from "react-router-dom";
 

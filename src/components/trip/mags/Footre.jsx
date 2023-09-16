@@ -11,7 +11,7 @@ const Footress = () => {
   return (
     useEffect(() => {
       axios
-        .get("https://alert-pullover-toad.cyclic.cloud/search")
+        .get("http://localhost:3000/search")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
