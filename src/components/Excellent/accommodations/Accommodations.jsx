@@ -1,6 +1,6 @@
 // import { RiStarSmileLine } from "react-icons/ri";
-import imgsstar from "../../../../public/img/star.svg";
-import imgsclock from "../../../../public/img/clocl.svg";
+// import imgsstar from "../../../../public/img/star.svg";
+// import imgsclock from "../../../../public/img/clocl.svg";
 
 
 const Accommodations = () => {
@@ -11,7 +11,7 @@ const Accommodations = () => {
           <div className="flex items-center p-[3px]  justify-between w-[97%] m-auto rounded-[5px] border-[1px] border-solid border-gray-400">
             <div>
               <span>
-                <img src={imgsstar} className="w-[40px]" alt="" />
+                {/* <img src={imgsstar} className="w-[40px]" alt="" /> */}
               </span>
             </div>
             <div className="flex flex-col pr-[10px]">
@@ -31,7 +31,7 @@ const Accommodations = () => {
           <div className="flex items-center p-[3px] justify-between mt-[16px] w-[97%] m-auto rounded-[5px] border-[1px] border-solid border-gray-400">
             <div>
               <span>
-                <img src={imgsclock} className="w-[40px]" alt="" />
+                {/* <img src={imgsclock} className="w-[40px]" alt="" /> */}
               </span>
             </div>
             <div className="flex flex-col pr-[10px]">
