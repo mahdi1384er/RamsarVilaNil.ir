@@ -8,10 +8,12 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   const [data, setdata] = useState([]);
 
+  // c7tvEpv/F1vbn|I2    p P qQ
+
   return (
     useEffect(() => {
       axios
-        .get("https://elegant-yak-tux.cyclic.app/search")
+        .get("https://angry-polo-shirt-foal.cyclic.cloud/search")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

@@ -18,7 +18,7 @@ const PopularItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://frail-ray-crown.cyclic.cloud/posts")
+        .get("https://angry-polo-shirt-foal.cyclic.cloud/posts")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

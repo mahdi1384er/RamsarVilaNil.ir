@@ -11,7 +11,7 @@ const Header = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get(`https://elegant-yak-tux.cyclic.app/bestItem/?q=${query}`);
+      const res = await axios.get(`https://angry-polo-shirt-foal.cyclic.cloud/bestItem/?q=${query}`);
       setData(res.data);
     };
 

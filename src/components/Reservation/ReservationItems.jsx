@@ -11,7 +11,7 @@ const ReservationItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://alert-pullover-toad.cyclic.cloud/booking")
+        .get("https://angry-polo-shirt-foal.cyclic.cloud/booking")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
