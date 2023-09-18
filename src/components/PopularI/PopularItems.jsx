@@ -18,7 +18,7 @@ const PopularItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://angry-polo-shirt-foal.cyclic.cloud/posts")
+        .get("https://my-json-server.typicode.com/mahdi1384er/ramsarbamaa/posts")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

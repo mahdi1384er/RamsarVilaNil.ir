@@ -959,7 +959,7 @@
     {
       "id": 1,
       "title": "اجاره کلبه استخردار",
-      "img": "/img/909/1.jpeg",
+      "img": "./public/img/1.jpeg",
       "imgsSliders": [
         [
           "/img/909/2.jpeg"
