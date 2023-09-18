@@ -16,7 +16,7 @@ const JungleItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://elegant-yak-tux.cyclic.app/excellent")
+        .get("https://my-json-server.typicode.com/mahdi1384er/excellent/excellent")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

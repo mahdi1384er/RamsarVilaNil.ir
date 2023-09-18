@@ -18,7 +18,7 @@ const Blogs1 = ({ id }) => {
 
 
   useEffect(() => {
-    fetch(`https://alert-pullover-toad.cyclic.cloud/Cottage/${params.id}`)
+    fetch(`https://my-json-server.typicode.com/mahdi1384er/Cottage/Cottage/${params.id}`)
       .then((response) => response.json())
       .then((json) => setPost(json))
       .then((json) => setLoading(false));

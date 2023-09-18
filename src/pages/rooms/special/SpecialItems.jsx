@@ -14,7 +14,7 @@ const SpecialItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://elegant-yak-tux.cyclic.app/specialRooms")
+        .get("https://my-json-server.typicode.com/mahdi1384er/specialRooms/specialRooms")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

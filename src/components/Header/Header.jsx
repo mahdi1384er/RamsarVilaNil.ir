@@ -11,7 +11,7 @@ const Header = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get(`https://angry-polo-shirt-foal.cyclic.cloud/bestItem/?q=${query}`);
+      const res = await axios.get(`https://my-json-server.typicode.com/mahdi1384er/serchs/serchs/?q=${query}`);
       setData(res.data);
     };
 
@@ -43,12 +43,12 @@ const Header = () => {
             <Table data={data} />
           </div>
           <div>
-            <h2 className="text-white text-[14px]">رامسر نیل</h2>
+            <h2 className="text-white text-[16px]">رامسر باما</h2>
           </div>
           <div>
             <div className="animate-bounce  mt-[4px]">
               <svg
-                className="w-4 h-4 text-[#ffff]"
+                className="w-[22px]  h-[20px] text-[#ffff]"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"

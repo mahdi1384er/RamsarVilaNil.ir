@@ -14,7 +14,7 @@ const CottageContext = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://alert-pullover-toad.cyclic.cloud/Popular")
+        .get("https://my-json-server.typicode.com/mahdi1384er/Popular/Popular")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

@@ -25,9 +25,9 @@ const ExcellentItems = () => {
           centeredSlides={true}
           autoplay={false}
           className="swiper-wrapper2"
-          spaceBetween={4}
-          width={170}
-          slidesPerView={2.2}
+          spaceBetween={50}
+          width={180}
+          slidesPerView={1.9}
         >
           {data.map((item, index) => {
             return (
@@ -38,13 +38,13 @@ const ExcellentItems = () => {
 
                 <NavLink to={{ pathname: item.path, search: `/${item.title}/` }}>
                   <div>
-                    <div className="m-[10px] flex items-center  w-[166px] h-[217px]">
+                    <div className="m-[10px] flex items-center  mt-[33px] w-[166px] h-[217px]">
                       <div className="rounded-[15px]">
-                        <div className="flex items-center justify-between w-[120px] h-[166px]">
+                        <div className="flex items-center justify-between w-[142px] h-[166px]">
                           <img
                             src={item.img}
                             alt=""
-                            className="w-[104px] h-[150px] rounded-[12px]"
+                            className="w-[142px] h-[187px] rounded-[12px]"
                           />
                         </div>
 
@@ -52,7 +52,7 @@ const ExcellentItems = () => {
                           <div className="imgsBackGround flex flex-col ">
                             <div className="mt-[24px]">
                               <div>
-                                <p className="color-white text-center text-[12px] relative bottom-[14px]">
+                                <p className="color-white text-center text-[15px] relative bottom-[14px]">
                                   {item.title}
                                 </p>
                               </div>

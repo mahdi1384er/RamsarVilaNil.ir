@@ -11,7 +11,7 @@ const ReservationItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://angry-polo-shirt-foal.cyclic.cloud/booking")
+        .get("https://my-json-server.typicode.com/mahdi1384er/booking/booking")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

@@ -14,7 +14,7 @@ const JunglExcellentItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://alert-pullover-toad.cyclic.cloud/excellent")
+        .get("https://my-json-server.typicode.com/mahdi1384er/excellent/excellent")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

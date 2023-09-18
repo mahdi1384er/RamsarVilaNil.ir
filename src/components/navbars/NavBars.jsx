@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import img from "../../../public/img/13.svg";
+import img from "../../../public/img/l.jpg";
 // import DrawerPlacement from "./Drawer";
 import { NavLink } from "react-router-dom";
 
@@ -43,11 +43,11 @@ const NavBarsScrool = () => {
           </li>
           <li className="flex items-center">
             <span className="pl-[4px] text-white">
-            𝚁𝚊𝚖𝚜𝚊𝚛𝙽𝚒𝚕
+            𝑅𝑎𝑚𝑠𝑎𝑟𝐵𝑎𝑚𝑎
             </span>
             <span>
             <NavLink to={"/"}>
-            <img src={img} alt="" className="w-[31px]" />
+            <img src={img} alt="" className="w-[36px] rounded-[5px]" />
             </NavLink>
             </span>
           </li>

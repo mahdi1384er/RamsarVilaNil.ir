@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     useEffect(() => {
       axios
-        .get("https://angry-polo-shirt-foal.cyclic.cloud/search")
+        .get("https://my-json-server.typicode.com/mahdi1384er/footer/search")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

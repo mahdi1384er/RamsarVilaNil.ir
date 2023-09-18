@@ -13,7 +13,7 @@ const HostContext = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://alert-pullover-toad.cyclic.cloud/Article")
+        .get("https://my-json-server.typicode.com/mahdi1384er/Article/Article")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

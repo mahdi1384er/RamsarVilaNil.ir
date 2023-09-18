@@ -24,7 +24,7 @@ export default function DrawerPlacement() {
 
   return (
     <React.Fragment>
-      <div className="flex  w-[100px] fixed top-[17px] right-[13px] left-0 z-[1000]  ">
+      <div className="flex  w-[100px] fixed top-[19px] right-[13px] left-0 z-[1000]  ">
         <Button onClick={openDrawerRight}>
           <AiOutlineMenu className="text-[12px] font-bold" />
         </Button>
@@ -98,7 +98,10 @@ export default function DrawerPlacement() {
                       eventKey="2"
                       className="texthome relative left-[18px] top-[3px]"
                     >
+                       <NavLink to="/host">
+
                       <span>ثبت اقامتگاه</span>
+                       </NavLink>
                     </Nav.Item>
                   </div>
                 </Nav>

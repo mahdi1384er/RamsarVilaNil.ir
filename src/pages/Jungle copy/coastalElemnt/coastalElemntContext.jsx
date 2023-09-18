@@ -14,7 +14,7 @@ const CoastalElemntContext = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://alert-pullover-toad.cyclic.cloud/luxury")
+        .get("https://my-json-server.typicode.com/mahdi1384er/luxury/luxury")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
