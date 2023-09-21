@@ -20,7 +20,7 @@ import Blogs8 from "../components/Excellent/blogs8";
 import Blogs9 from "../components/Excellent/blogs9";
 import Blogs10 from "../components/Excellent/blogs10";
 import MagssHaders from "../components/trip/mags/magseHeader";
-import Headersmages2 from "../components/trip/mags/headersmages2";
+// import Headersmages2 from "../components/trip/mags/headersmages2";
 import Headersmages3 from "../components/trip/mags/headersmages3";
 
 
@@ -50,7 +50,7 @@ const AppNav = () => {
           <Route path="/Cottages/:id" element={<Blogs9 />} />
           <Route path="/Popular/:id" element={<Blogs10 />} />
           <Route path="/Mags" element={<MagssHaders />} />
-          <Route path="/Mags2" element={<Headersmages2 />} />
+          {/* <Route path="/Mags2" element={<Headersmages2 />} /> */}
           <Route path="/Mags3" element={<Headersmages3/>} />
         </Route>
       </Routes>
