@@ -2,7 +2,7 @@ import NavBarsScrool from "./NavBarsJungle";
 import MagssHaders2 from "./MagssHaders2";
 
 // import Alders from "./aler";
-import Footress from "./footre";
+import Footress from "./Footre";
 
 const Headersmages2 = () => {
   return (
