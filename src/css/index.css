@@ -14,7 +14,7 @@
   body {
     background: #f8f8f8;
     direction: rtl;
-    font-family: "MyFont";
+    font-family: "/vite-project/dist/font/Vazir-Medium.eot";
   }
 
   .rdrCalendarWrapper {
