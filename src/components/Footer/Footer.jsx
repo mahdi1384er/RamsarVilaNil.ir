@@ -1,5 +1,5 @@
-import img from "../../../../public/img/7002/6.svg";
-import imgs from "../../../../public/img/7002/8.svg";
+import img from "../../../public/img/7002/6.svg";
+import imgs from "../../../public/img/7002/6.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { React, useState, useEffect } from "react";
 import axios from "axios";
