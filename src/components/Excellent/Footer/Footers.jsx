@@ -45,18 +45,14 @@ const Footer = () => {
                 با خیال راحت به رامسر نیل اعتماد کنید{" "}
               </span>
             </div>
-            {data.map((ite) => {
-              return (
-                <div className="flex items-center w-[120px] justify-between mt-[10px]">
-                  <div>
-                    <img src={ite.img} className="w-[50px]" alt="" />
-                  </div>
-                  <div>
-                    <img src={ite.img} className="w-[50px]" alt="" />
-                  </div>
-                </div>
-              );
-            })}
+            <div className="flex items-center w-[120px] justify-between mt-[10px]">
+              <div>
+                <img src="../../../../public/img/imgs/6.svg" className="w-[50px]" alt="" />
+              </div>
+              <div>
+                <img src="../../../../public/img/imgs/8.svg" className="w-[50px]" alt="" />
+              </div>
+            </div>
             <div className="mt-[23px]">
               <div>
                 <span className="text-[15] font-bold text-black">
