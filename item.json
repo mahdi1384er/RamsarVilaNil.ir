@@ -4,7 +4,7 @@
       "id": 1,
       "title": "جنگلی",
       "author": "۳۳ اقامتگاه",
-      "src": "/img/170/13.jpg",
+      "src": "./public/img/imgs/13.svg",
       "star": "8.9",
       "path": "/Jungle"
     },
