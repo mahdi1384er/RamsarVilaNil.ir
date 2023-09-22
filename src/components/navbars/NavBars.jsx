@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import img from "../../../public/img/imgs/l.jpg";
+// import img from "../../../public/img/imgs/l.jpg";
 // import DrawerPlacement from "./Drawer";
 import { NavLink } from "react-router-dom";
 
@@ -47,7 +47,7 @@ const NavBarsScrool = () => {
             </span>
             <span>
             <NavLink to={"/"}>
-            <img src={img} alt="" className="w-[36px] rounded-[5px]" />
+            {/* <img src={img} alt="" className="w-[36px] rounded-[5px]" /> */}
             </NavLink>
             </span>
           </li>
