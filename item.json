@@ -3088,12 +3088,14 @@
     {
       "id": 1,
       "title": "اجاره ویلا جنکلی",
-      "path": "/Jungle"
+      "path": "/Jungle",
+      "img":"../vite-project/public/img/imgs/6.svg"
     },
     {
       "id": 2,
       "title": "اجاره کلبه استخردار",
-      "path": "/Cottage"
+      "path": "/Cottage",
+      "img":"../vite-project/public/img/imgs/8.svg"
     },
     {
       "id": 3,

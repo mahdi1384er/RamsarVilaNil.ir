@@ -1,5 +1,5 @@
-import img from "../../../public/img/imgs/6.svg";
-import imgs from "../../../public/img/imgs/8.svg";
+// import img from "../../../public/img/imgs/6.svg";
+// import imgs from "../../../public/img/imgs/8.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { React, useState, useEffect } from "react";
 import axios from "axios";
@@ -7,7 +7,6 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   const [data, setdata] = useState([]);
-
 
   return (
     useEffect(() => {
@@ -48,14 +47,18 @@ const Footer = () => {
                 با خیال راحت به رامسر نیل اعتماد کنید
               </span>
             </div>
-            <div className="flex items-center w-[120px] justify-between mt-[10px]">
-              <div>
-                <img src={img} className="w-[50px]" alt="" />
-              </div>
-              <div>
-                <img src={imgs} className="w-[50px]" alt="" />
-              </div>
-            </div>
+            {data.map((ite) => {
+              return (
+                <div className="flex items-center w-[120px] justify-between mt-[10px]">
+                  <div>
+                    <img src={ite.img} className="w-[50px]" alt="" />
+                  </div>
+                  <div>
+                    <img src={ite.img} className="w-[50px]" alt="" />
+                  </div>
+                </div>
+              );
+            })}
             <div className="mt-[23px]">
               <div>
                 <span className="text-[15] font-bold text-black">
