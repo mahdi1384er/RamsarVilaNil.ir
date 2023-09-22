@@ -24,9 +24,9 @@ export default function DrawerPlacement() {
 
   return (
     <React.Fragment>
-      <div className="flex  w-[100px] fixed top-[19px] right-[13px] left-0 z-[1000]  ">
+      <div className="flex  w-[100px] fixed top-[19px] right-[14px] left-0 z-[1000]  ">
         <Button onClick={openDrawerRight}>
-          <AiOutlineMenu className="text-[12px] font-bold" />
+          <AiOutlineMenu className="text-[16px] font-bold" />
         </Button>
       </div>
       <Drawer
