@@ -20,7 +20,7 @@ import Blogs8 from "../components/Excellent/blogs8";
 import Blogs9 from "../components/Excellent/blogs9";
 import Blogs10 from "../components/Excellent/blogs10";
 import MagssHaders from "../components/trip/mags/magseHeader";
-import Headersmages2 from "../components/trip/mags/headersmages2";
+import Headersmages2 from "../components/trip/mags/Headersmages2";
 import Headersmages3 from "../components/trip/mags/headersmages3";
 
 
