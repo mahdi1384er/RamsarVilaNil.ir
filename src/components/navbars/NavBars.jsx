@@ -47,7 +47,7 @@ const NavBarsScrool = () => {
             </span>
             <span>
             <NavLink to={"/"}>
-            <img src={img} alt="" className="w-[36px] rounded-[5px]" />
+            {/* <img src={img} alt="" className="w-[36px] rounded-[5px]" /> */}
             </NavLink>
             </span>
           </li>
