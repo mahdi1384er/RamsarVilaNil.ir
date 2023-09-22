@@ -4,14 +4,14 @@
       "id": 1,
       "title": "جنگلی",
       "author": "۳۳ اقامتگاه",
-      "src": "/img/170/1.jpg",
+      "src": "/img/170/we.jpg",
       "star": "8.9",
       "path": "/Jungle"
     },
     {
       "id": 3,
       "title": "کلبه",
-      "src": "/img/170/rt.jpeg",
+      "src": "/img/170/rt.jpg",
       "author": "۲۲ اقامتگاه",
       "star": "7.9",
       "path": "/Cottage"
@@ -19,7 +19,7 @@
     {
       "id": 2,
       "title": "ساحلی",
-      "src": "/img/170/a.jpeg",
+      "src": "/img/170/a.jpg",
       "author": "۰ اقامتگاه",
       "star": "5.9",
       "path": "/Coastal"
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "title": "ویلا های ییلاقی",
-      "src": "/img/170/09.jpeg",
+      "src": "/img/170/09.jpg",
       "author": "۰ اقامتگاه",
       "star": "7.9",
       "path": "/"
