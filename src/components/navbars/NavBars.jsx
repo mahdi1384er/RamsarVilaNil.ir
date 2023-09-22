@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import img from "../../../public/img/7002/1.jpeg";
+import img from "../../../public/img/7002/l.jpg";
 // import DrawerPlacement from "./Drawer";
 import { NavLink } from "react-router-dom";
 
