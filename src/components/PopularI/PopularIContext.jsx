@@ -6,7 +6,7 @@ const PopularIContext = () => {
       <div className="w-[95%]   m-auto">
         <div className="flex flex-col">
           <div>
-            <h2 className="font-bold text-[15px] text-black h-[30px]">
+            <h2 className="font-bold text-[17px] text-black h-[30px]">
               مقاصد پر طرفدار در رامسر
             </h2>
           </div>
