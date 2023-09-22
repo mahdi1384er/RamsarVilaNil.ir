@@ -3068,7 +3068,7 @@
     {
       "id": "۲",
       "title": "مکان های دیدنی رامسر",
-      "src": "./public/img/ramsar-attractions-cover.jpg",
+      "src": "./public/img/imgs/ramsar-attractions-cover.jpg",
       "author": "رامسر باما شمارو به بهترین سفر تو شمال همراهی میکنه:)",
       "description": " ۱۴۰۲,۵,۶",
       "path": "/Mags2",
@@ -3077,7 +3077,7 @@
     {
       "id": "۳",
       "title": "درباره رامسر باما",
-      "src": "./public/img/mo.jpg ",
+      "src": "./public/img/imgs/mo.jpg",
       "author": "رامسر باما اولین وب سایت رسمی اجاره آنلاین ویلا و کلبه در رامسر",
       "description": " ۱۴۰۲,۵,۲۴",
       "path": "/Mags3",
