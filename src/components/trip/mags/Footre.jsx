@@ -1,3 +1,5 @@
+import img from "../../../../public/img/7002/6.svg";
+import imgs from "../../../../public/img/7002/8.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { React, useState, useEffect } from "react";
 import axios from "axios";
@@ -45,18 +47,14 @@ const Footress = () => {
                 با خیال راحت به رامسر نیل اعتماد کنید{" "}
               </span>
             </div>
-            {data.map((ite) => {
-              return (
-                <div className="flex items-center w-[120px] justify-between mt-[10px]">
-                  <div>
-                    <img src={ite.img} className="w-[50px]" alt="" />
-                  </div>
-                  <div>
-                    <img src={ite.img} className="w-[50px]" alt="" />
-                  </div>
-                </div>
-              );
-            })}
+            <div className="flex items-center w-[120px] justify-between mt-[10px]">
+              <div>
+                <img src={img} className="w-[50px]" alt="" />
+              </div>
+              <div>
+                <img src={imgs} className="w-[50px]" alt="" />
+              </div>
+            </div>
             <div className="mt-[23px]">
               <div>
                 <span className="text-[15] font-bold text-black">

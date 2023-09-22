@@ -1,5 +1,5 @@
-// import img from "../../../public/img/imgs/6.svg";
-// import imgs from "../../../public/img/imgs/8.svg";
+import img from "../../../../public/img/7002/6.svg";
+import imgs from "../../../../public/img/7002/8.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { React, useState, useEffect } from "react";
 import axios from "axios";
@@ -7,6 +7,8 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   const [data, setdata] = useState([]);
+
+  // c7tvEpv/F1vbn|I2    p P qQ
 
   return (
     useEffect(() => {
@@ -44,21 +46,17 @@ const Footer = () => {
           <div className="flex flex-col w-[100%] items-center justify-center m-auto mt-[20px] max-sm:flex max-sm:flex-initial">
             <div className="text-center">
               <span className="text-[16px] font-bold text-black">
-                با خیال راحت به رامسر نیل اعتماد کنید
+                با خیال راحت به رامسر نیل اعتماد کنید{" "}
               </span>
             </div>
-            {data.map((ite) => {
-              return (
-                <div className="flex items-center w-[120px] justify-between mt-[10px]">
-                  <div>
-                    <img src={ite.img} className="w-[50px]" alt="" />
-                  </div>
-                  <div>
-                    <img src={ite.img} className="w-[50px]" alt="" />
-                  </div>
-                </div>
-              );
-            })}
+            <div className="flex items-center w-[120px] justify-between mt-[10px]">
+              <div>
+                <img src={img} className="w-[50px]" alt="" />
+              </div>
+              <div>
+                <img src={imgs} className="w-[50px]" alt="" />
+              </div>
+            </div>
             <div className="mt-[23px]">
               <div>
                 <span className="text-[15] font-bold text-black">
