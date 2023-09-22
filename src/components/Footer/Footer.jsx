@@ -1,5 +1,5 @@
-import img from "../../../public/img/7002/6.svg";
-import imgs from "../../../public/img/7002/6.svg";
+// import img from "../../../public/img/7002/6.svg";
+// import imgs from "../../../public/img/7002/6.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { React, useState, useEffect } from "react";
 import axios from "axios";
@@ -51,10 +51,10 @@ const Footer = () => {
             </div>
             <div className="flex items-center w-[120px] justify-between mt-[10px]">
               <div>
-                <img src={img} className="w-[50px]" alt="" />
+                {/* <img src={img} className="w-[50px]" alt="" /> */}
               </div>
               <div>
-                <img src={imgs} className="w-[50px]" alt="" />
+                {/* <img src={imgs} className="w-[50px]" alt="" /> */}
               </div>
             </div>
             <div className="mt-[23px]">
