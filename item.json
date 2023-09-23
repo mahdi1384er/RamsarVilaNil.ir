@@ -3180,5 +3180,31 @@
       "author": "کد ۱۷۰",
       "code": "کد 170"
     }
+  ],
+  "TrustData":[
+    {
+      "id": 1,
+      "titel": "رزرواسیون 24 ساعته",
+      "titels": "خدمات آنلاین در تمام روزهای هفته",
+      "imgs": "../vite-project/public/img/imgs/logo1.svg"
+    },
+    {
+      "id": 2,
+      "titel": "کم هزینه و با کیفیت",
+      "titels": "اقامت با کیفیت تر با هزینه کمتر",
+      "imgs": "../vite-project/public/img/imgs/logo2.svg"
+    },
+    {
+      "id": 3,
+      "titel": "ضمانت تحویل اقامتگاه",
+      "titels": "تسویه با میزبان پس از تحویل اقامتگاه",
+      "imgs": "../vite-project/public/img/imgs/logo3.svg"
+    },
+    {
+      "id": 4,
+      "titel": "رزرو در لحظه آخری",
+      "titels": "رزرو اقامتگاه ها در حساس ترین لحظات",
+      "imgs": "../vite-project/public/img/imgs/logo44.svg"
+    }
   ]
 }

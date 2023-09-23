@@ -3,6 +3,7 @@ import NavBarsScrool from "../navbars/NavBars";
 import { useEffect, useState } from "react";
 import Table from "./Table";
 import axios from "axios";
+import { BiSearch } from "react-icons/bi";
 
 const Header = () => {
   const [query, setQuery] = useState("");
@@ -21,34 +22,37 @@ const Header = () => {
   }, [query]);
 
   return (
-    <header className="HeaderBg  bg-fixed bg-contain overflow-auto  h-[210px] w-full">
+    <header className="HeaderBg  bg-fixed bg-contain overflow-auto  h-[331px] w-full">
       <div className="w-[94%] h-full m-auto">
         {/* Navigation */}
         <NavBarsScrool />
 
-        <div className="flex items-center flex-col justify-center mt-0 relative top-[57px]">
+        <div className="flex items-center flex-col justify-center mt-0 relative top-[114px]">
           <div>
-            <h2 className="text-[16px] text-white font-bold">
+            <h2 className="text-[19px] text-white">
               اجاره ویلا در شمال ایران رامسر
             </h2>
           </div>
           <div>
-            <form>
+            <form className="flex items-center">
               <input
-                className="search h-[18px] w-[284px]  p-[11px] pt-[16px] pb-[15px] rounded-[16px] bg-white text-[#8D8E8F] text-[12px] font-bold focus:outline-none"
+                className="search h-[18px] w-[284px]  p-[11px] pt-[19px] pb-[17px] rounded-[16px] bg-white text-[#8D8E8F] text-[12px] font-bold focus:outline-none"
                 placeholder="کد ویلاتو سرچ کن ...."
                 onChange={(e) => setQuery(e.target.value.toLowerCase())}
               />
+              <div className="w-[28px] h-[28px] rounded-[100px] bg-blue-600 flex items-center justify-center relative left-[33px]">
+                <BiSearch className="text-white text-[20px] "/>
+              </div>
             </form>
             <Table data={data} />
           </div>
-          <div>
-            <h2 className="text-white text-[16px]">رامسر باما</h2>
+          <div className="mt-[10px]">
+            <h2 className="text-white text-[18px]">رامسر باما</h2>
           </div>
           <div>
-            <div className="animate-bounce  mt-[-3px]">
+            <div className="animate-bounce  mt-[5px]">
               <svg
-                className="w-[22px]  h-[20px] text-[#ffff]"
+                className="w-[26px]  h-[24px] text-[#ffff]"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
