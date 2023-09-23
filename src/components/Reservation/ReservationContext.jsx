@@ -7,7 +7,7 @@ const ReservationContext = () => {
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[20px]">
-              <h2 className="font-bold text-[15px] text-black  relative bottom-[5px]">
+              <h2 className="font-bold text-[17px] text-black  relative bottom-[5px]">
                 اقامتگاه های رزرو فوری
               </h2>
             </div>

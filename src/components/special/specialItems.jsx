@@ -22,8 +22,8 @@ const SpecialItems = () => {
           autoplay={false}
           className="swiper-wrapper3"
           spaceBetween={130}
-          width={140}
-          slidesPerView={1.6}
+          width={190}
+          slidesPerView={1}
         >
           {data.map((item, index) => {
             return (
@@ -47,11 +47,11 @@ const SpecialItems = () => {
                             <IoHeartCircleSharp className="text-[#0373F3] w-[22px] h-[19px]" />
                           </div>
                         </div>
-                        <div className="flex items-center justify-between w-[195px] h-[121px]">
+                        <div className="flex items-center justify-between w-[265px] h-[161px]">
                           <img
                             src={item.img}
                             alt=""
-                            className="w-[320px] h-[121px] rounded-[8px]"
+                            className="w-[260px] h-[161px] rounded-[8px]"
                           />
                         </div>
 

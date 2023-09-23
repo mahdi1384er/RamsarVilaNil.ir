@@ -2,12 +2,12 @@ import ExcellentItems from "./ExcellentItems";
 
 const ExcellentContext = () => {
   return (
-    <section className="w-full mt-[40px] m-auto h-[222px]">
+    <section className="w-full mt-[25px] m-auto h-[222px]">
       <div className="w-[95%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[20px]">
-              <h2 className="font-bold text-[16px] text-black  relative bottom-[5px]">
+              <h2 className="font-bold text-[17px] text-black  relative bottom-[5px]">
                 اقامتگاه های ممتاز
               </h2>
             </div>
