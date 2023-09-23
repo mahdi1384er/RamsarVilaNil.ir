@@ -35,7 +35,7 @@ const Header = () => {
           <div>
             <form>
               <input
-                className="search h-[18px] w-[239px]  p-[11px] pt-[16px] pb-[15px] rounded-[16px] bg-white text-[#8D8E8F] text-[12px] font-bold focus:outline-none"
+                className="search h-[18px] w-[284px]  p-[11px] pt-[16px] pb-[15px] rounded-[16px] bg-white text-[#8D8E8F] text-[12px] font-bold focus:outline-none"
                 placeholder="کد ویلاتو سرچ کن ...."
                 onChange={(e) => setQuery(e.target.value.toLowerCase())}
               />

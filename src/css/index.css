@@ -105,6 +105,10 @@
     background: rgba(158, 159, 160, 0.534);
     position: relative;
     bottom: 0;
+    position: relative;
+    right: 5px;
+    bottom: 6px;
+    z-index: 1;
   }
 
   .HeaderBg {
