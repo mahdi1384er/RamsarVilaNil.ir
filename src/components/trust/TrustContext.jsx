@@ -27,7 +27,7 @@ const TrustContext = () => {
           width={199}
           slidesPerView={1.3}
           autoplay={{
-            delay: 2500,
+            delay: 2200,
             disableOnInteraction: false,
           }}
         >
@@ -39,7 +39,7 @@ const TrustContext = () => {
                     <img
                       src={item.imgs}
                       data-swiper-autoplay="2000"
-                      className="w-[20px] h-[20px]"
+                      className="w-[33px] h-[34px]"
                       alt=""
                     />
                   </div>
