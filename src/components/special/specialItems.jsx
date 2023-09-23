@@ -3,8 +3,7 @@ import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoHeartCircleSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
-import { PiLightningBold  , PiStarFourFill} from "react-icons/pi";
-
+import { PiLightningBold, PiStarFour } from "react-icons/pi";
 
 const SpecialItems = () => {
   const [data, setdata] = useState([]);
@@ -38,23 +37,25 @@ const SpecialItems = () => {
                 >
                   <div>
                     <div className="m-[7px] flex items-center  w-[404px] h-[227px] mr-[50px]">
-                      <div className="rounded-[15px] h-[223px]">
-                        <div className="flex items-center justify-between w-[90%] relative top-[33px] right-[7px]">
-                          <div className="bg-white rounded-xl w-[64px] h-[21px] text-center flex items-center justify-center">
-                            <span>
-                              <PiLightningBold className="w-[12px]"/>
-                            </span>
-                            <span className="text-[10px] text-[#0373F3]">
-                              {item.description}
-                            </span>
-                          </div>
-                          <div className="bg-white rounded-xl w-[64px] h-[21px] text-center flex items-center justify-center">
-                            <span>
-                              <PiLightningBold className="w-[12px]"/>
-                            </span>
-                            <span className="text-[10px] text-[#0373F3]">
-                              {item.description2}
-                            </span>
+                      <div className="rounded-[15px] h-[243px]">
+                        <div className="flex items-center justify-between w-[90%] relative top-[44px] right-[7px]">
+                          <div className="flec flex-col  w-[100px] h-[40px] justify-between">
+                            <div className="bg-white rounded-xl w-[64px] h-[21px] text-center flex items-center justify-center">
+                              <span>
+                                <PiLightningBold className="w-[12px]" />
+                              </span>
+                              <span className="text-[10px] text-[#0373F3]">
+                                {item.description}
+                              </span>
+                            </div>
+                            <div className="bg-white rounded-xl w-[64px] h-[21px] text-center flex items-center justify-center mt-[7px]">
+                              <span>
+                                <PiStarFour className="w-[12px]" />
+                              </span>
+                              <span className="text-[10px] text-[#0373F3]">
+                                {item.description2}
+                              </span>
+                            </div>
                           </div>
                           <div>
                             <IoHeartCircleSharp className="text-[#0373F3] w-[30px] h-[27px]" />
