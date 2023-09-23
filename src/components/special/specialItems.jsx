@@ -40,7 +40,7 @@ const SpecialItems = () => {
                       <div className="rounded-[15px] h-[243px]">
                         <div className="flex items-center justify-between w-[90%] relative top-[44px] right-[7px]">
                           <div className="flec flex-col  w-[100px] h-[40px] justify-between">
-                            <div className="bg-white rounded-xl w-[64px] h-[21px] text-center flex items-center justify-center">
+                            <div className="bg-white rounded-xl w-[64px] h-[21px] text-center flex items-center justify-evenly">
                               <span>
                                 <PiLightningBold className="w-[12px]" />
                               </span>
