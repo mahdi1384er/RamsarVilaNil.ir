@@ -23,12 +23,12 @@ const TripItems = () => {
         <div className="w-[100%] h-[359px] m-auto flex items-center flex-col">
           <div className="flex  flex-col w-full pr-2">
             <div>
-              <p className="font-bold text-black text-[15px]">
+              <p className="font-bold text-black text-[17px]">
                 در سفر، تجربه کن
               </p>
             </div>
             <div>
-              <p className="text-[#575757] text-[12px]">
+              <p className="text-[#575757] text-[14px]">
                 رزرو تجربه و گشت‌های یک روزه با راهنمای رامسر با ما
               </p>
             </div>

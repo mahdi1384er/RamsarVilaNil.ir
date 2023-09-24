@@ -45,6 +45,19 @@
     height: 140px;
   }
 
+  .bgs {
+    width: 24px;
+    height: 24px;
+    transform: translateX(0.5rem);
+    background-color: rgb(14, 122, 211);
+    border-radius: 74% 26% 40% 60% / 64% 26% 74% 36%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
   :root {
     --color-text: #0373f3;
     --color-bg: #1f1f38;

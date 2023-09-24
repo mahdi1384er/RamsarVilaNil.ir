@@ -10,6 +10,7 @@ lerna-debug.log*
 *jpg
 *svg
 *png
+*jpeg
 *json
 
 node_modules

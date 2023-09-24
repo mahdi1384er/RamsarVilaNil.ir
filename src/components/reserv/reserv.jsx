@@ -1,26 +1,28 @@
 import { React, useState, useEffect } from "react";
 import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 import { IoHeartCircleSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 import { PiLightningBold, PiStarFour } from "react-icons/pi";
 import { PiShieldStarLight } from "react-icons/pi";
 
-
-const SpecialItems = () => {
+const RKuxuryItems = () => {
   const [data, setdata] = useState([]);
 
   return (
     // * get data
     useEffect(() => {
       axios
-        .get("https://my-json-server.typicode.com/mahdi1384er/special/special")
+        .get("https://my-json-server.typicode.com/mahdi1384er/luxury/luxury")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
     (
       <>
-        <Swiper
+          <Swiper
           centeredSlides={true}
           autoplay={false}
           className="swiper-wrapper3"
@@ -50,14 +52,7 @@ const SpecialItems = () => {
                                 {item.description}
                               </span>
                             </div>
-                            <div className="bg-white pl-[4px] rounded-xl w-[73px] h-[21px] text-center flex items-center justify-evenly mt-[7px]">
-                              <span>
-                                <PiStarFour className="w-[16px] text-blue-600" />
-                              </span>
-                              <span className="text-[10px] text-[#0373F3]">
-                                {item.description2}
-                              </span>
-                            </div>
+                           
                           </div>
                           <div>
                             <IoHeartCircleSharp className="text-[#0373F3] w-[30px] h-[27px]" />
@@ -114,4 +109,4 @@ const SpecialItems = () => {
   );
 };
 
-export default SpecialItems;
+export default RKuxuryItems;

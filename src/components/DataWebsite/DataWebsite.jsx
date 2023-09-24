@@ -1,19 +1,31 @@
-
-import img from '../../../public/img/imgs/8888888888888.jpg'
-import imgs from '../../../public/img/imgs/5555555.jpg'
+// import img from '../../../public/img/imgs/8888888888888.jpg'
+// import imgs from '../../../public/img/imgs/5555555.jpg'
+import { React, useState, useEffect } from "react";
+import axios from "axios";
 
 const DataWebsite = () => {
+  const [data, setdata] = useState([]);
+
   return (
-    <>
-      <section className="w-full mt-[5px] mb-[10px] m-auto h-[60px] flex items-center justify-around">
-        <div className="w-[46%] h-full">
-          <img src={img} alt="" className="rounded-[5px]"/>
-        </div>
-        <div className="w-[46%]  h-full">
-          <img src={imgs} alt="" className="rounded-[5px]"/>
-        </div>
-      </section>
-    </>
+    useEffect(() => {
+      axios
+        .get("https://my-json-server.typicode.com/mahdi1384er/imgsweb/imgsweb")
+        .then((res) => setdata(res.data))
+        .catch((eror) => console.log(eror));
+    }),
+    (
+      <>
+        <section className="w-full mt-[60px] mb-[10px] m-auto h-[140px] flex items-center justify-around">
+          {data.map((item) => {
+            return (
+              <div className="w-[95%]  h-full">
+                <img src={item.imgs} alt="" className="rounded-[5px]" />
+              </div>
+            );
+          })}
+        </section>
+      </>
+    )
   );
 };
 

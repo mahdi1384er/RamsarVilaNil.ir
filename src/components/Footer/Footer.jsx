@@ -22,19 +22,19 @@ const Footer = () => {
         <div className="w-[100%]  p-2 flex flex-col justify-between">
           <div className="flex items-center justify-between m-auto">
             <div className="">
-              <span className="text-[14px] font-bold ml-[5px] text-black">
+              <span className="text-[15px] font-bold ml-[5px] text-black">
                 جهت ارتباط با ما
               </span>
             </div>
             <div className="mr-[7px]">
               <div className="flex items-center flex-wrap justify-around">
-                <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[12px]">
+                <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[14px]">
                   <a href="tel:09300616152" className="text-[#080808]">
                     تلفن ضروری : ۰۹۳۰۰۶۱۶۱۵۲
                   </a>
                 </div>
                 <div className="mr-[2px]">
-                  <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[12px]">
+                  <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[14px]">
                     <a href="tel:09379287791" className="text-[#080808]">
                       تماس با ما : ۰۹۳۷۹۲۸۷۷۹۱
                     </a>
@@ -51,15 +51,15 @@ const Footer = () => {
             </div>
             <div className="flex items-center w-[120px] justify-between mt-[10px]">
               <div>
-                <img src={img} className="w-[50px]" alt="" />
+                <img src={img} className="w-[70px]" alt="" />
               </div>
               <div>
-                <img src={imgs} className="w-[50px]" alt="" />
+                <img src={imgs} className="w-[70px]" alt="" />
               </div>
             </div>
             <div className="mt-[23px]">
               <div>
-                <span className="text-[15] font-bold text-black">
+                <span className="text-[16] font-bold text-black">
                   باما همراه شوید
                 </span>
                 <div className="mt-[8px]">
@@ -79,7 +79,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col w-[100%] items-center justify-center m-auto mt-[20px]">
             <div>
-              <span className="text-[12px] font-bold text-center text-black">
+              <span className="text-[13px] font-bold text-center text-black">
                 جستجوی سریع
               </span>
             </div>
@@ -94,7 +94,7 @@ const Footer = () => {
                       <NavLink
                         to={{ pathname: item.path, search: `/${item.title}/` }}
                       >
-                        <span className="text-[10px] font-bold">
+                        <span className="text-[12px] font-bold">
                           {item.title}
                         </span>
                       </NavLink>
@@ -108,8 +108,8 @@ const Footer = () => {
 
         <div className="w-full  bg-[#a1a1a1] mt-[8px] h-[36px] flex items-center justify-center">
           <div>
-            <span className="text-[10px] text-[#ffffff]">
-              تمامی حقوق برای رامسر باما محفوظ می باشد.
+            <span className="text-[14px] text-[#ffffff]">
+              تمامی حقوق برای رامسرباما محفوظ می باشد.
             </span>
           </div>
         </div>
