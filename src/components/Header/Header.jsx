@@ -47,7 +47,7 @@ const Header = () => {
             <Table data={data} />
           </div>
           <div className="mt-[10px]">
-            <h2 className="text-white text-[18px]">رامسر باما</h2>
+            <h2 className="text-white text-[19px]">رامسر باما</h2>
           </div>
           <div>
             <div className="animate-bounce  mt-[5px]">

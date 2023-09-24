@@ -37,12 +37,12 @@ const NavBarsScrool = () => {
   return (
     <>
       <nav className={`navbars active ${show && "hidden"}`}>
-        <ul className="flex items-center justify-between backdrop-blur-2xl fixed top-0 right-0 left-0 z-10 p-2  animated">
+        <ul className="flex items-center justify-between backdrop-blur-2xl fixed top-0 right-0 left-0 z-10 p-2  pr-[12px] pl-[13px] animated">
           <li className="flex justify-center items-center bg-[#0373F3] pr-[1px]  w-[27px] h-[25px] rounded-md text-white">
           {/* <DrawerPlacement /> */}
           </li>
           <li className="flex items-center">
-            <span className="pl-[6px] text-white text-[16px]">
+            <span className="pl-[6px] text-white text-[18px]">
             𝑅𝑎𝑚𝑠𝑎𝑟𝐵𝑎𝑚𝑎
             </span>
             <span>
