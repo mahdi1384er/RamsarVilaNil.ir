@@ -37,11 +37,11 @@ a {
 }
 
 .rs-sidenav-default .rs-sidenav-item:hover {
-  padding: 3px 30px;
+  padding: 10px 35px;
   width: 280px;
   border-radius: 10px;
   position: relative;
-  left: 28px;
+  left: 34px;
 }
 
 .texthome:hover {

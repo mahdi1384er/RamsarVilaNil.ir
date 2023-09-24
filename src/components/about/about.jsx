@@ -1,12 +1,12 @@
 const About = () => {
   return (
-    <section className="w-[95%] mt-[0px] h-[59px] m-auto">
+    <section className="w-[95%] mt-[0px] h-[79px] m-auto">
       <div>
         <div className="flex items-center justify-center">
           <h2 className="text-[19px] text-black">اجاره ویلا و کلبه، آنلاین و مطمئن در رامسرباما</h2>
         </div>
         <div className=" text-justify">
-          <span className="leading-normal">
+          <span className="leading-[24px]">
             سفر تو خون ما ایرانیهاست و معمولا بهترین خاطرات عمرمون در سفرهامون
             رقم می خوره، به خصوص اگر سفری خانوادگی یا در جمع دوستان بهتر از جان
             باشه.مخصوصا اجاره ویلا در شمال ایران یعنی رامسر 

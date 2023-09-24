@@ -4,6 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { React, useState, useEffect } from "react";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
+import { IconButton } from "@material-tailwind/react";
 
 const Footer = () => {
   const [data, setdata] = useState([]);
@@ -18,7 +19,7 @@ const Footer = () => {
         .catch((eror) => console.log(eror));
     }),
     (
-      <section className="w-full mt-[120px] h-[347px] m-auto bg-[#D9D9D9]">
+      <section className="w-full mt-[120px] h-[351px] m-auto bg-[#D9D9D9]">
         <div className="w-[100%]  p-2 flex flex-col justify-between">
           <div className="flex items-center justify-between m-auto">
             <div className="">
@@ -28,17 +29,21 @@ const Footer = () => {
             </div>
             <div className="mr-[7px]">
               <div className="flex items-center flex-wrap justify-around">
-                <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[14px]">
-                  <a href="tel:09300616152" className="text-[#080808]">
-                    تلفن ضروری : ۰۹۳۰۰۶۱۶۱۵۲
-                  </a>
-                </div>
-                <div className="mr-[2px]">
+                <IconButton>
                   <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[14px]">
-                    <a href="tel:09379287791" className="text-[#080808]">
-                      تماس با ما : ۰۹۳۷۹۲۸۷۷۹۱
+                    <a href="tel:09300616152" className="text-[#080808]">
+                      تلفن ضروری : ۰۹۳۰۰۶۱۶۱۵۲
                     </a>
                   </div>
+                </IconButton>
+                <div className="mr-[2px]">
+                  <IconButton>
+                    <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[14px]">
+                      <a href="tel:09379287791" className="text-[#080808]">
+                        تماس با ما : ۰۹۳۷۹۲۸۷۷۹۱
+                      </a>
+                    </div>
+                  </IconButton>
                 </div>
               </div>
             </div>
@@ -59,20 +64,22 @@ const Footer = () => {
             </div>
             <div className="mt-[23px]">
               <div>
-                <span className="text-[16] font-bold text-black">
+                <span className="text-[16px] font-bold text-black">
                   باما همراه شوید
                 </span>
-                <div className="mt-[8px]">
-                  <a href="https://instagram.com/ramsar_vila_nil?igshid=OGQ5ZDc2ODk2ZA==">
-                    <div className="instagram w-[70px] h-[23px] p-[4px] rounded-[6px] flex items-center justify-around">
-                      <div>
-                        <span className="text-[12px] text-white">20k</span>
+                <div className="mt-[8px] mr-[3px]">
+                  <IconButton>
+                    <a href="https://instagram.com/ramsar_bama_com?igshid=MzMyNGUyNmU2YQ==">
+                      <div className="instagram w-[90px] h-[33px] p-[4px] rounded-[6px] flex items-center justify-around">
+                        <div className="mt-[3px]">
+                          <span className="text-[14px] text-white ">20k</span>
+                        </div>
+                        <div>
+                          <AiOutlineInstagram className="text-[22px] text-white " />
+                        </div>
                       </div>
-                      <div>
-                        <AiOutlineInstagram className="text-[18px] text-white " />
-                      </div>
-                    </div>
-                  </a>
+                    </a>
+                  </IconButton>
                 </div>
               </div>
             </div>
@@ -106,7 +113,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-full  bg-[#a1a1a1] mt-[8px] h-[36px] flex items-center justify-center">
+        <div className="w-full  bg-[#a1a1a1] h-[39px] flex items-center justify-center">
           <div>
             <span className="text-[14px] text-[#ffffff]">
               تمامی حقوق برای رامسرباما محفوظ می باشد.

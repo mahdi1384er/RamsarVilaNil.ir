@@ -3274,7 +3274,7 @@
     {
       "id": "۱",
       "title": "گشت و گذار در ییلاقات رامسر",
-      "src": "./public/img/imgs/ییلاق-ها-و-ارتفاعات-رامسر.webp",
+      "src": "/img/imgs/ییلاق-ها-و-ارتفاعات-رامسر.webp",
       "author": "با مجله رامسر باما به ییلاقات رامسر سفر کن!",
       "description": " ۱۴۰۲,۵,۱۲",
       "path": "/Mags",
@@ -3283,7 +3283,7 @@
     {
       "id": "۲",
       "title": "مکان های دیدنی رامسر",
-      "src": "./public/img/imgs/ramsar-attractions-cover.jpg",
+      "src": "/img/imgs/ramsar-attractions-cover.jpg",
       "author": "رامسر باما شمارو به بهترین سفر تو شمال همراهی میکنه:)",
       "description": " ۱۴۰۲,۵,۶",
       "path": "/Mags2",
@@ -3292,7 +3292,7 @@
     {
       "id": "۳",
       "title": "درباره رامسر باما",
-      "src": "./public/img/imgs/mo.jpg",
+      "src": "/img/imgs/mo.jpg",
       "author": "رامسر باما اولین وب سایت رسمی اجاره آنلاین ویلا و کلبه در رامسر",
       "description": " ۱۴۰۲,۵,۲۴",
       "path": "/Mags3",

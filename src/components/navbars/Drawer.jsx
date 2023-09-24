@@ -35,14 +35,21 @@ export default function DrawerPlacement() {
         onClose={closeDrawerRight}
         className="navbarsSidBar p-4 bg-slate-100  h-[400px] z-[5000]"
       >
-        <div className="flex items-center justify-between text-[10px]">
-          <Typography variant="h5" color="blue-gray" className="text-[13px]">
+        <div className="w-full h-[60px] border-b-[2px] border-solid  pb-[5px]">
+          <span className="text-blue-600 text-[17px] font-bold">رامسرباما</span>
+          <br />
+          <span className="text-blue-500 text-[13px] ">
+            اولین سامانه رسمی اجاره آنلاین ویلا در رامسر
+          </span>
+        </div>
+        <div className="flex items-center justify-between text-[14px] mt-[40px]">
+          <Typography variant="h5" color="blue-gray" className="text-[16px]">
             <Sidenav defaultOpenKeys={["3", "4"]}>
               <Sidenav.Body>
                 <Nav activeKey="1">
-                  <div className="flex items-center w-[280px] h-[40px]">
+                  <div className="flex items-center w-[280px] h-[50px]">
                     <div className="relative   z-[500]">
-                      <BiHome className="w-[28px] h-[18px]" />
+                      <BiHome className="w-[32px] h-[20px]" />
                     </div>
                     <Nav.Item
                       eventKey="2"
@@ -56,9 +63,9 @@ export default function DrawerPlacement() {
                 </Nav>
 
                 <Nav activeKey="1">
-                  <div className="flex items-center w-[280px] h-[40px]">
+                  <div className="flex items-center w-[280px] h-[50px]">
                     <div className="relative   z-[500]">
-                      <AiOutlineHeart className="w-[28px] h-[18px]" />
+                      <AiOutlineHeart className="w-[32px] h-[20px]" />
                     </div>
                     <Nav.Item
                       eventKey="2"
@@ -72,37 +79,60 @@ export default function DrawerPlacement() {
                 </Nav>
 
                 <Nav activeKey="1">
-                  <div className="flex items-center w-[280px] h-[40px]">
+                  <div className="flex items-center w-[280px] h-[50px]">
                     <div className="relative   z-[500]">
-                      <TfiHeadphoneAlt className="w-[28px] h-[18px]" />
+                      <TfiHeadphoneAlt className="w-[32px] h-[20px]" />
                     </div>
                     <Nav.Item
                       eventKey="2"
                       className="texthome relative left-[18px] top-[3px]"
                     >
-                       <NavLink to="/support">
-
-                      <span>ارتباط با ما</span>
-                      
-                       </NavLink>
+                      <NavLink to="/support">
+                        <span>ارتباط با ما</span>
+                      </NavLink>
                     </Nav.Item>
                   </div>
                 </Nav>
 
                 <Nav activeKey="1">
-                  <div className="flex items-center w-[280px] h-[40px]">
+                  <div className="flex items-center w-[280px] h-[50px]">
                     <div className="relative   z-[500]">
-                      <MdVilla className="w-[28px] h-[18px]" />
+                      <MdVilla className="w-[32px] h-[20px]" />
                     </div>
                     <Nav.Item
                       eventKey="2"
                       className="texthome relative left-[18px] top-[3px]"
                     >
-                       <NavLink to="/host">
-
-                      <span>ثبت اقامتگاه</span>
-                       </NavLink>
+                      <NavLink to="/host">
+                        <span>ثبت اقامتگاه</span>
+                      </NavLink>
                     </Nav.Item>
+                  </div>
+                  <div class="relative top-[160px]">
+                      <button
+                        class="bg-blue-500 w-[90%]  items-center  h-[40px] m-auto flex justify-center p-[9px] rounded-[14px] shadow-xl text-blue-600"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <svg
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-width="0"
+                          viewBox="0 0 24 24"
+                          class="h-7 w-7 text-white"
+                          height="1em"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
+                          ></path>
+                        </svg>
+                        <p class="mr-2 text-[17px] text-white">ورود</p>
+                      </button>
                   </div>
                 </Nav>
               </Sidenav.Body>
@@ -111,7 +141,7 @@ export default function DrawerPlacement() {
               variant="text"
               color="blue-gray"
               onClick={closeDrawerRight}
-              className="relative bottom-[148px] right-[256px]  z-[500]"
+              className="relative bottom-[3px] right-[256px]  z-[500]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +149,7 @@ export default function DrawerPlacement() {
                 viewBox="0 0 24 24"
                 strokeWidth={2}
                 stroke="currentColor"
-                className="h-5 w-5"
+                className="h-6 w-6"
               >
                 <path
                   strokeLinecap="round"
