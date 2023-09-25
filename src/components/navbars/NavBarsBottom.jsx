@@ -15,10 +15,30 @@ const NavBarsBottoms = () => {
   const [show, setShow] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const DataNavBars = [
-    { id: 1, name: "خانه", path: "/" , icons : <BiHome className="w-[20px] h-[23px]"/>},
-    { id: 2, name: "اقامتگاه ها", path: "/rooms",icons:<MdOutlineVilla className="w-[20px] h-[23px]"/> },
-    { id: 3, name: "میزبانی", path: "/host" ,icons:<LuConciergeBell className="w-[20px] h-[23px]"/> },
-    { id: 4, name: "ارتبط با ما", path: "/support" ,icons:<AiOutlineUser className="w-[20px] h-[23px]"/> },
+    {
+      id: 1,
+      name: "خانه",
+      path: "/",
+      icons: <BiHome className="w-[23px] h-[25px]" />,
+    },
+    {
+      id: 2,
+      name: "اقامتگاه ها",
+      path: "/rooms",
+      icons: <MdOutlineVilla className="w-[23px] h-[25px]" />,
+    },
+    {
+      id: 3,
+      name: "میزبانی",
+      path: "/host",
+      icons: <LuConciergeBell className="w-[23px] h-[25px]" />,
+    },
+    {
+      id: 4,
+      name: "ارتبط با ما",
+      path: "/support",
+      icons: <AiOutlineUser className="w-[23px] h-[25px]" />,
+    },
   ];
 
   const controlNavbar = () => {
@@ -53,20 +73,16 @@ const NavBarsBottoms = () => {
         <ul
           className={`navbars flex justify-around ${
             show && "hidden"
-          } flex items-center justify-between backdrop-blur-2xl fixed  right-0 left-0 bottom-[-11px] z-10 p-2 h-[59px] bg-white  pb-[15px] pr-[15px] pl-[15px]`}
+          } flex items-center justify-between backdrop-blur-2xl fixed  right-0 left-0 bottom-[-11px] z-10 p-2 h-[68px] bg-white  pb-[15px] pr-[15px] pl-[15px]`}
         >
           {DataNavBars.map((items, index) => {
             return (
               <li key={index}>
-                <NavLink
-                  className="links"
-                  to={items.path}
-                >
+                <NavLink className="links text-[16px]" to={items.path}>
                   <div className="activBorder flex flex-col items-center justify-between">
-                  {items.icons}
-                  {items.name}
+                    {items.icons}
+                    <span className="outline-none border-none ">{items.name}</span>
                   </div>
-                  
                 </NavLink>
               </li>
             );

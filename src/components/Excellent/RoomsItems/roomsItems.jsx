@@ -5,7 +5,7 @@ import { MdOutlineMeetingRoom } from "react-icons/md";
 const RoomsItems = ({ bed1, bed2 }) => {
   return (
     <>
-      <section className="w-full mt-[20px] m-auto">
+      <section className="w-[96%] mt-[20px] m-auto">
         <div>
           <div className="flex  flex-col">
             <div>

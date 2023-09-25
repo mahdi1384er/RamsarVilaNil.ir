@@ -1,7 +1,7 @@
 const About = ({ TitelReserv, TitelAbout, textTitel }) => {
   return (
     <>
-      <section className="w-full m-auto">
+      <section className="w-[96%] m-auto">
         <div>
           <div className="flex flex-col">
             <div>

@@ -2,8 +2,8 @@ import LKuxuryItems from "./luxuryItems";
 
 const LuxuryContext = () => {
   return (
-    <section className="w-full h-[229px] m-auto mt-[11px]">
-      <div className="w-[95%]   m-auto">
+    <section className="w-[96%] h-[229px] m-auto mt-[11px]">
+      <div className="w-[96%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[20px]">
@@ -19,7 +19,7 @@ const LuxuryContext = () => {
           </div>
 
 
-          <div className="flex items-center justify-between overflow-scroll mt-[6px] ml-[-8px] mr-[-8px] relative bottom-[28px]">
+          <div className="flex items-center justify-between overflow-scroll mt-[6px] ml-[-18px] mr-[-8px] relative bottom-[28px]">
             <LKuxuryItems />
           </div>
         </div>

@@ -2,12 +2,12 @@ import CottageItem from "./cottageItem";
 
 const CottagelContext = () => {
   return (
-    <section className="w-full mt-[10px] h-[229px] m-auto">
+    <section className="w-full mt-[50px] h-[229px] m-auto">
       <div className="w-[95%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[16px]">
-              <h2 className="font-bold text-[15px] text-black  relative bottom-[5px]">
+              <h2 className="font-bold text-[18px] text-black  relative bottom-[5px]">
               اقامتگاه های کلبه چوبی 
               </h2>
             </div>
@@ -19,7 +19,7 @@ const CottagelContext = () => {
           </div>
 
 
-          <div className="flex items-center justify-between overflow-scroll mt-[0] ml-[-8px] mr-[-8px] relative bottom-[28px]">
+          <div className="flex items-center justify-between overflow-scroll mt-[14px] ml-[-8px] mr-[-8px] relative bottom-[28px]">
             <CottageItem />
           </div>
         </div>

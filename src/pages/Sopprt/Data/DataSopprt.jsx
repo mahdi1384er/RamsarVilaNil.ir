@@ -5,7 +5,7 @@ const DataSopprt = () => {
     <section className="w-full mt-[10px] m-auto h-[240px] mb-[30px]">
       <DataContext />
       <div className="flex items-center justify-center mt-[60px]">
-        <img src="../../../../public/img/jh.svg" alt="" />
+        <img src="/img/imgs/jh.svg" alt="" />
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ import { LuParkingSquare } from "react-icons/lu";
 const Possibilities = ({ author, data }) => {
   return (
     <>
-      <section className="w-full mt-[20px] m-auto">
+      <section className="w-[96%] mt-[20px] m-auto">
         <div className="flex flex-col">
           <div>
             <span className="text-[17px] font-bold text-black">امکانات</span>

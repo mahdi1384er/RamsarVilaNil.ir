@@ -33,6 +33,10 @@
     right: 7px;
   }
 
+
+
+
+
   .currentColor {
     display: none;
   }
@@ -146,8 +150,17 @@
     background-position-y: center;
   }
 
+  .toast-message {
+    background: darkblue;
+    color: #fff;
+    font-size: 20px;
+    width: 34vw;
+    padding: 30px 20px;
+}
+
+
   .Headerhost {
-    background-image: url("../../public//img/شششش.jpg");
+    background-image: url("/img/imgs/شششش.jpg");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;
@@ -312,6 +325,7 @@
 
   .sizeItemsBox {
     margin: 0 -7px;
+    margin-left: -18px;
   }
 
   .instagram {

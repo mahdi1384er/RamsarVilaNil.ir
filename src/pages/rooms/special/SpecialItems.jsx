@@ -24,11 +24,11 @@ const SpecialItems = () => {
           <div className="flex  flex-col w-full pr-2">
             <div>
               <p className="font-bold text-black text-[19px]">
-                ویلاهای پرطرفدار رامسر نیل
+                ویلاهای پرطرفدار رامسرباما
               </p>
             </div>
-            <div>
-              <p className="text-[#575757] text-[13px]">
+            <div >
+              <p className="text-[#575757] text-[14px]">
                 رزرو تجربه و مقاصد پرطرفدار ویلاهای رامسر{" "}
               </p>
             </div>
@@ -89,7 +89,7 @@ const SpecialItems = () => {
                           <div className="flex items-center w-[60px]  justify-around">
                             <div>
                               <img
-                                src="../../../../public/img/l3.png"
+                                src="/img/imgs/l3.png"
                                 alt=""
                                 class="w-[18px] h-[18px] mt-[3px]"
                               />

@@ -15,7 +15,9 @@ const ExcellentItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://my-json-server.typicode.com/mahdi1384er/bestItem/bestItem")
+        .get(
+          "https://my-json-server.typicode.com/mahdi1384er/bestItem/bestItem"
+        )
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
@@ -25,9 +27,9 @@ const ExcellentItems = () => {
           centeredSlides={true}
           autoplay={false}
           className="swiper-wrapper2"
-          spaceBetween={50}
+          spaceBetween={30}
           width={180}
-          slidesPerView={1.9}
+          slidesPerView={1.8}
         >
           {data.map((item, index) => {
             return (
@@ -35,10 +37,11 @@ const ExcellentItems = () => {
                 key={index}
                 className="w-[90px] h-[176px] relative left-[185px]"
               >
-
-                <NavLink to={{ pathname: item.path, search: `/${item.title}/` }}>
+                <NavLink
+                  to={{ pathname: item.path, search: `/${item.title}/` }}
+                >
                   <div>
-                    <div className="m-[10px] flex items-center  mt-[33px] w-[166px] h-[217px]">
+                    <div className="m-[10px] flex items-center  mt-[59px] w-[166px] h-[217px]">
                       <div className="rounded-[15px]">
                         <div className="flex items-center justify-between w-[142px] h-[166px]">
                           <img
@@ -64,6 +67,15 @@ const ExcellentItems = () => {
                             </div>
                           </div>
                         </div>
+                        <NavLink
+                          to={{pathname: "/rooms"}}
+                        >
+                          <div className="relative right-[340px] bottom-[120px]">
+                            <h2 className="text-[20px] text-black">
+                              موارد بیشتر
+                            </h2>
+                          </div>
+                        </NavLink>
                       </div>
                     </div>
                   </div>

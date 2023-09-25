@@ -18,7 +18,7 @@ const Apps = () => {
 
 
   return (
-    <section className="w-[97%] relative bottom-[10px]  h-[291px] top-[57px] m-auto">
+    <section className="w-[96%] relative bottom-[10px]  h-[291px] top-[57px] m-auto">
       <div className="relative top-[60px] w-[95%] h-[424px] m-auto ">
         <div className="mb-[10px] flex items-center justify-between"></div>
 

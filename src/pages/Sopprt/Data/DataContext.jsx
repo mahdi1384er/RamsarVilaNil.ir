@@ -45,14 +45,14 @@ const DataContext = () => {
         {TrustData.map((item, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="flex items-center justify-evenly w-[180px] bg-[#E4E4E4] h-[29px] rounded-[10px] border-solid border-[1px] border-gray-400 ml-[10px] mr-[0px]">
+              <div className="flex items-center justify-evenly w-[190px] bg-[#E4E4E4] h-[49px] rounded-[10px] border-solid border-[1px] border-gray-400 ml-[10px] mt-[30px] mr-[0px]">
                 <img
                   src={item.imgs}
                   data-swiper-autoplay="2000"
-                  className="w-[20px] h-[20px]"
+                  className="w-[30px] h-[30px]"
                   alt=""
                 />
-                <p className="text-[12px] text-[#000e]">{item.titel}</p>
+                <p className="text-[13px] text-[#000e]">{item.titel}</p>
               </div>
             </SwiperSlide>
           );

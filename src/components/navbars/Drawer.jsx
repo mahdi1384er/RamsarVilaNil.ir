@@ -15,6 +15,8 @@ import { MdVilla } from "react-icons/md";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import "../../css/nav.css";
 import { NavLink } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function DrawerPlacement() {
   const [openRight, setOpenRight] = React.useState(false);
@@ -22,19 +24,37 @@ export default function DrawerPlacement() {
   const openDrawerRight = () => setOpenRight(true);
   const closeDrawerRight = () => setOpenRight(false);
 
+  const showToastMessage2 = () => {
+    toast.error("! درخواست ناموفق به سرور ", {
+      position: "top-right",
+      autoClose: false,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: 1,
+      theme: "light",
+    });
+  };
+
+  
+
   return (
     <React.Fragment>
-      <div className="flex  w-[100px] fixed top-[19px] right-[18px] left-0 z-[1000]  ">
+      <div className="flex  w-[100px] fixed top-[18px] right-[17px] left-0 z-[1000]  ">
         <Button onClick={openDrawerRight}>
-          <AiOutlineMenu className="text-[16px] font-bold" />
+          <AiOutlineMenu className="text-[18px] font-bold" />
         </Button>
       </div>
       <Drawer
         placement="right"
         open={openRight}
         onClose={closeDrawerRight}
-        className="navbarsSidBar p-4 bg-slate-100  h-[400px] z-[5000]"
+        className="navbarsSidBar w-[374px] p-4 bg-slate-100  h-[400px] z-[5000]"
       >
+        <ToastContainer
+       rtl
+        />
         <div className="w-full h-[60px] border-b-[2px] border-solid  pb-[5px]">
           <span className="text-blue-600 text-[17px] font-bold">رامسرباما</span>
           <br />
@@ -42,6 +62,7 @@ export default function DrawerPlacement() {
             اولین سامانه رسمی اجاره آنلاین ویلا در رامسر
           </span>
         </div>
+        {/* 374px */}
         <div className="flex items-center justify-between text-[14px] mt-[40px]">
           <Typography variant="h5" color="blue-gray" className="text-[16px]">
             <Sidenav defaultOpenKeys={["3", "4"]}>
@@ -109,30 +130,31 @@ export default function DrawerPlacement() {
                     </Nav.Item>
                   </div>
                   <div class="relative top-[160px]">
-                      <button
-                        class="bg-blue-500 w-[90%]  items-center  h-[40px] m-auto flex justify-center p-[9px] rounded-[14px] shadow-xl text-blue-600"
-                        tabindex="0"
-                        type="button"
+                    <button
+                      class="bg-blue-500 w-[90%]  items-center  h-[40px] m-auto flex justify-center p-[9px] rounded-[14px] shadow-xl text-blue-600"
+                      tabindex="0"
+                      type="button"
+                      onClick={showToastMessage2}
+                    >
+                      <svg
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-7 w-7 text-white"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <svg
-                          stroke="currentColor"
-                          fill="none"
-                          stroke-width="0"
-                          viewBox="0 0 24 24"
-                          class="h-7 w-7 text-white"
-                          height="1em"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
-                          ></path>
-                        </svg>
-                        <p class="mr-2 text-[17px] text-white">ورود</p>
-                      </button>
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
+                        ></path>
+                      </svg>
+                      <p class="mr-2 text-[17px] text-white">ورود</p>
+                    </button>
                   </div>
                 </Nav>
               </Sidenav.Body>
@@ -141,7 +163,7 @@ export default function DrawerPlacement() {
               variant="text"
               color="blue-gray"
               onClick={closeDrawerRight}
-              className="relative bottom-[3px] right-[256px]  z-[500]"
+              className="relative  bottom-[338px] right-[256px]  z-[500]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

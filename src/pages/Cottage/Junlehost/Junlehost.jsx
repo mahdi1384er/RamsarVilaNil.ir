@@ -1,8 +1,8 @@
 const Junlehost = () => {
   return (
     <>
-      <section className="w-full mt-[10px] h-[229px] m-auto text-white">
-        <div className="w-[95%] m-auto flex flex-col items-center">
+      <section className="w-[96%] mt-[10px] h-[229px] m-auto text-white">
+        <div className="w-[96%] m-auto flex flex-col items-center">
           <div className=" mb-[10px]">
             <span className="font-bold text-[17px] text-black text-center">
               میزبان شوید

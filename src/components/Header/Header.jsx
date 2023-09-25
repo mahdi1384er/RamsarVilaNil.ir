@@ -12,13 +12,15 @@ const Header = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get(`https://my-json-server.typicode.com/mahdi1384er/serchs/serchs/?q=${query}`);
+      const res = await axios.get(
+        `https://my-json-server.typicode.com/mahdi1384er/serchs/serchs/?q=${query}`
+      );
       setData(res.data);
     };
 
     if (query.length === 0 && query.length == 0) b;
     else if (query.length === 1 || query.length > 1) fetchData();
-    else if(query.length === 0 && query.length == 0) b
+    else if (query.length === 0 && query.length == 0) b;
   }, [query]);
 
   return (
@@ -34,16 +36,18 @@ const Header = () => {
             </h2>
           </div>
           <div>
-            <form className="flex items-center">
-              <input
-                className="search h-[18px] w-[284px]  p-[11px] pt-[19px] pb-[17px] rounded-[16px] bg-white text-[#8D8E8F] text-[12px] font-bold focus:outline-none"
-                placeholder="کد ویلاتو سرچ کن ...."
-                onChange={(e) => setQuery(e.target.value.toLowerCase())}
-              />
-              <div className="w-[28px] h-[28px] rounded-[100px] bg-blue-600 flex items-center justify-center relative left-[33px]">
-                <BiSearch className="text-white text-[20px] "/>
-              </div>
-            </form>
+            <div>
+              <form className="flex items-center">
+                <input
+                  className="search h-[18px] w-[284px]  p-[11px] pt-[19px] pb-[17px] rounded-[16px] bg-white text-[#8D8E8F] text-[12px] font-bold focus:outline-none"
+                  placeholder="کد ویلاتو سرچ کن ...."
+                  onChange={(e) => setQuery(e.target.value.toLowerCase())}
+                />
+                <div className="w-[28px] h-[28px] rounded-[100px] bg-blue-600 flex items-center justify-center relative left-[33px]">
+                  <BiSearch className="text-white text-[20px] " />
+                </div>
+              </form>
+            </div>
             <Table data={data} />
           </div>
           <div className="mt-[10px]">

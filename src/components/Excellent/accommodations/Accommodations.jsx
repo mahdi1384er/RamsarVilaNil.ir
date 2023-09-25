@@ -6,8 +6,8 @@
 const Accommodations = () => {
   return (
     <>
-      <section className="w-full mt-[0] m-auto h-[446px]  relative bottom-[-230px]">
-        <div className="w-[95%] flec flex-col  pb-[22px] m-auto">
+      <section className="w-[96%] mt-[0] m-auto h-[446px]  relative bottom-[-230px]">
+        <div className="w-[96%] flec flex-col  pb-[22px] m-auto">
           <div className="flex items-center p-[3px]  justify-between w-[97%] m-auto rounded-[5px] border-[1px] border-solid border-gray-400">
             <div>
               <span>

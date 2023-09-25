@@ -2,12 +2,12 @@ import SpecialItems from "./specialItems";
 
 const SpecialContext = () => {
   return (
-    <section className="w-full mt-[40px] h-[276px] m-auto">
+    <section className="w-[96%] mt-[40px] h-[276px] m-auto">
       <div className="w-[96%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[20px]">
-              <h2 className="font-bold text-[17px] text-black  relative bottom-[5px]">
+              <h2 className="font-bold text-[18px] text-black  relative bottom-[5px]">
                 اقامتگاه های خاص
               </h2>
             </div>
@@ -18,7 +18,7 @@ const SpecialContext = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-between overflow-scroll mt-[6px] ml-[-8px] mr-[-8px] relative bottom-[28px]">
+          <div className="flex items-center justify-between overflow-scroll mt-[6px] ml-[-18px] mr-[-8px] relative bottom-[28px]">
             <SpecialItems />
           </div>
         </div>

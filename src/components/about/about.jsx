@@ -1,11 +1,11 @@
 const About = () => {
   return (
-    <section className="w-[95%] mt-[0px] h-[79px] m-auto">
-      <div>
+    <section className="w-[96%]  h-[79px] m-auto">
+      <div className="w-[96%] m-auto]">
         <div className="flex items-center justify-center">
           <h2 className="text-[19px] text-black">اجاره ویلا و کلبه، آنلاین و مطمئن در رامسرباما</h2>
         </div>
-        <div className=" text-justify">
+        <div className="text-justify">
           <span className="leading-[24px]">
             سفر تو خون ما ایرانیهاست و معمولا بهترین خاطرات عمرمون در سفرهامون
             رقم می خوره، به خصوص اگر سفری خانوادگی یا در جمع دوستان بهتر از جان

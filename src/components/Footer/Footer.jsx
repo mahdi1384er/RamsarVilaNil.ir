@@ -5,11 +5,24 @@ import { React, useState, useEffect } from "react";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
 import { IconButton } from "@material-tailwind/react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Footer = () => {
   const [data, setdata] = useState([]);
 
   // c7tvEpv/F1vbn|I2    p P qQ
+  const showToastMessage = () => {
+    toast.success("به زودی برای ارتباط باما به صفحه تماس وارد میشوید.", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
+  };
+
+  const showToastMessage2 = () => {
+    toast.success("به زودی به صفحه پیج اینستگرام رامسرباما وارد می شوید.", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
+  };
 
   return (
     useEffect(() => {
@@ -31,17 +44,21 @@ const Footer = () => {
               <div className="flex items-center flex-wrap justify-around">
                 <IconButton>
                   <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[14px]">
-                    <a href="tel:09300616152" className="text-[#080808]">
-                      تلفن ضروری : ۰۹۳۰۰۶۱۶۱۵۲
-                    </a>
+                    <button onClick={showToastMessage}>
+                      <a href="tel:09300616152" className="text-[#080808]">
+                        تلفن ضروری : ۰۹۳۰۰۶۱۶۱۵۲
+                      </a>
+                    </button>
                   </div>
                 </IconButton>
                 <div className="mr-[2px]">
                   <IconButton>
                     <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[14px]">
-                      <a href="tel:09379287791" className="text-[#080808]">
-                        تماس با ما : ۰۹۳۷۹۲۸۷۷۹۱
-                      </a>
+                      <button onClick={showToastMessage}>
+                        <a href="tel:09379287791" className="text-[#080808]">
+                          تماس با ما : ۰۹۳۷۹۲۸۷۷۹۱
+                        </a>
+                      </button>
                     </div>
                   </IconButton>
                 </div>
@@ -51,7 +68,7 @@ const Footer = () => {
           <div className="flex flex-col w-[100%] items-center justify-center m-auto mt-[20px] max-sm:flex max-sm:flex-initial">
             <div className="text-center">
               <span className="text-[16px] font-bold text-black">
-                با خیال راحت به رامسر نیل اعتماد کنید{" "}
+                با خیال راحت به رامسر نیل اعتماد کنید
               </span>
             </div>
             <div className="flex items-center w-[120px] justify-between mt-[10px]">
@@ -68,18 +85,20 @@ const Footer = () => {
                   باما همراه شوید
                 </span>
                 <div className="mt-[8px] mr-[3px]">
-                  <IconButton>
-                    <a href="https://instagram.com/ramsar_bama_com?igshid=MzMyNGUyNmU2YQ==">
-                      <div className="instagram w-[90px] h-[33px] p-[4px] rounded-[6px] flex items-center justify-around">
-                        <div className="mt-[3px]">
-                          <span className="text-[14px] text-white ">20k</span>
+                  <button onClick={showToastMessage2}>
+                    <IconButton>
+                      <a href="https://instagram.com/ramsar_bama_com?igshid=MzMyNGUyNmU2YQ==">
+                        <div className="instagram w-[90px] h-[33px] p-[4px] rounded-[6px] flex items-center justify-around">
+                          <div className="mt-[3px]">
+                            <span className="text-[14px] text-white ">20k</span>
+                          </div>
+                          <div>
+                            <AiOutlineInstagram className="text-[22px] text-white " />
+                          </div>
                         </div>
-                        <div>
-                          <AiOutlineInstagram className="text-[22px] text-white " />
-                        </div>
-                      </div>
-                    </a>
-                  </IconButton>
+                      </a>
+                    </IconButton>
+                  </button>
                 </div>
               </div>
             </div>

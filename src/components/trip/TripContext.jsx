@@ -2,7 +2,7 @@ import TripItems from "./TripItems";
 
 const TripContext = () => {
   return (
-    <section className="w-full mt-[0px] h-[369px] m-auto">
+    <section className="w-[96%] mt-[0px] h-[369px] mr-[10px] ml-[-18px]">
       <TripItems />
     </section>
   );
