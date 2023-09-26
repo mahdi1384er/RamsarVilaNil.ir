@@ -1,5 +1,3 @@
-import img from "../../../public/img/7002/6.svg";
-import imgs from "../../../public/img/7002/8.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { React, useState, useEffect } from "react";
 import axios from "axios";
@@ -10,7 +8,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Footer = () => {
   const [data, setdata] = useState([]);
-
   // c7tvEpv/F1vbn|I2    p P qQ
   const showToastMessage = () => {
     toast.success("به زودی برای ارتباط باما به صفحه تماس وارد میشوید.", {
@@ -27,7 +24,9 @@ const Footer = () => {
   return (
     useEffect(() => {
       axios
-        .get("https://my-json-server.typicode.com/mahdi1384er/footer/search")
+        .get(
+          "https://my-json-server.typicode.com/mahdi1384er/footerserch/search"
+        )
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
@@ -72,12 +71,9 @@ const Footer = () => {
               </span>
             </div>
             <div className="flex items-center w-[120px] justify-between mt-[10px]">
-              <div>
-                <img src={img} className="w-[70px]" alt="" />
-              </div>
-              <div>
-                <img src={imgs} className="w-[70px]" alt="" />
-              </div>
+              {data.map((item) => {
+                return <img src={item.img} className="w-[120px] h-[60px]" alt="" />;
+              })}
             </div>
             <div className="mt-[23px]">
               <div>

@@ -23,6 +23,14 @@ const Blogs1 = ({ id }) => {
       .then((json) => setPost(json))
       .then((json) => setLoading(false));
   });
+  const [loddings, setlodding] = useState(false);
+
+  useEffect(() => {
+    setlodding(true);
+    setTimeout(() => {
+      setlodding(false);
+    }, 3000);
+  }, []);
 
 
  
@@ -30,7 +38,18 @@ const Blogs1 = ({ id }) => {
 
   return (
     <div className="w-full h-[900px] bg-gray-200">
-      <div className="imgsdata h-[300px] post-container">
+         {loddings ? (
+        <HashLoader
+          color="#0e7ad3"
+          loading={loddings}
+          size={106}
+          speedMultiplier={1.2}
+          aria-label="Loading Spinner"
+          data-testid="loader"
+          className="relative right-[170px] top-[170px]"
+        />):
+          <>
+               <div className="imgsdata h-[300px] post-container">
         <img
           src={post.img} // <----- HERE
           alt="2"
@@ -92,6 +111,9 @@ const Blogs1 = ({ id }) => {
         <SpecialContexts titels={post.titels} />
         <Footers />
       </div>
+          </>
+        }
+   
     </div>
   );
 };

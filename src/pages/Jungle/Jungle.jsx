@@ -7,17 +7,42 @@ import JunglExcellent from "./junglExcellent/junglExcellent";
 import JungleItemsData from "./Data/JungleItemsData";
 import Junlehost from "./Junlehost/Junlehost";
 
+import { React, useState, useEffect } from "react";
+import HashLoader from "react-spinners/HashLoader";
+
 const Jungle = () => {
+  const [loddings, setlodding] = useState(false);
+
+  useEffect(() => {
+    setlodding(true);
+    setTimeout(() => {
+      setlodding(false);
+    }, 4000);
+  }, []);
   return (
     <>
-      <JungleItems />
-      <DrawerPlacement />
-      <Junglepool />
-      <JungleJacuzzi />
-      <JunglExcellent />
-      <JungleItemsData />
-      <Junlehost />
-      <Footer />
+      {loddings ? (
+        <HashLoader
+          color="#0e7ad3"
+          loading={loddings}
+          size={106}
+          speedMultiplier={1.2}
+          aria-label="Loading Spinner"
+          data-testid="loader"
+          className="relative right-[170px] top-[170px]"
+        />
+      ) : (
+        <>
+          <JungleItems />
+          <DrawerPlacement />
+          <Junglepool />
+          <JungleJacuzzi />
+          <JunglExcellent />
+          <JungleItemsData />
+          <Junlehost />
+          <Footer />
+        </>
+      )}
     </>
   );
 };

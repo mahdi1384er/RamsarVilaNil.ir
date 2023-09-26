@@ -53,7 +53,7 @@
     width: 24px;
     height: 24px;
     transform: translateX(0.5rem);
-    background-color: rgb(14, 122, 211);
+    background-color: #0e7ad3;
     border-radius: 74% 26% 40% 60% / 64% 26% 74% 36%;
     display: flex;
     -webkit-box-align: center;
@@ -134,7 +134,7 @@
   }
 
   .HeaderBg {
-    background-image: url("../../public/img/imgs/sa.jpg");
+    background-image: url("/img/imgs/sa.jpg");
     background-attachment: fixed;
     border-radius: 0 0 15px 15px;
     /* background-repeat: no-repeat; */
@@ -142,7 +142,7 @@
   }
 
   .HeaderRooms {
-    background-image: url("../../public//img/985.jpg");
+    background-image: url("/img/imgs/985.jpg");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;
@@ -159,6 +159,7 @@
 }
 
 
+
   .Headerhost {
     background-image: url("/img/imgs/شششش.jpg");
     background-attachment: inherit;
@@ -168,7 +169,7 @@
     background-position-y: center;
   }
   .Headerhosts {
-    background-image: url("../../public/img/جواهرده-1.webp");
+    background-image: url("/img/imgs/جواهرده-1.webp");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;
@@ -177,7 +178,7 @@
   }
 
   .JungleItems {
-    background-image: url("../../public//img/963.jpg");
+    background-image: url("/img/imgs/963.jpg");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;
@@ -186,7 +187,7 @@
   }
 
   .CoastalHeader {
-    background-image: url("../../public//img/1.jpg");
+    background-image: url("/img/imgs/1.jpg");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;
@@ -195,7 +196,7 @@
   }
 
   .ItemsBg {
-    background-image: url("../../public//img/14.jpg");
+    background-image: url("/img/imgs/14.jpg");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;
@@ -204,7 +205,7 @@
   }
 
   .CottageHeaders {
-    background-image: url("../../public//img/صث.jpg");
+    background-image: url("/img/imgs/صث.jpg");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;
@@ -213,7 +214,7 @@
   }
 
   .MagesageHeaders {
-    background-image: url("../../public//img/ییلاقات-رامسرس.webp");
+    background-image: url("/img/imgs/ییلاقات-رامسرس.webp");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;
@@ -222,7 +223,7 @@
   }
 
   .MagesageHeaders2 {
-    background-image: url("../../public/img/بلوار-کازینو-از-جاهای-دیدنی-رامسر.jpg");
+    background-image: url("/img/imgs/بلوار-کازینو-از-جاهای-دیدنی-رامسر.jpg");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;
@@ -230,7 +231,7 @@
     background-position-y: center;
   }
   .MagesageHeaderss {
-    background-image: url("../../public/img/pexels-quang-nguyen-vinh-4669523.jpg");
+    background-image: url("/img/imgs/pexels-quang-nguyen-vinh-4669523.jpg");
     background-attachment: inherit;
     background-size: cover;
     border-radius: 10px;

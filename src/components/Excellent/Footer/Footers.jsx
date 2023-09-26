@@ -9,7 +9,9 @@ const Footer = () => {
   return (
     useEffect(() => {
       axios
-        .get("https://my-json-server.typicode.com/mahdi1384er/footer/search")
+        .get(
+          "https://my-json-server.typicode.com/mahdi1384er/footerserch/search"
+        )
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
@@ -46,12 +48,11 @@ const Footer = () => {
               </span>
             </div>
             <div className="flex items-center w-[120px] justify-between mt-[10px]">
-              <div>
-                <img src="../../../../public/img/imgs/6.svg" className="w-[50px]" alt="" />
-              </div>
-              <div>
-                <img src="../../../../public/img/imgs/8.svg" className="w-[50px]" alt="" />
-              </div>
+              {data.map((item) => {
+                return (
+                  <img src={item.img} className="w-[120px] h-[60px]" alt="" />
+                );
+              })}
             </div>
             <div className="mt-[23px]">
               <div>
