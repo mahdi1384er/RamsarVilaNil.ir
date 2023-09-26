@@ -134,7 +134,7 @@
   }
 
   .HeaderBg {
-    background-image: url("/img/imgs/sa.jpg");
+    /* background-image: url("/img/imgs/sa.jpg"); */
     background-attachment: fixed;
     border-radius: 0 0 15px 15px;
     /* background-repeat: no-repeat; */

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Table from "./Table";
 import axios from "axios";
 import { BiSearch } from "react-icons/bi";
+import Headerbg from "./headerbg";
 
 const Header = () => {
   const [query, setQuery] = useState("");
@@ -24,12 +25,12 @@ const Header = () => {
   }, [query]);
 
   return (
-    <header className="HeaderBg  bg-fixed bg-contain overflow-auto  h-[331px] w-full">
-      <div className="w-[94%] h-full m-auto">
-        {/* Navigation */}
+    <header className="HeaderBg  bg-fixed bg-contain overflow-auto  h-[350px] w-full">
+      <Headerbg />
+      <div className="w-[94%] h-[0] m-auto">
         <NavBarsScrool />
 
-        <div className="flex items-center flex-col justify-center mt-0 relative top-[114px]">
+        <div className="flex items-center flex-col justify-center mt-0 relative top-[-244px]">
           <div>
             <h2 className="text-[19px] text-white">
               اجاره ویلا در شمال ایران رامسر
@@ -39,7 +40,7 @@ const Header = () => {
             <div>
               <form className="flex items-center">
                 <input
-                  className="search h-[18px] w-[284px]  p-[11px] pt-[19px] pb-[17px] rounded-[16px] bg-white text-[#8D8E8F] text-[12px] font-bold focus:outline-none"
+                  className="search h-[18px] w-[324px] mr-[20px]  p-[11px] pt-[19px] pb-[17px] rounded-[16px] bg-white text-[#8D8E8F] text-[12px] font-bold focus:outline-none"
                   placeholder="کد ویلاتو سرچ کن ...."
                   onChange={(e) => setQuery(e.target.value.toLowerCase())}
                 />
