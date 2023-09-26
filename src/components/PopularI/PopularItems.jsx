@@ -18,7 +18,7 @@ const PopularItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://my-json-server.typicode.com/mahdi1384er/posts/posts")
+        .get("https://my-json-server.typicode.com/mahdi1384er/post/posts")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),
