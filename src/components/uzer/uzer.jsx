@@ -20,7 +20,7 @@ const Uzer = () => {
     (
       <>
         <section className="w-full h-[129px] m-auto mt-[59px]">
-          <div className="w-[99%] m-auto">
+          <div className="w-[98%] m-auto">
             <div className="m-[14px] mr-[0] text-center flex items-center justify-center">
               <span class="w-[100px] text-center flex justify-center items-center text-[17px] text-black font-bold border-b-[3px] rounded-[10px] bottom-[20px] border-blue-600">
                 نظر کاربران

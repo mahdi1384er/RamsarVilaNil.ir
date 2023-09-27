@@ -18,7 +18,7 @@ const ExcellentContext = () => {
             </div>
           </div>
 
-          <div className="sizeItemsBox flex items-center justify-between overflow-scroll mt-2 ml-[28px] relative bottom-[-17px] ">
+          <div className="sizeItemsBox flex items-center justify-between overflow-scroll mt-2 ml-[28px] relative bottom-[-5px] ">
             <ExcellentItems />
           </div>
         </div>
