@@ -3,13 +3,13 @@ import { AiFillStar } from "react-icons/ai";
 const Populsr = ({ src, title, author, star, SevedData }) => {
   return (
     <>
-      <div className="m-[10px] flex items-center w-[166px]" onClick={SevedData}>
+      <div className="m-[10px] flex items-center w-[100%]" onClick={SevedData}>
         <div className="rounded-[15px]">
-          <div className="flex items-center justify-between w-[209px]">
+          <div className="flex items-center justify-between w-[267px]">
             <img
               src={src}
               alt=""
-              className="w-[247px] h-[130px] rounded-[12px]"
+              className="w-[267px] h-[150px] rounded-[12px]"
             />
           </div>
 

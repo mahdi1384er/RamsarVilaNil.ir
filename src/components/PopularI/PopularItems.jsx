@@ -27,10 +27,14 @@ const PopularItems = () => {
         <Swiper
           centeredSlides={true}
           autoplay={false}
+          // className="mySwiper"
+          // height={280}
+          // width={369}
+          // slidesPerView={0.7}
           className="mySwiper"
-          height={142}
-          width={290}
-          slidesPerView={2}
+          spaceBetween={210}
+          width={130}
+          slidesPerView={1.4}
         >
           {data.map((item, index) => {
             return (

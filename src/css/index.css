@@ -46,7 +46,7 @@
   }
 
   .mySwiper {
-    height: 140px;
+    height: 160px;
   }
 
   .bgs {
@@ -260,7 +260,7 @@
 
   @font-face {
     font-family: "MyFont";
-    src: local("MyFont"), url(/vite-project/dist/font/Vazir-Medium.woff) format("woff");
+    src: local("MyFont"), url(/font/Vazir-Medium.woff) format("woff");
   }
 
   .ter {
