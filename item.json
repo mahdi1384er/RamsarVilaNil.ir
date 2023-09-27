@@ -4,7 +4,7 @@
       "id": 1,
       "title": "جنگلی",
       "author": "۳۳ اقامتگاه",
-      "src": "/img/mahdi/98.jpg",
+      "src": "/img/imgs/we.jpg",
       "star": "8.9",
       "path": "/Jungle"
     },
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "title": "ویلا های ییلاقی",
-      "src": "/img/mahdi/asa.webp",
+      "src": "/img/imgs/ییلاق-ها-و-ارتفاعات-رامسر.webp",
       "author": "۰ اقامتگاه",
       "star": "7.9",
       "path": "/"
@@ -3464,7 +3464,7 @@
   ],
   "Headerbgs":[
     {
-      "imgs":"/img/imgs/rt.jpg"
+      "imgs":"/img/imgs/111111.jpg"
     }
   ]
 }
