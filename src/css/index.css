@@ -302,18 +302,17 @@
   .imgsBackGround {
     position: absolute;
     bottom: 0px;
-    top: 21px;
+    top: 23px;
     right: -8px;
     display: flex;
     flex-direction: column;
-    -webkit-box-pack: center;
     justify-content: center;
     color: white;
     background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
     padding-bottom: 1rem;
-    width: 141px;
+    width: 171px;
     border-radius: 0 0 10px 10px;
-    height: 32px;
+    height: 36px;
   }
 
   .rs-drawer-wrapper {

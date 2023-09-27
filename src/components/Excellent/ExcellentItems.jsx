@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import Excellent from "./Excellent";
 import { NavLink } from "react-router-dom";
 import Blogs1 from "./blogs";
+import { BsCaretLeftFill } from "react-icons/bs";
 
 const ExcellentItems = () => {
   const [data, setdata] = useState([]);
@@ -27,27 +28,28 @@ const ExcellentItems = () => {
           centeredSlides={true}
           autoplay={false}
           className="swiper-wrapper2"
-          spaceBetween={30}
-          width={180}
-          slidesPerView={1.8}
+          spaceBetween={70}
+          height={300}
+          width={190}
+          slidesPerView={1.7}
         >
           {data.map((item, index) => {
             return (
               <SwiperSlide
                 key={index}
-                className="w-[90px] h-[176px] relative left-[185px]"
+                className="w-[90px] h-[196px] relative left-[185px]"
               >
                 <NavLink
                   to={{ pathname: item.path, search: `/${item.title}/` }}
                 >
                   <div>
-                    <div className="m-[10px] flex items-center  mt-[59px] w-[166px] h-[217px]">
+                    <div className="m-[10px] flex items-center  mt-[49px] w-[166px] h-[280px]">
                       <div className="rounded-[15px]">
-                        <div className="flex items-center justify-between w-[142px] h-[166px]">
+                        <div className="flex items-center justify-between w-[172px] h-[198px]">
                           <img
                             src={item.img}
                             alt=""
-                            className="w-[142px] h-[187px] rounded-[12px]"
+                            className="w-[172px] h-[228px] rounded-[12px]"
                           />
                         </div>
 
@@ -55,25 +57,30 @@ const ExcellentItems = () => {
                           <div className="imgsBackGround flex flex-col ">
                             <div className="mt-[24px]">
                               <div>
-                                <p className="color-white text-center text-[15px] relative bottom-[14px]">
+                                <p className="color-white text-center text-[17px] relative bottom-[18px]">
                                   {item.title}
                                 </p>
                               </div>
                               <div>
-                                <p className="color-white text-center text-[11px] relative bottom-[14px]">
+                                <p className="color-white text-center text-[13px] relative bottom-[16px]">
                                   {item.author}
                                 </p>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <NavLink
-                          to={{pathname: "/rooms"}}
-                        >
-                          <div className="relative right-[340px] bottom-[120px]">
-                            <h2 className="text-[20px] text-black">
-                              موارد بیشتر
-                            </h2>
+                        <NavLink to={{ pathname: "/rooms" }}>
+                          <div className="relative right-[577px] bottom-[120px]">
+                            <div className="flex items-center  w-[100px] bg-slate-200 rounded-[9px]">
+                              <div>
+                                <h2 className="text-[19px] text-black w-[70%]">
+                                  موارد بیشتر
+                                </h2>
+                              </div>
+                              <div>
+                                <BsCaretLeftFill className="text-black text-[30px]" />
+                              </div>
+                            </div>
                           </div>
                         </NavLink>
                       </div>

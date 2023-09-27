@@ -63,11 +63,11 @@ const ReservationItems = () => {
                             <IoHeartCircleSharp className="text-[#0373F3] w-[30px] h-[27px]" />
                           </div>
                         </div>
-                        <div className="flex items-center justify-between w-[265px] h-[161px]">
+                        <div className="flex items-center justify-between w-[265px] h-[168px]">
                           <img
                             src={item.img}
                             alt=""
-                            className="w-[260px] h-[161px] rounded-[8px]"
+                            className="w-[260px] h-[168px] rounded-[8px]"
                           />
                         </div>
 

@@ -8,11 +8,11 @@ const Excellent = ({ ExcellentItems, src, title, author , data }) => {
               <img
                 src={src}
                 alt=""
-                className="w-[104px] h-[150px] rounded-[12px]"
+                className="w-[104px] h-[166px] rounded-[12px]"
               />
             </div>
 
-            <div className="flex items-center justify-between relative bottom-[43px] right-[8px]">
+            <div className="flex items-center justify-between relative bottom-[53px] right-[8px]">
               <div className="imgsBackGround flex flex-col ">
                 <div className="mt-[24px]">
                   <div>
