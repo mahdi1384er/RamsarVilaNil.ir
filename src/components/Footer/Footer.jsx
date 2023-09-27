@@ -7,7 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Footer = () => {
-  const [data, setdata] = useState([]);
+  // const [data, setdata] = useState([]);
   // c7tvEpv/F1vbn|I2    p P qQ
   const showToastMessage = () => {
     toast.success("به زودی برای ارتباط باما به صفحه تماس وارد میشوید.", {
