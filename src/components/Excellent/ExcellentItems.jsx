@@ -70,14 +70,14 @@ const ExcellentItems = () => {
                           </div>
                         </div>
                         <NavLink to={{ pathname: "/rooms" }}>
-                          <div className="relative right-[577px] bottom-[120px]">
-                            <div className="flex items-center  w-[100px] bg-slate-200 rounded-[9px]">
-                              <div>
-                                <h2 className="text-[19px] text-black w-[70%]">
+                          <div className="relative right-[587px] bottom-[120px]">
+                            <div className="flex items-center w-[120px] bg-slate-200 rounded-[9px]">
+                              <div className="w-[85%] pr-[3px]">
+                                <h2 className="text-[19px] text-black">
                                   موارد بیشتر
                                 </h2>
                               </div>
-                              <div>
+                              <div className="w-[10%] relative left-[10px]">
                                 <BsCaretLeftFill className="text-black text-[30px]" />
                               </div>
                             </div>

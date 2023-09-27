@@ -42,8 +42,9 @@ const TrustContext = () => {
                       className="w-[33px] h-[34px]"
                       alt=""
                     />
+         
                   </div>
-                  <div className="flex items-center justify-around flex-col">
+                  <div className="flex  justify-around flex-col">
                     <div>
                       <p className="text-[15px] text-[#272727]">{item.titel}</p>
                     </div>
