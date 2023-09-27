@@ -47,8 +47,8 @@ const NavBarsScrool = () => {
     (
       <>
         <nav className={`navbars active ${show && "hidden"}`}>
-          <ul className="flex items-center justify-between backdrop-blur-2xl fixed top-0 right-0 left-0 z-10 p-2  pr-[12px] pl-[13px] animated">
-            <li className="flex justify-center items-center bg-[#0373F3] pr-[1px]  w-[27px] h-[25px] rounded-md text-white">
+          <ul className="flex h-[63px] items-center justify-between backdrop-blur-2xl fixed top-0 right-0 left-0 z-10 p-2  pr-[12px] pl-[13px] animated">
+            <li className="flex justify-center items-center bg-[#0373F3] pr-[1px]  w-[31px] h-[30px] rounded-md text-white">
               {/* <DrawerPlacement /> */}
             </li>
             <li className="flex items-center">
@@ -63,7 +63,7 @@ const NavBarsScrool = () => {
                         <img
                           src={item.imgs}
                           alt=""
-                          className="w-[36px] rounded-[5px]"
+                          className="w-[44px] rounded-[5px]"
                         />
                       </div>
                     );
