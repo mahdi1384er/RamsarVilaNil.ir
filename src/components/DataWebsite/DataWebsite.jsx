@@ -15,7 +15,7 @@ const DataWebsite = () => {
     }),
     (
       <>
-        <section className="w-[98%] mt-[60px] mb-[10px] m-auto h-[140px] flex items-center justify-around">
+        <section className="w-[100%] mt-[60px] mb-[10px] m-auto h-[140px] flex items-center justify-around relative right-[13px]">
           {data.map((item) => {
             return (
               <div className="w-[98%]  h-full">

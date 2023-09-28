@@ -20,26 +20,26 @@ const TripItems = () => {
     }),
     (
       <section>
-        <div className="w-[100%] h-[359px] m-auto flex items-center flex-col">
+        <div className="w-[100%] relative right-[7px] h-[359px] m-auto flex items-center flex-col">
           <div className="flex  flex-col w-full pr-2">
             <div>
-              <p className="font-bold text-black text-[17px]">
+              <p className="font-bold text-black text-[18px]">
                 در سفر، تجربه کن
               </p>
             </div>
             <div>
-              <p className="text-[#575757] text-[14px]">
+              <p className="text-[#575757] text-[15px]">
                 رزرو تجربه و گشت‌های یک روزه با راهنمای رامسر با ما
               </p>
             </div>
           </div>
 
           <Swiper
-            className="container testimonials__container h-[300px] "
+            className="container testimonials__container h-[300px] w-[101%] "
             // install Swiper modules
             modules={[Pagination, Autoplay]}
-            spaceBetween={-126}
-            slidesPerView={1}
+            spaceBetween={-92}
+            slidesPerView={0.9}
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
             autoplay={{
@@ -56,7 +56,7 @@ const TripItems = () => {
                   <NavLink
                     to={{ pathname: item.path, search: `${item.titels}` }}
                   >
-                    <div className="mr-[50px] w-[83%] h-[232px] shadow-lg border-solid border-[1px] text-[#818181] mt-[30px] rounded-[10px] flex flex-col ">
+                    <div className="mr-[50px] w-[93%] h-[232px] shadow-lg border-solid border-[1px] text-[#818181] mt-[20px] rounded-[10px] flex flex-col ">
                       <img
                         className="bgImgs w-full h-[70%]  rounded-[10px] "
                         src={item.src}

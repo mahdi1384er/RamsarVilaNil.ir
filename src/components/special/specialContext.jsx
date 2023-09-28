@@ -2,7 +2,7 @@ import SpecialItems from "./specialItems";
 
 const SpecialContext = () => {
   return (
-    <section className="w-[100%] mt-[40px] h-[276px] m-auto">
+    <section className="w-[92%] mt-[40px] h-[276px] m-auto">
       <div className="w-[100%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
@@ -18,7 +18,7 @@ const SpecialContext = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-between overflow-scroll mt-[6px] ml-[-18px] mr-[-8px] relative bottom-[28px]">
+          <div className="flex w-[112%] items-center justify-between overflow-scroll mt-[6px] ml-[-18px] mr-[-8px] relative bottom-[28px]">
             <SpecialItems />
           </div>
         </div>

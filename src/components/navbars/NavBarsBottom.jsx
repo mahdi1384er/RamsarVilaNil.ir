@@ -6,6 +6,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { Tab } from "@headlessui/react";
 import Example from "./Drawer";
 import { NavLink } from "react-router-dom";
+import { BiSupport } from "react-icons/bi";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -73,20 +74,25 @@ const NavBarsBottoms = () => {
         <ul
           className={`navbars flex justify-around ${
             show && "hidden"
-          } flex items-center justify-between backdrop-blur-2xl fixed  right-0 left-0 bottom-[-11px] z-10 p-2 h-[68px] bg-white  pb-[15px] pr-[15px] pl-[15px]`}
+          } flex items-center w-[116%]  justify-between backdrop-blur-2xl fixed  right-0 left-0 bottom-[-11px] z-10 p-2 h-[68px] bg-white  pb-[15px] pr-[0px] pl-[89px]`}
         >
-          {DataNavBars.map((items, index) => {
-            return (
-              <li key={index}>
-                <NavLink className="links text-[16px]" to={items.path}>
-                  <div className="activBorder flex flex-col items-center justify-between">
-                    {items.icons}
-                    <span className="outline-none border-none ">{items.name}</span>
-                  </div>
-                </NavLink>
-              </li>
-            );
-          })}
+          <div className=" flex items-center justify-center text-center h-[40px] shadow-2xl relative right-[327px] bottom-[64px] p-[5px] rounded-[100px] bg-white">
+            <BiSupport className="text-[27px] text-blue-500 font-bold" />
+          </div>
+            {DataNavBars.map((items, index) => {
+              return (
+                <li key={index}>
+                  <NavLink className="links text-[16px]" to={items.path}>
+                    <div className="activBorder flex flex-col items-center justify-between">
+                      {items.icons}
+                      <span className="outline-none border-none ">
+                        {items.name}
+                      </span>
+                    </div>
+                  </NavLink>
+                </li>
+              );
+            })}
         </ul>
       </nav>
     </>

@@ -31,7 +31,7 @@ const ExcellentItems = () => {
           spaceBetween={70}
           height={300}
           width={190}
-          slidesPerView={1.7}
+          slidesPerView={1.8}
         >
           {data.map((item, index) => {
             return (

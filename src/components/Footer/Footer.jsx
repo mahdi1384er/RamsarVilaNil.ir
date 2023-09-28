@@ -31,16 +31,16 @@ const Footer = () => {
         .catch((eror) => console.log(eror));
     }),
     (
-      <footer className="w-full mt-[120px] h-[351px] m-auto bg-[#D9D9D9]">
-        <div className="w-[100%]  p-2 flex flex-col justify-between">
+      <footer className="w-full mt-[150px] h-[393px] m-auto bg-[#D9D9D9]">
+        <div className="w-[105%]  bg-[#D9D9D9] p-2 flex flex-col justify-between">
           <div className="flex items-center justify-between m-auto">
-            <div className="">
+            <div className="w-[40%]">
               <span className="text-[15px] font-bold ml-[5px] text-black">
                 جهت ارتباط با ما
               </span>
             </div>
             <div className="mr-[7px]">
-              <div className="flex items-center flex-wrap justify-around">
+              <div className="flex items-center  justify-around">
                 <IconButton>
                   <div className="p-[3px] rounded-[4px] bg-[#f0f0f0]  text-[14px]">
                     <button onClick={showToastMessage}>
@@ -128,7 +128,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-full  bg-[#a1a1a1] h-[39px] flex items-center justify-center">
+        <div className="w-[106%]  bg-[#a1a1a1] h-[39px] flex items-center justify-center mt-[6px]">
           <div>
             <span className="text-[14px] text-[#ffffff]">
               تمامی حقوق برای رامسرباما محفوظ می باشد.

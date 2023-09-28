@@ -38,7 +38,7 @@ const ReservationItems = () => {
                   to={{ pathname: item.path, search: `/${item.title}/` }}
                 >
                   <div>
-                    <div className="m-[7px] flex items-center  w-[404px] h-[227px] mr-[50px]">
+                    <div className="m-[7px] flex items-center  w-[404px] h-[230px] mr-[50px]">
                       <div className="rounded-[15px] h-[243px]">
                         <div className="flex items-center justify-between w-[90%] relative top-[44px] right-[7px]">
                           <div className="flec flex-col  w-[100px] h-[40px] justify-between">
