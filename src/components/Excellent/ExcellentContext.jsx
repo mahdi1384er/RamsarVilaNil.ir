@@ -2,8 +2,8 @@ import ExcellentItems from "./ExcellentItems";
 
 const ExcellentContext = () => {
   return (
-    <section className="w-[96%] mt-[29px] m-auto h-[232px]">
-      <div className="w-[96%]   m-auto">
+    <section className="w-[92%] mt-[29px] m-auto h-[232px]">
+      <div className="w-[100%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[20px]">
@@ -18,7 +18,7 @@ const ExcellentContext = () => {
             </div>
           </div>
 
-          <div className="sizeItemsBox flex items-center justify-between overflow-scroll mt-2 ml-[28px] relative bottom-[26px] ">
+          <div className="sizeItemsBox flex items-center justify-between overflow-scroll mt-2 relative bottom-[26px] ">
             <ExcellentItems />
           </div>
         </div>

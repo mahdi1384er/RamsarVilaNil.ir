@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer utilities {
-  #root {
-    width: 91%;
-  }
-
   .rdrMonth {
     width: 100%;
   }
@@ -19,7 +15,6 @@
     background: #f8f8f8;
     direction: rtl;
     font-family: "MyFont";
-    width: 100%;
   }
 
   .rdrCalendarWrapper {
@@ -37,6 +32,9 @@
     position: relative;
     right: 7px;
   }
+
+
+
 
 
   .currentColor {
@@ -136,6 +134,7 @@
   }
 
   .HeaderBg {
+    width: 105%;
     /* background-image: url("/img/imgs/sa.jpg"); */
     background-attachment: fixed;
     border-radius: 0 0 15px 15px;
@@ -326,8 +325,7 @@
   }
 
   .sizeItemsBox {
-    margin: 0 -7px;
-    margin-left: -18px;
+    width: 100%;
   }
 
   .instagram {

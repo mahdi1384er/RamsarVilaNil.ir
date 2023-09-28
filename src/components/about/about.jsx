@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <section className="w-[96%]  h-[79px] m-auto">
-      <div className="w-[96%] m-auto]">
+    <section className="w-[100%]  h-[79px] m-auto">
+      <div className="w-[100%] m-auto]">
         <div className="flex items-center justify-center">
           <h2 className="text-[19px] text-black">اجاره ویلا و کلبه، آنلاین و مطمئن در رامسرباما</h2>
         </div>

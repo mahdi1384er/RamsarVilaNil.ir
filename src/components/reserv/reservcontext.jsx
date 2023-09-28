@@ -2,8 +2,8 @@ import RKuxuryItems from "./reserv";
 
 const Reservcontext = () => {
   return (
-    <section className="w-[96%] h-[229px] m-auto mt-[45px]">
-      <div className="w-[96%]   m-auto">
+    <section className="w-[100%] h-[229px] m-auto mt-[45px]">
+      <div className="w-[100%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[20px]">

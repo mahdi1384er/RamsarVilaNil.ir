@@ -25,7 +25,7 @@ const Header = () => {
   }, [query]);
 
   return (
-    <header className="HeaderBg  bg-fixed bg-contain overflow-auto  h-[350px] w-full">
+    <header className="HeaderBg  bg-fixed bg-contain overflow-auto  h-[350px] w-[105%]">
       <Headerbg />
       <div className="w-[94%] h-[0] m-auto">
         <NavBarsScrool />

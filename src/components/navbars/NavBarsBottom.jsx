@@ -73,7 +73,7 @@ const NavBarsBottoms = () => {
         <ul
           className={`navbars flex justify-around ${
             show && "hidden"
-          } flex items-center justify-between backdrop-blur-2xl fixed w-full m-auto  right-0 left-0 bottom-[39px] z-10 p-2 h-[68px] bg-white  pb-[15px] pr-[15px] pl-[41px]`}
+          } flex items-center justify-between backdrop-blur-2xl fixed  right-0 left-0 bottom-[-11px] z-10 p-2 h-[68px] bg-white  pb-[15px] pr-[15px] pl-[15px]`}
         >
           {DataNavBars.map((items, index) => {
             return (

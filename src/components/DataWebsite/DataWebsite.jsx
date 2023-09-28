@@ -15,10 +15,10 @@ const DataWebsite = () => {
     }),
     (
       <>
-        <section className="w-[96%] mt-[60px] mb-[10px] m-auto h-[140px] flex items-center justify-around">
+        <section className="w-[98%] mt-[60px] mb-[10px] m-auto h-[140px] flex items-center justify-around">
           {data.map((item) => {
             return (
-              <div className="w-[96%]  h-full">
+              <div className="w-[98%]  h-full">
                 <img src={item.imgs} alt="" className="rounded-[5px]" />
               </div>
             );
