@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
+  #root {
+    width: 91%;
+  }
+
   .rdrMonth {
     width: 100%;
   }
@@ -15,6 +19,7 @@
     background: #f8f8f8;
     direction: rtl;
     font-family: "MyFont";
+    width: 100%;
   }
 
   .rdrCalendarWrapper {
@@ -32,9 +37,6 @@
     position: relative;
     right: 7px;
   }
-
-
-
 
 
   .currentColor {
