@@ -19,7 +19,7 @@ const TrustContext = () => {
         .catch((eror) => console.log(eror));
     }),
     (
-      <section className="flex items-center justify-start">
+      <section className="flex w-[106%] items-center justify-start">
         <Swiper
           modules={[Autoplay]}
           centeredSlides={true}

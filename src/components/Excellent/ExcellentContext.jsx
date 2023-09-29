@@ -5,7 +5,7 @@ const ExcellentContext = () => {
     <section className="w-[99%] relative right-[8px] mt-[29px] m-auto h-[232px]">
       <div className="w-[100%]   m-auto">
         <div className="flex flex-col">
-          <div className="relative bottom-[-1px]">
+          <div className="relative right-[7px] bottom-[-1px]">
             <div className="h-[20px]">
               <h2 className="font-bold text-[18px] text-black  relative bottom-[5px]">
                 اقامتگاه های ممتاز

@@ -21,15 +21,15 @@ const Uzer = () => {
       <>
         <section className="w-full h-[129px] m-auto mt-[59px]">
           <div className="w-[100%] m-auto">
-            <div className="m-[14px] mr-[0] text-center flex items-center justify-center">
+            <div className="m-0 text-center flex items-center justify-center">
               <span class="w-[100px] relative right-[6px] text-center flex justify-center items-center text-[17px] text-black font-bold border-b-[3px] rounded-[10px] bottom-[0px] border-blue-600">
                 نظر کاربران
               </span>
             </div>
 
             <Swiper
-              className="container testimonials__container h-[300px] "
-              spaceBetween={-26}
+              className="container testimonials__container h-[300px] w-[104%]"
+              spaceBetween={-20}
               slidesPerView={1}
             
             >
@@ -40,7 +40,7 @@ const Uzer = () => {
                       key={index}
                       className="pl-[-25px] pr-[10px] testimonials"
                     >
-                      <div className="w-[100%]  mt-[40px] h-[210px] rounded-[8px] flex flex-col items-center mr-[58px]">
+                      <div className="w-[100%]  mt-[40px] h-[210px] rounded-[8px] flex flex-col items-center mr-[46px]">
                         <div className="w-[369px] h-[221px] rounded-[8px] mt-[10px] bg-white border-solid border-[1px] border-gray-200 shadow-xl">
                           <div className="">
                             <img
