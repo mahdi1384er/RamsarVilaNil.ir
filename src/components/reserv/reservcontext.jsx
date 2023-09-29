@@ -19,7 +19,7 @@ const Reservcontext = () => {
           </div>
 
 
-          <div className="flex w-[112%] items-center justify-between overflow-scroll mt-[6px] ml-[-18px] mr-[-8px] relative bottom-[28px]">
+          <div className="flex w-[113%] items-center justify-between overflow-scroll mt-[6px] ml-[-8px] mr-[-8px] relative bottom-[28px]">
             <RKuxuryItems />
           </div>
         </div>
