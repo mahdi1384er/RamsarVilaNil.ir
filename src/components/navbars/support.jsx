@@ -10,14 +10,14 @@ const speaker = (
   
   <Popover
     title="درحال پردازش پشتیبانی لطفا صبر کنید..."
-    className="w-[347px] h-[397px] ml-[148px] mb-[100px] "
+    className="w-[347px] h-[458px] ml-[148px] mb-[100px] "
   >
     <div className="">
       <iframe
         src="https://deadsimplechat.com/vBdx7SPV-"
         width="400px"
         height="600px"
-        className="w-[347px] h-[397px] relative left-[10px] bottom-[54px] z-[-4px]"
+        className="w-[347px] h-[458px] relative left-[10px] bottom-[54px] z-[-4px]"
       ></iframe>
     </div>
   </Popover>
@@ -66,7 +66,7 @@ const Supports = () => {
       <ul
         className={`suport navbars flex justify-around shadow-2xl ${
           show && "hidden"
-        } flex items-center   justify-between backdrop-blur-2xl fixed  right-[339px] left-0 bottom-[64px] z-10 shadow-2xl w-[44px] h-[44px] bg-white  p-0 rounded-[100px] `}
+        } flex items-center   justify-between backdrop-blur-2xl fixed  right-[323px] left-0 bottom-[64px] z-10 shadow-2xl w-[44px] h-[44px] bg-white  p-0 rounded-[100px] `}
       >
         <ButtonToolbar>
           <Whisper
