@@ -9,7 +9,7 @@ import Accommodations from "./accommodations/Accommodations";
 import Footers from "./Footer/Footers";
 import SpecialContexts from "./special/specialContext";
 import { NavLink } from "react-router-dom";
-
+import HashLoader from "react-spinners/HashLoader";
 
 const Blogs1 = ({ id }) => {
   const [post, setPost] = useState([]);
