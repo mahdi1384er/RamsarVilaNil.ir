@@ -140,11 +140,11 @@ const Footer = () => {
   );
 
   // return (
-  //   <iframe
-  //     src="https://deadsimplechat.com/vBdx7SPV-"
-  //     width="400px"
-  //     height="600px"
-  //   ></iframe>
+    // <iframe
+    //   src="https://deadsimplechat.com/vBdx7SPV-"
+    //   width="400px"
+    //   height="600px"
+    // ></iframe>
   // );
 };
 export default Footer;

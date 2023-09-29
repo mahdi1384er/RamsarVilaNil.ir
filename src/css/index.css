@@ -105,6 +105,10 @@
     border: none;
   }
 
+ .suport {
+    box-shadow: rgba(50, 50, 50, 0.16) 0px 0px 8px, rgba(0, 0, 0, 0.1) 0px 10px 19px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+
   .links:active {
     color: rgb(12, 131, 185);
     border-bottom: 4px solid #105fb9;
@@ -133,8 +137,14 @@
     border-radius: -30px -30px 0 0;
   }
 
+  .rs-popover.placement-bottom > .rs-popover-arrow, .rs-popover.placement-top > .rs-popover-arrow {
+left: 18%;
+  }
+
   .HeaderBg {
-    width: 105%;
+    position: relative;
+    right: -2px;
+    width: 107%;
     /* background-image: url("/img/imgs/sa.jpg"); */
     background-attachment: fixed;
     border-radius: 0 0 15px 15px;

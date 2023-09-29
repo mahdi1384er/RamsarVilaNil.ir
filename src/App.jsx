@@ -2,7 +2,7 @@ import AppNav from "./pages/hoom";
 
 const App = () => {
   return (
-    <main className="w-[95%] ">
+    <main className="w-[94%] ">
         <AppNav />
     </main>
   );

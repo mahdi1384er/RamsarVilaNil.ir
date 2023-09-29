@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
 
+
 const NavBarsScrool = () => {
   const [data, setdata] = useState([]);
   const [show, setShow] = useState(false);
@@ -79,3 +80,6 @@ const NavBarsScrool = () => {
 };
 
 export default NavBarsScrool;
+
+
+

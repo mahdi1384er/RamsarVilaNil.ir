@@ -74,11 +74,9 @@ const NavBarsBottoms = () => {
         <ul
           className={`navbars flex justify-around ${
             show && "hidden"
-          } flex items-center w-[116%]  justify-between backdrop-blur-2xl fixed  right-0 left-0 bottom-[-11px] z-10 p-2 h-[68px] bg-white  pb-[15px] pr-[0px] pl-[89px]`}
-        >
-          <div className=" flex items-center justify-center text-center h-[40px] shadow-2xl relative right-[327px] bottom-[64px] p-[5px] rounded-[100px] bg-white">
-            <BiSupport className="text-[27px] text-blue-500 font-bold" />
-          </div>
+          } flex items-center w-[116%]  justify-between backdrop-blur-2xl fixed  right-0 left-0 bottom-[-11px] z-10 h-[68px] bg-white  pb-[10px] pr-[16px] pl-[76px]`}
+          >
+       
             {DataNavBars.map((items, index) => {
               return (
                 <li key={index}>
