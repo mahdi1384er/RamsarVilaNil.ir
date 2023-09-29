@@ -1,0 +1,431 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .rdrMonth {
+    width: 100%;
+  }
+
+  *span {
+    text-align: justify;
+  }
+
+  body {
+    background: #f8f8f8;
+    direction: rtl;
+    font-family: "MyFont";
+  }
+
+  .rdrCalendarWrapper {
+    width: 100%;
+  }
+
+  .rdrDateRangeWrapper {
+    width: 100%;
+  }
+
+  .rdrMonthsVertical {
+    width: 100%;
+  }
+  .rdrNextButton i {
+    position: relative;
+    right: 7px;
+  }
+
+
+
+
+
+  .currentColor {
+    display: none;
+  }
+
+  .rdrMonth {
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 160px;
+  }
+
+  .bgs {
+    width: 24px;
+    height: 24px;
+    transform: translateX(0.5rem);
+    background-color: #0e7ad3;
+    border-radius: 74% 26% 40% 60% / 64% 26% 74% 36%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  :root {
+    --color-text: #0373f3;
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+  }
+
+  .rdrMonth {
+    width: 100%;
+  }
+
+  .imgsdata {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+
+  .containerItemsBlogs {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .bgImgs {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .navbars {
+    transition: transform 300ms ease 12s;
+  }
+
+  .links:focus {
+    border: none;
+  }
+
+ .suport {
+    box-shadow: rgba(50, 50, 50, 0.16) 0px 0px 8px, rgba(0, 0, 0, 0.1) 0px 10px 19px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+
+  .links:active {
+    color: rgb(12, 131, 185);
+    border-bottom: 4px solid #105fb9;
+    outline: none;
+  }
+
+  .activBorder:focus {
+    color: rgb(12, 131, 185);
+    border-bottom: 4px solid rgb(16, 95, 185);
+  }
+
+  .navbarsReserv {
+    --tw-backdrop-blur: blur(10px);
+    background: rgba(72, 184, 236, 0.534);
+  }
+
+  .serchs {
+    --tw-backdrop-blur: blur(10px);
+    background: rgba(158, 159, 160, 0.534);
+    position: relative;
+    bottom: 0;
+    position: relative;
+    right: 5px;
+    bottom: 0px;
+    z-index: 1;
+    border-radius: -30px -30px 0 0;
+  }
+
+  .rs-popover.placement-bottom > .rs-popover-arrow, .rs-popover.placement-top > .rs-popover-arrow {
+left: 18%;
+  }
+
+  .HeaderBg {
+    position: relative;
+    right: -2px;
+    width: 107%;
+    /* background-image: url("/img/imgs/sa.jpg"); */
+    background-attachment: fixed;
+    border-radius: 0 0 15px 15px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
+
+  .HeaderRooms {
+    background-image: url("/img/imgs/985.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .toast-message {
+    background: darkblue;
+    color: #fff;
+    font-size: 20px;
+    width: 34vw;
+    padding: 30px 20px;
+}
+
+
+
+  .Headerhost {
+    background-image: url("/img/imgs/شششش.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  .Headerhosts {
+    background-image: url("/img/imgs/جواهرده-1.webp");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .JungleItems {
+    background-image: url("/img/imgs/963.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .CoastalHeader {
+    background-image: url("/img/imgs/1.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .ItemsBg {
+    background-image: url("/img/imgs/14.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .CottageHeaders {
+    background-image: url("/img/imgs/صث.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .MagesageHeaders {
+    background-image: url("/img/imgs/ییلاقات-رامسرس.webp");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .MagesageHeaders2 {
+    background-image: url("/img/imgs/بلوار-کازینو-از-جاهای-دیدنی-رامسر.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  .MagesageHeaderss {
+    background-image: url("/img/imgs/pexels-quang-nguyen-vinh-4669523.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .aboust {
+    --tw-backdrop-blur: blur(90px);
+    background: rgba(114, 114, 114, 0.534);
+    padding: 6px;
+    border-radius: 5px;
+  }
+
+  .wiper {
+    z-index: 1;
+  }
+
+  .Color {
+    color: #0373f3;
+  }
+
+  .color-white {
+    color: white;
+  }
+
+  @font-face {
+    font-family: "MyFont";
+    src: local("MyFont"), url(/font/Vazir-Medium.woff) format("woff");
+  }
+
+  .ter {
+    height: 100px;
+  }
+  a {
+    outline: none;
+  }
+  .swiper-slide {
+    position: relative;
+    left: 94px;
+    z-index: 0;
+  }
+
+  #imgsSliders {
+    width: 100%;
+  }
+
+  .swiper-wrapper2 {
+    margin: 0 40px;
+    position: relative;
+    margin-left: 90px;
+  }
+
+  .swiper-wrapper3 {
+    margin: 0 30px;
+    position: relative;
+    padding-left: 50px;
+    left: 0px;
+    z-index: 0;
+  }
+
+  .container4 {
+    position: relative;
+    left: 0px;
+    z-index: 0;
+  }
+
+  .imgsBackGround {
+    position: absolute;
+    bottom: 0px;
+    top: 23px;
+    right: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    padding-bottom: 1rem;
+    width: 171px;
+    border-radius: 0 0 10px 10px;
+    height: 36px;
+  }
+
+  .rs-drawer-wrapper {
+    background-color: gray;
+    position: relative;
+    bottom: 800px;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+  }
+
+  .sizeItemsBox {
+    width: 106%;
+  }
+
+  .instagram {
+    background: linear-gradient(
+      125deg,
+      rgb(131, 58, 180) 0%,
+      rgb(253, 29, 29) 55%,
+      rgb(252, 176, 69) 100%
+    );
+  }
+
+  .loader:empty {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    border: 1.1em solid rgba(0, 0, 0, 0.2);
+    border-left: 1.1em solid #000000;
+    border-radius: 50%;
+    animation: load8 1.1s infinite linear;
+  }
+
+  @keyframes load8 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .slides {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 7px #666;
+    width: 100%;
+    height: 300px;
+  }
+
+  .slides-hidden {
+    display: none;
+  }
+
+  .arrow {
+    position: absolute;
+    filter: drop-shadow(0px 0px 5px #555);
+    width: 2rem;
+    height: 2rem;
+    color: white;
+  }
+
+  .arrow:hover {
+    cursor: pointer;
+  }
+
+  .arrow-left {
+    left: 10px;
+  }
+
+  .arrow-right {
+    right: 10px;
+  }
+
+  .indicators {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .indicator {
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  .indicator-inactive {
+    background-color: grey;
+  }
+}
