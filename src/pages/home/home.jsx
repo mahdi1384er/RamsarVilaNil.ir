@@ -50,7 +50,7 @@ const Home = () => {
           <LuxuryContext />
           <DataWebsite />
           <ReservationContext />
-          <Reservcontext />
+          <Reservcontext  />
           <UzerConte />
           <TripContext />
           <About />
