@@ -38,7 +38,7 @@ const Uzer = () => {
                   <>
                     <SwiperSlide
                       key={index}
-                      className="pl-[-25px] pr-[10px] testimonials"
+                      className="pl-[-25px] pr-[23px] testimonials"
                     >
                       <div className="w-[100%]  mt-[40px] h-[210px] rounded-[8px] flex flex-col items-center mr-[46px]">
                         <div className="w-[369px] h-[221px] rounded-[8px] mt-[10px] bg-white border-solid border-[1px] border-gray-200 shadow-xl">
