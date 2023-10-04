@@ -10,9 +10,8 @@ import Footer from "../../components/Footer/Footer";
 import DrawerPlacement from "../../components/navbars/Drawer";
 import DataWebsite from "../../components/DataWebsite/DataWebsite";
 import Reservcontext from "../../components/reserv/reservcontext";
-import UzerConte from "../../components/uzer/uzersco";
 import About from "../../components/about/about";
-
+import Uzer from "../../components/uzer/uzer";
 import { React, useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
 
@@ -51,7 +50,7 @@ const Home = () => {
           <DataWebsite />
           <ReservationContext />
           <Reservcontext  />
-          <UzerConte />
+          <Uzer/>
           <TripContext />
           <About />
           <Footer />

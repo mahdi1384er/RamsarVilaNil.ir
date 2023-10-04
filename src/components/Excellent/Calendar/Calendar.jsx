@@ -12,6 +12,7 @@ const Apps = () => {
     {
       startDate: new Date(),
       endDate: new Date(),
+      useValue: 'fa-IR',
       key: "selection",
     },
   ]);

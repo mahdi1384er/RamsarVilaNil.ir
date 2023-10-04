@@ -71,9 +71,9 @@ const Footer = () => {
               </span>
             </div>
             <div className="flex items-center w-[120px] justify-between mt-[10px]">
-              {data.map((item) => {
+              {/* {data.map((item) => {
                 return <img src={item.img} className="w-[120px] h-[60px]" alt="" />;
-              })}
+              })} */}
             </div>
             <div className="mt-[23px]">
               <div>
