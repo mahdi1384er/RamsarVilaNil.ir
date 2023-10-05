@@ -13,7 +13,7 @@ import Reservcontext from "../../components/reserv/reservcontext";
 import About from "../../components/about/about";
 import Uzer from "../../components/uzer/uzer";
 import { React, useState, useEffect } from "react";
-import ClipLoader from "react-spinners/ClipLoader";
+import ScaleLoader from "react-spinners/scaleloader";
 
 const Home = () => {
   const [loddings, setlodding] = useState(false);
@@ -28,7 +28,7 @@ const Home = () => {
     <>
       {loddings ? (
         <div style={{ textAlign: "center" }}>
-          <ClipLoader
+          <ScaleLoader
             color="#0e7ad3"
             loading={loddings}
             size={136}

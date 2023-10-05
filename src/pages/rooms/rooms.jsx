@@ -6,7 +6,6 @@ import DrawerPlacement from "../../components/navbars/Drawer";
 import Support from "./Support/Support";
 import SpecialContext from "./special/SpecialContext";
 import JungleContext from "./JungleRooms/JungleContext";
-
 import { React, useState, useEffect } from "react";
 import ScaleLoader from "react-spinners/scaleloader";
 
@@ -22,7 +21,6 @@ const Rooms = () => {
   return (
     <>
       {loddings ? (
-        <div style={{ textAlign: "center" }}>
           <ScaleLoader
             color="#0e7ad3"
             loading={loddings}
@@ -32,7 +30,6 @@ const Rooms = () => {
             data-testid="loader"
             className="flex items-center justify-center mt-[150px]"
           />
-        </div>
       ) : (
         <>
           <HeaderRooms />
