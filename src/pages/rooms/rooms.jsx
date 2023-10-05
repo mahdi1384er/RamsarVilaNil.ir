@@ -17,7 +17,7 @@ const Rooms = () => {
     setlodding(true);
     setTimeout(() => {
       setlodding(false);
-    }, 4000);
+    }, 3000);
   }, []);
   return (
     <>
