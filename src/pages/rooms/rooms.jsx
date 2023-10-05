@@ -7,41 +7,53 @@ import Support from "./Support/Support";
 import SpecialContext from "./special/SpecialContext";
 import JungleContext from "./JungleRooms/JungleContext";
 import { React, useState, useEffect } from "react";
-import ScaleLoader from "react-spinners/scaleloader";
 
 const Rooms = () => {
-  const [loddings, setlodding] = useState(false);
+  // const [loddings, setlodding] = useState(false);
 
-  useEffect(() => {
-    setlodding(true);
-    setTimeout(() => {
-      setlodding(false);
-    }, 3000);
-  }, []);
+  // useEffect(() => {
+  //   setlodding(true);
+  //   setTimeout(() => {
+  //     setlodding(false);
+  //   }, 3000);
+  // }, []);
+  // return (
+  //   <>
+  //     {loddings ? (
+  //         <ScaleLoader
+  //           color="#0e7ad3"
+  //           loading={loddings}
+  //           size={136}
+  //           speedMultiplier={1.2}
+  //           aria-label="Loading Spinner"
+  //           data-testid="loader"
+  //           className="flex items-center justify-center mt-[150px]"
+  //         />
+  //     ) : (
+  //       <>
+  //         <HeaderRooms />
+  //         <DrawerPlacement />
+  //         <PoolContext />
+  //         <CottagelContext />
+  //         <JungleContext />
+  //         <Support />
+  //         <SpecialContext />
+  //         <Footer />
+  //       </>
+  //     )}
+  //   </>
+  // );
+
   return (
     <>
-      {loddings ? (
-          <ScaleLoader
-            color="#0e7ad3"
-            loading={loddings}
-            size={136}
-            speedMultiplier={1.2}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-            className="flex items-center justify-center mt-[150px]"
-          />
-      ) : (
-        <>
-          <HeaderRooms />
-          <DrawerPlacement />
-          <PoolContext />
-          <CottagelContext />
-          <JungleContext />
-          <Support />
-          <SpecialContext />
-          <Footer />
-        </>
-      )}
+      <HeaderRooms />
+      <DrawerPlacement />
+      <PoolContext />
+      <CottagelContext />
+      <JungleContext />
+      <Support />
+      <SpecialContext />
+      <Footer />
     </>
   );
 };
