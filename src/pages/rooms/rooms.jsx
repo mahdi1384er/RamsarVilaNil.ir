@@ -8,7 +8,7 @@ import SpecialContext from "./special/SpecialContext";
 import JungleContext from "./JungleRooms/JungleContext";
 
 import { React, useState, useEffect } from "react";
-import HashLoader from "react-spinners/HashLoader";
+import ScaleLoader from "react-spinners/scaleloader";
 
 const Rooms = () => {
   const [loddings, setlodding] = useState(false);
@@ -22,15 +22,17 @@ const Rooms = () => {
   return (
     <>
       {loddings ? (
-        <HashLoader
-          color="#0e7ad3"
-          loading={loddings}
-          size={106}
-          speedMultiplier={1.2}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-          className="relative right-[170px] top-[170px]"
-        />
+     <div style={{ textAlign: "center" }}>
+     <ScaleLoader
+       color="#0e7ad3"
+       loading={loddings}
+       size={136}
+       speedMultiplier={1.2}
+       aria-label="Loading Spinner"
+       data-testid="loader"
+       className="flex items-center justify-center mt-[150px]"
+     />
+   </div>
       ) : (
         <>
           <HeaderRooms />

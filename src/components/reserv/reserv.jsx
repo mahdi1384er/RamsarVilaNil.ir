@@ -55,7 +55,7 @@ const RKuxuryItems = () => {
                            
                           </div>
                           <div>
-                            <IoHeartCircleSharp className="text-[#0373F3] w-[30px] h-[27px]" />
+                            <IoHeartCircleSharp className="text-[#0373F3] w-[30px] h-[27px] relative bottom-[6px]" />
                           </div>
                         </div>
                         <div className="flex items-center justify-between w-[265px] h-[168px]">

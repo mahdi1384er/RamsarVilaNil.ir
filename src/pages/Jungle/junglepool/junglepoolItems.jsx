@@ -6,6 +6,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { IoHeartCircleSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
+import { PiShieldStarLight } from "react-icons/pi";
+
 
 const JunglepoolItems = () => {
   const [data, setdata] = useState([]);
@@ -20,54 +22,60 @@ const JunglepoolItems = () => {
     }),
     (
       <>
-        <Swiper
+      <Swiper
           centeredSlides={true}
           autoplay={false}
           className="swiper-wrapper3"
           spaceBetween={130}
-          width={140}
-          slidesPerView={1.6}
+          width={130}
+          slidesPerView={1.1}
         >
           {data.map((item, index) => {
             return (
               <SwiperSlide
                 key={index}
-                className="w-[404px] h-[176px] relative left-[365px]"
+                className="w-[404px] h-[186px] relative left-[365px]"
               >
                 <NavLink
                   to={{ pathname: item.path, search: `/${item.title}/` }}
                 >
                   <div>
-                    <div className="m-[10px] flex items-center  w-[404px] h-[217px]">
-                      <div className="rounded-[15px] h-[200px]">
-                        <div className="flex items-center justify-between w-[172px] relative top-[23px] right-[7px]">
-                          <div className="bg-white rounded-xl w-[46px] h-[15px] text-center flex items-center justify-center">
-                            <span className="text-[9px] text-[#0373F3]">
-                              {item.description}
-                            </span>
+                    <div className="m-[7px] flex items-center  w-[404px] h-[230px] mr-[50px]">
+                      <div className="rounded-[15px] h-[243px]">
+                        <div className="flex items-center justify-between w-[90%] relative top-[44px] right-[7px]">
+                          <div className="flec flex-col  w-[100px] h-[40px] justify-between">
+                            <div className="bg-white rounded-xl pl-[1px] w-[73px] h-[21px] text-center flex items-center justify-evenly">
+                              <span>
+                                <PiShieldStarLight className="w-[16px] text-blue-600" />
+                              </span>
+                              <span className="text-[10px] text-[#0373F3]">
+                                {item.description}
+                              </span>
+                            </div>
+                           
                           </div>
                           <div>
-                            <IoHeartCircleSharp className="text-[#0373F3] w-[22px] h-[19px]" />
+                            <IoHeartCircleSharp className="text-[#0373F3] w-[30px] h-[27px] relative bottom-[6px]" />
                           </div>
                         </div>
-                        <div className="flex items-center justify-between w-[195px] h-[121px]">
+                        <div className="flex items-center justify-between w-[265px] h-[168px]">
                           <img
                             src={item.img}
                             alt=""
-                            className="w-[320px] h-[121px] rounded-[8px]"
+                            className="w-[260px] h-[168px] rounded-[8px]"
                           />
                         </div>
 
                         <div className="flex items-center justify-between relative bottom-[9px] right-[4px]">
                           <div className="mt-[24px]">
                             <div>
-                              <p className="text-[#333333]  text-[11px] relative bottom-[14px]">
+                              <p className="text-[#333333]  text-[14px] relative bottom-[14px]">
                                 {item.title}
                               </p>
                             </div>
-                            <div className="flex items-center relative w-[108px] justify-between bottom-[14px]">
+                            <div className="flex items-center relative w-[148px] justify-between bottom-[14px]">
                               <div>
-                                <p className="text-[#41413f]  text-[8px] ">
+                                <p className="text-[#41413f]  text-[11px] ">
                                   {item.authors}
                                 </p>
                               </div>
@@ -77,7 +85,7 @@ const JunglepoolItems = () => {
                                   fill="currentColor"
                                   stroke-width="0"
                                   viewBox="0 0 1024 1024"
-                                  className="text-[#F7B701] w-[11px] "
+                                  className="text-[#F7B701] w-[14px] "
                                   height="1em"
                                   width="1em"
                                   xmlns="http://www.w3.org/2000/svg"

@@ -13,8 +13,7 @@ import Reservcontext from "../../components/reserv/reservcontext";
 import About from "../../components/about/about";
 import Uzer from "../../components/uzer/uzer";
 import { React, useState, useEffect } from "react";
-import HashLoader from "react-spinners/HashLoader";
-
+import ScaleLoader from "react-spinners/scaleloader";
 
 const Home = () => {
   const [loddings, setlodding] = useState(false);
@@ -23,21 +22,22 @@ const Home = () => {
     setlodding(true);
     setTimeout(() => {
       setlodding(false);
-    }, 4000);
+    }, 3000);
   }, []);
   return (
     <>
       {loddings ? (
-
-        <HashLoader
-        color="#0e7ad3"
-        loading={loddings}
-        size={106}
-        speedMultiplier={1.2}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-        className="relative right-[170px] top-[170px]"
+        <div style={{ textAlign: "center" }}>
+          <ScaleLoader
+            color="#0e7ad3"
+            loading={loddings}
+            size={136}
+            speedMultiplier={1.2}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+            className="flex items-center justify-center mt-[150px]"
           />
+        </div>
       ) : (
         <>
           <Header />
@@ -49,8 +49,8 @@ const Home = () => {
           <LuxuryContext />
           <DataWebsite />
           <ReservationContext />
-          <Reservcontext  />
-          <Uzer/>
+          <Reservcontext />
+          <Uzer />
           <TripContext />
           <About />
           <Footer />

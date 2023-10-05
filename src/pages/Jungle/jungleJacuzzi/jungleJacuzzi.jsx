@@ -2,12 +2,12 @@ import JungleJacuzziItems from "./jungleJacuzziItems";
 
 const jungleJacuzzi = () => {
   return (
-    <section className="w-full mt-[10px] h-[229px] m-auto">
-      <div className="w-[95%]   m-auto">
+    <section className="w-full mt-[57px] h-[229px] m-auto">
+      <div className="w-[101%] relative right-[13px]  m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[16px]">
-              <h2 className="font-bold text-[15px] text-black  relative bottom-[5px]">
+              <h2 className="font-bold text-[17px] text-black  relative bottom-[5px]">
               اقامتگاه های جنگلی ویو دار 
               </h2>
             </div>

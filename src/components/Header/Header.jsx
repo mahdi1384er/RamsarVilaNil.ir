@@ -5,25 +5,9 @@ import Table from "./Table";
 import axios from "axios";
 import { BiSearch } from "react-icons/bi";
 import Headerbg from "./headerbg";
+import Serchbox from "./serchbox";
 
 const Header = () => {
-  const [query, setQuery] = useState("");
-  const [data, setData] = useState([]);
-  const b = false;
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await axios.get(
-        `https://my-json-server.typicode.com/mahdi1384er/serchs/serchs/?q=${query}`
-      );
-      setData(res.data);
-    };
-
-    if (query.length === 0 && query.length == 0) b;
-    else if (query.length === 1 || query.length > 1) fetchData();
-    else if (query.length === 0 && query.length == 0) b;
-  }, [query]);
-
   return (
     <header className="HeaderBg  bg-fixed bg-contain overflow-auto  h-[350px] w-[105%]">
       <Headerbg />
@@ -42,14 +26,14 @@ const Header = () => {
                 <input
                   className="search h-[18px] w-[324px] mr-[20px]  p-[11px] pt-[19px] pb-[17px] rounded-[16px] bg-white text-[#8D8E8F] text-[12px] font-bold focus:outline-none"
                   placeholder="کد ویلاتو سرچ کن ...."
-                  onChange={(e) => setQuery(e.target.value.toLowerCase())}
                 />
                 <div className="w-[28px] h-[28px] rounded-[100px] bg-blue-600 flex items-center justify-center relative left-[33px]">
                   <BiSearch className="text-white text-[20px] " />
                 </div>
               </form>
             </div>
-            <Table data={data} />
+            <Serchbox />
+            {/* <Table data={data} /> */}
           </div>
           <div className="mt-[10px]">
             <h2 className="text-white text-[19px]">رامسر باما</h2>

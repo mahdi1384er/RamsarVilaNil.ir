@@ -31,7 +31,7 @@ const Footer = () => {
         .catch((eror) => console.log(eror));
     }),
     (
-      <footer className="w-full mt-[150px] h-[393px] m-auto bg-[#D9D9D9]">
+      <footer className="w-full mt-[150px] h-[350px] m-auto bg-[#D9D9D9]">
         <div className="w-[105%]  bg-[#D9D9D9] p-2 flex flex-col justify-between">
           <div className="flex items-center justify-between m-auto">
             <div className="w-[40%]">
@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="flex flex-col w-[100%] items-center justify-center m-auto mt-[20px] max-sm:flex max-sm:flex-initial">
             <div className="text-center">
               <span className="text-[16px] font-bold text-black">
-                با خیال راحت به رامسر نیل اعتماد کنید
+                با خیال راحت به رامسرباما اعتماد کنید
               </span>
             </div>
             <div className="flex items-center w-[120px] justify-between mt-[10px]">
@@ -128,7 +128,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-[106%]  bg-[#a1a1a1] h-[39px] flex items-center justify-center mt-[6px]">
+        <div className="w-[106%]  bg-[#a1a1a1] h-[39px] flex items-center justify-center mt-[0px]">
           <div>
             <span className="text-[14px] text-[#ffffff]">
               تمامی حقوق برای رامسرباما محفوظ می باشد.

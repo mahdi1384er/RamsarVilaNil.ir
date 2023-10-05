@@ -1,8 +1,8 @@
 const Junlehost = () => {
   return (
     <>
-      <section className="w-full mt-[10px] h-[200px] m-auto text-white">
-        <div className="w-[95%] m-auto flex flex-col items-center">
+      <section className="w-full mt-[10px] h-[200px] m-auto text-white relative right-[13px]">
+        <div className="w-[100%] m-auto flex flex-col items-center">
           <div className=" mb-[10px]">
             <span className="font-bold text-[17px] text-black text-center">
               میزبان شوید
@@ -11,9 +11,9 @@ const Junlehost = () => {
           <div className="w-[95%]  m-auto rounded-[7px] bg-blue-600 p-[10px]">
             <div>
               <span className="leading-[27px]">
-                میزبانان رامسر نیل مردم واقعی هستند که فضای اقامتی بیش از
+                میزبانان رامسرباما مردمان واقعی هستند که فضای اقامتی بیش از
                 نیاز خود را با شرایطی منصفانه به گردشگران اجاره می‌دهند و درآمدی
-                شرافتمندانه کسب می‌کنند.
+               شرافتمندانه کسب می‌کنند. برای ثبت اقامتگاه های خود در شهر رامسر بر روی دکمه زیر کلیک کنید.
               </span>
             </div>
             <div>

@@ -8,7 +8,7 @@ import JungleItemsData from "./Data/JungleItemsData";
 import Junlehost from "./Junlehost/Junlehost";
 
 import { React, useState, useEffect } from "react";
-import HashLoader from "react-spinners/HashLoader";
+import ScaleLoader from "react-spinners/scaleloader";
 
 const Jungle = () => {
   const [loddings, setlodding] = useState(false);
@@ -22,15 +22,17 @@ const Jungle = () => {
   return (
     <>
       {loddings ? (
-        <HashLoader
-          color="#0e7ad3"
-          loading={loddings}
-          size={106}
-          speedMultiplier={1.2}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-          className="relative right-[170px] top-[170px]"
-        />
+       <div style={{ textAlign: "center" }}>
+       <ScaleLoader
+         color="#0e7ad3"
+         loading={loddings}
+         size={136}
+         speedMultiplier={1.2}
+         aria-label="Loading Spinner"
+         data-testid="loader"
+         className="flex items-center justify-center mt-[150px]"
+       />
+     </div>
       ) : (
         <>
           <JungleItems />

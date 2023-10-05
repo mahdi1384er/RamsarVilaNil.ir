@@ -41,31 +41,31 @@ const Uzer = () => {
                   <>
                     <div className="text-center  w-[100%]  mt-[40px] h-[210px] rounded-[8px] flex flex-col items-center ">
                       <div className="text-center w-[359px] mr-[180px] h-[221px] rounded-[8px] mt-[10px] bg-white border-solid border-[1px] border-gray-200 shadow-xl">
-                        <div className="text-center m-auto">
+                        <div className="text-center m-auto w-full flex items-center justify-center">
                           <img
                             src={item.imgs}
                             alt="l"
-                            className="rounded-[100%] w-[50px] h-[50px] relative bottom-[26px] right-[290px]"
+                            className="rounded-[100%] w-[50px] h-[50px] relative bottom-[26px]"
                           />
                         </div>
                         <div className="flec flex-col items-center justify-center pr-[4px] pl-[4px]">
-                          <div className="flec items-center flex-col text-center relative bottom-[30px] ">
-                            <div className="text-center">
-                              <div className="bgs relative right-[251px] top-[22px]">
+                          <div className="flex  w-[50%] m-auto items-center flex-col text-center relative bottom-[39px] ">
+                            <div className="text-center w-[100%] h-[50px] flex items-center flex-col justify-between">
+                              <div className="bgs relative float-right left-[30px] top-[24px]">
                                 <FaRegCommentDots className="text-[15px] text-white" />
                               </div>
-                            </div>
                             <div>
                               <span className="text-[15px] text-black">
                                 {item.name}
                               </span>
+                            </div>
                             </div>
                             <div className="relative top-[4px]">
                               <span className="text-[12px]">{item.titel}</span>
                             </div>
                           </div>
                           <div className="relative bottom-[10px] w-[97%] m-auto">
-                            <div>
+                            <div className="relative bottom-[11px]">
                               <span>{item.about}</span>
                             </div>
                           </div>
