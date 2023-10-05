@@ -8,7 +8,7 @@ import Excellent from "./excellent/excellent";
 import HostItems from "./host/hostItems";
 import Junlehost from "./Junlehost/Junlehost";
 import { React, useState, useEffect } from "react";
-import ScaleLoader from "react-spinners/scaleloader";
+import HashLoader from "react-spinners/HashLoader";
 
 const Coastal = () => {
   const [loddings, setlodding] = useState(false);
@@ -23,15 +23,15 @@ const Coastal = () => {
     <>
       {loddings ? (
         <div style={{ textAlign: "center" }}>
-        <ScaleLoader
-          color="#0e7ad3"
-          loading={loddings}
-          size={136}
-          speedMultiplier={1.2}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-          className="flex items-center justify-center mt-[150px]"
-        />
+      <HashLoader
+            color="#0e7ad3"
+            loading={loddings}
+            size={106}
+            speedMultiplier={1.2}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+            className="relative right-[170px] top-[170px]"
+          />
       </div>
       ) : (
         <>

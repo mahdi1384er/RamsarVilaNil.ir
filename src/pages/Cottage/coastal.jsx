@@ -21,15 +21,15 @@ const Cottage = () => {
   return (
     <>
        {loddings ? (
-        <HashLoader
-          color="#0e7ad3"
-          loading={loddings}
-          size={106}
-          speedMultiplier={1.2}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-          className="relative right-[170px] top-[170px]"
-        />)
+         <HashLoader
+         color="#0e7ad3"
+         loading={loddings}
+         size={106}
+         speedMultiplier={1.2}
+         aria-label="Loading Spinner"
+         data-testid="loader"
+         className="relative right-[170px] top-[170px]"
+       />)
       :<>
       <DrawerPlacement />
       <NavBarsScrool />
