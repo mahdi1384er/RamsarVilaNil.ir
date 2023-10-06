@@ -3,7 +3,7 @@ import NilRamsarContext from "./NilRamsarContext";
 const NilRamsarItems = () => {
   return (
     <>
-      <section className="w-[96%] mt-[30px] m-auto mb-[304px] h-[100px]">
+      <section className="w-[91%] mt-[80px] m-auto mb-[304px] h-[300px]">
         <NilRamsarContext />
       </section>
     </>

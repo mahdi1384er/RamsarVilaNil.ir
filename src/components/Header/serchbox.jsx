@@ -88,7 +88,7 @@ const Serchbox = () => {
                   <NavLink
                     to={{ pathname: item.path, search: `/${item.title}/` }}
                   >
-                    <div className="w-[350px] h-[100px] rounded-[5px] border-solid border-[1px] border-[#0373F3] mt-[20px] pr-[10px]">
+                    <div className="h-[100px] rounded-[5px] border-solid border-[1px] border-[#0373F3] mt-[20px] pr-[10px]">
                       <tr
                         key={item.id}
                         className="flex items-center justify-between"

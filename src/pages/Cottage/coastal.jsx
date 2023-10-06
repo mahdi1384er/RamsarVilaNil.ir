@@ -1,6 +1,5 @@
 import Footer from "../../components/Footer/Footer";
 import DrawerPlacement from "../../components/navbars/Drawer";
-import NavBarsScrool from "./NavBarsJungle";
 import CottageItemsData from "./Cottage/Cottage";
 import CottageHeader from "./CottageHeader";
 import CottageElemnt from "./CottageElemnt/CottageElemnt";
@@ -32,7 +31,6 @@ const Cottage = () => {
        />)
       :<>
       <DrawerPlacement />
-      <NavBarsScrool />
       <CottageHeader />
       <CottageItemsData />
       <CottageElemnt />

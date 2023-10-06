@@ -2,8 +2,8 @@ import CottageContext from "../CottageElemnt/CottageContext";
 
 const Cottages = () => {
   return (
-    <section className="w-[96%] mt-[10px] h-[229px] m-auto">
-      <div className="w-[96%]   m-auto">
+    <section className="w-[96%] mt-[50px] h-[229px] m-auto">
+      <div className="w-[103%] relative right-[13px]  m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
             <div className="h-[16px]">

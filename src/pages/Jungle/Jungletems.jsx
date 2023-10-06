@@ -11,7 +11,7 @@ const JungleItems = () => {
         اقامتگاه های جنگلی
         </span>
       </div>
-      <header className="  bg-fixed bg-contain overflow-auto  h-[194px] w-[96%] m-auto mt-[10px]">
+      <header className="flex  bg-fixed bg-contain overflow-auto  h-[90%] w-[98%] m-auto mt-[11px] relative right-[2px] rounded-[8px]">
       <Junglebj/>
         <div className="w-[94%] h-full m-auto">
           <NavBarsScrool className="w-[24px] h-[30px]" />

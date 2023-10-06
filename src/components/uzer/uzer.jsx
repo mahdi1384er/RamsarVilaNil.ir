@@ -17,8 +17,9 @@ const Uzer = () => {
     autoplay: false,
     autoplaySpeed: 1000,
   };
-
+      
   return (
+
     useEffect(() => {
       axios
         .get("https://my-json-server.typicode.com/mahdi1384er/uzerweb/uzer")
