@@ -7,6 +7,7 @@ import Cottages from "./coastalexcellent/exceltems";
 import NilRamsarItems from "./NilRamsar/NilRamsarItems";
 import { React, useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
+import Supports from "../../components/navbars/support";
 
 const Cottage = () => {
   const [loddings, setlodding] = useState(false);
@@ -31,6 +32,7 @@ const Cottage = () => {
        />)
       :<>
       <DrawerPlacement />
+      <Supports/>
       <CottageHeader />
       <CottageItemsData />
       <CottageElemnt />

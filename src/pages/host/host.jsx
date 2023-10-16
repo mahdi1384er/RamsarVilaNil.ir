@@ -6,6 +6,7 @@ import Record from "./Record/Record";
 
 import { React, useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
+import Supports from "../../components/navbars/support";
 
 const Host = () => {
   const [loddings, setlodding] = useState(false);
@@ -33,6 +34,7 @@ const Host = () => {
       ) : (
         <>
           <HraderHost />
+          <Supports/>
           <DrawerPlacement />
           <Hostsection />
           <Record />

@@ -9,6 +9,7 @@ import Junlehost from "./Junlehost/Junlehost";
 
 import { React, useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
+import Supports from "../../components/navbars/support";
 
 const Jungle = () => {
   const [loddings, setlodding] = useState(false);
@@ -36,6 +37,7 @@ const Jungle = () => {
       ) : (
         <>
           <JungleItems />
+          <Supports/>
           <DrawerPlacement />
           <Junglepool />
           <JungleJacuzzi />

@@ -1,6 +1,8 @@
 import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { BsFillCircleFill } from "react-icons/bs";
+
 const Record = () => {
   const showToastMessage = () => {
     toast.success("به زودی به صفحه ثبت اقامتگاه وارد می شوید", {
@@ -10,23 +12,26 @@ const Record = () => {
 
   return (
     <>
-      <section className="w-[97%] mt-[47px]  h-[64px] m-auto mb-[900px]">
-        <div className="w-[96%] m-auto pl-[4px]">
-      <ToastContainer rtl/>
+      <section className="w-[100%] mt-[47px]  h-[64px] m-auto mb-[1021px]">
+        <div className="w-[100%] m-auto pl-[4px] relative right-[12px]">
+          <ToastContainer rtl />
           <div className="text-center ">
             <span className="text-[18px] pb-[5px] text-black font-bold border-b-[3px] rounded-[10px] bottom-[10px] border-blue-600">
               1- اقامتگاه خود را ثبت کنید
             </span>
           </div>
-          <div className="m-auto w-[97%] h-[250px] bg-[#E6E6E6] rounded-[7px] mt-[30px] p-[9px]">
+          <div className="m-auto w-[97%] h-[300px] bg-[#E6E6E6] rounded-[7px] mt-[30px] p-[9px]">
             <div>
               <div>
                 <span className="text-black font-bold text-[17px]">
-                  چگونه میتوانیم اقامتگاه خود را در اپلیکیشن ویلا نیل ثبت کنیم ؟
+                  چگونه میتوانیم اقامتگاه خود را در اپلیکیشن رامسرباما ثبت کنیم
+                  ؟
                 </span>
               </div>
               <div className="flex mt-[15px]">
-                <div class="bg-blue-600 rounded-[100%] w-[17px] h-[7px] mt-[8px]"></div>
+                <div className="relative top-[6px]">
+                  <BsFillCircleFill className="text-blue-600 w-[7px]" />
+                </div>
                 <div className="pr-[5px] text-justify">
                   <span className="text-[16px] text-black text-justify">
                     برای ثبت اقامتگاه در رامسرباما ابتدا باید مدارک خود را به
@@ -68,7 +73,9 @@ const Record = () => {
                 </span>
               </div>
               <div className="flex mt-[8px]">
-                <div className="bg-blue-600 rounded-[100%] w-[18px] h-[8px] mt-[9px]"></div>
+                 <div className="relative top-[6px]">
+                  <BsFillCircleFill className="text-blue-600 w-[7px]" />
+                </div>
                 <div className="pr-[5px]">
                   <span className="text-[16px]  text-black text-justify">
                     پس از درخواست رزرو اقامتگاه از سوی میهمان, کارشناسان ما برای
@@ -78,7 +85,9 @@ const Record = () => {
                 </div>
               </div>
               <div className="flex mt-[20px]">
-                <div className="bg-blue-600 rounded-[100%] w-[60px] h-[8px] mt-[10px]"></div>
+                <div className="relative top-[6px]">
+                  <BsFillCircleFill className="text-blue-600 w-[7px]" />
+                </div>
                 <div className="pr-[5px] text-justify">
                   <span className="text-[16px] text-black ">
                     و در نهایت برای میزبانی بهتر شما در کنار اخلاق خوب و مثبت
@@ -99,10 +108,9 @@ const Record = () => {
               </span>
             </div>
           </div>
-          <div className="flex justify-center text-center mt-[40px]">
+          <div className="flex justify-center text-center mt-[40px] mb-[30px]">
             <button onClick={showToastMessage}>
               <div className="m-auto">
-             
                 <div className="p-[9px] w-[166px]  rounded-[5px] bg-[#0373F3] shadow-2xl shadow-blue-600  active:shadow-blue-700 active:text-white">
                   <a
                     href="https://wa.me/09300616152/?text=urlencodedtext"

@@ -35,8 +35,8 @@ const Footer = () => {
         <div className="w-[105%]  bg-[#D9D9D9] p-2 flex flex-col justify-between">
           <div className="flex items-center justify-between m-auto">
             <div className="w-[40%]">
-              <span className="text-[15px] font-bold ml-[5px] text-black">
-                جهت ارتباط با ما
+              <span className="text-[16px] font-bold ml-[5px] text-black">
+                جهت ارتباط با ما :
               </span>
             </div>
             <div className="mr-[7px]">
@@ -139,12 +139,6 @@ const Footer = () => {
     )
   );
 
-  // return (
-    // <iframe
-    //   src="https://deadsimplechat.com/vBdx7SPV-"
-    //   width="400px"
-    //   height="600px"
-    // ></iframe>
-  // );
+ 
 };
 export default Footer;

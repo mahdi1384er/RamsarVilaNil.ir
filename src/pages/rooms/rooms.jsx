@@ -1,4 +1,4 @@
-import HeaderRooms from "./HeaderRoom";
+import HeaderRooms from './HeaderRoom';
 import Footer from "../../components/Footer/Footer";
 import PoolContext from "./Pool/poolContext";
 import CottagelContext from "./cottage/cottageContext";
@@ -6,6 +6,7 @@ import DrawerPlacement from "../../components/navbars/Drawer";
 import Support from "./Support/Support";
 import SpecialContext from "./special/SpecialContext";
 import JungleContext from "./JungleRooms/JungleContext";
+import Supports from '../../components/navbars/support';
 
 import { React, useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
@@ -36,6 +37,7 @@ const Rooms = () => {
       ) : (
         <>
           <HeaderRooms />
+          <Supports/>
           <DrawerPlacement />
           <PoolContext />
           <CottagelContext />

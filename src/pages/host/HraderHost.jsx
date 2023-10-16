@@ -1,5 +1,6 @@
 import "../../css/index.css";
 import NavBarsScrool from "../../components/navbars/NavBars";
+import HostBg from "./HostBg";
 
 const HraderHost = () => {
   return (
@@ -9,8 +10,9 @@ const HraderHost = () => {
           میزبانی
         </span>
       </div>
-      <header className="Headerhost  bg-fixed bg-contain overflow-auto  h-[219px] w-[96%] m-auto mt-[23px]">
-        <div className="w-[94%] h-full m-auto">
+      <header className="bg-fixed bg-contain overflow-auto  h-[251px] w-[104%] m-auto mt-[23px] relative right-[4px] rounded-[9px]">
+        <div className="w-[100%] h-full m-auto">
+          <HostBg/>
           <NavBarsScrool />
         </div>
       </header>

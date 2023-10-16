@@ -22,6 +22,7 @@ import Blogs10 from "../components/Excellent/blogs10";
 import MagssHaders from "../components/trip/mags/magseHeader";
 import Headersmages2 from "../components/trip/mags/Headersmages2";
 import Headersmages3 from "../components/trip/mags/headersmages3";
+import SuportS from "../components/navbars/SuportS";
 
 
 
@@ -52,6 +53,7 @@ const AppNav = () => {
           <Route path="/Mags" element={<MagssHaders />} />
           <Route path="/Mags2" element={<Headersmages2 />} />
           <Route path="/Mags3" element={<Headersmages3/>} />
+          <Route path="/suport" element={<SuportS/>} />
         </Route>
       </Routes>
         

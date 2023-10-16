@@ -2,7 +2,7 @@ import SpecialItems from "./specialItems";
 
 const SpecialContexts = ({titels}) => {
   return (
-    <section className="w-[96%] mt-[0px] h-[229px] m-auto">
+    <section className="w-[96%] mt-[0px] h-[289px] m-auto">
       <div className="w-[96%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">

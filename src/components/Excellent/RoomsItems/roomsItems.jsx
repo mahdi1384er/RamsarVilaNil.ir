@@ -5,17 +5,17 @@ import { MdOutlineMeetingRoom } from "react-icons/md";
 const RoomsItems = ({ bed1, bed2 }) => {
   return (
     <>
-      <section className="w-[96%] mt-[20px] m-auto">
+      <section className="w-[101%] relative right-[3px] mt-[10px] m-auto">
         <div>
-          <div className="flex  flex-col">
-            <div>
+          <div className="shadoboxRomms w-[99%] p-[5px] rounded-[7px] flex  flex-col  h-[127px]">
+            <div className="relative right-[5px] w-[88%]">
               <span className="text-[17px] font-bold text-black">
                 فضای خواب
               </span>
               <span className="font-bold pr-[6px]">2 خواب</span>
             </div>
-            <div className="flex flex-wrap justify-between mt-[14px] w-[93%] h-[67px]">
-              <div className="w-[110px] h-[30px] rounded-[6px] bg-gray-300 flex items-center justify-around">
+            <div className="flex flex-wrap  justify-between mt-[14px] w-[100%] h-[67px]">
+              <div className="shadoboxRomms w-[110px]  h-[63px] rounded-[6px]  flex items-center  flex-col-reverse  justify-around">
                 <div>
                   <span className="text-[#323232] text-[13px] font-bold">
                     {bed1}
@@ -25,7 +25,7 @@ const RoomsItems = ({ bed1, bed2 }) => {
                   <IoBedOutline className="w-[25px] h-[25px]" />
                 </div>
               </div>
-              <div className="w-[110px] h-[30px] rounded-[6px] bg-gray-300 flex items-center justify-around">
+              <div className="shadoboxRomms w-[110px] h-[63px] rounded-[6px]  flex items-center flex-col-reverse  justify-around">
                 <div>
                   <span className="text-[#323232] text-[13px] font-bold">
                     {bed2}
@@ -35,7 +35,7 @@ const RoomsItems = ({ bed1, bed2 }) => {
                   <LiaBedSolid className="w-[25px] h-[25px]" />
                 </div>
               </div>
-              <div className="w-[110px] h-[30px] rounded-[6px] bg-gray-300 flex items-center justify-around">
+              <div className="shadoboxRomms w-[110px] h-[63px] rounded-[6px]  flex items-center  flex-col-reverse justify-around">
                 <div>
                   <span className="text-[#323232] text-[13px] font-bold">
                     فضای مشترک
@@ -47,7 +47,7 @@ const RoomsItems = ({ bed1, bed2 }) => {
               </div>
             </div>
           </div>
-          <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[5px]"></div>
+          <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[14px]"></div>
         </div>
       </section>
     </>

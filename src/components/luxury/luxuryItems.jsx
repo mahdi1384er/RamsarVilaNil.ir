@@ -16,7 +16,7 @@ const LKuxuryItems = () => {
     // * get data
     useEffect(() => {
       axios
-        .get("https://my-json-server.typicode.com/mahdi1384er/luxury/luxury")
+        .get("https://my-json-server.typicode.com/mahdi1384er/JungleItem/JungleItemsbg")
         .then((res) => setdata(res.data))
         .catch((eror) => console.log(eror));
     }),

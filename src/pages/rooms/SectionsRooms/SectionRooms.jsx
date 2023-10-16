@@ -3,7 +3,7 @@ import { Rate } from "rsuite";
 const SectionRooms = () => {
   return (
     <section className="w-full mt-[10px] h-[40px] m-auto">
-      <div className="w-[95%] m-auto">
+      <div className="w-[101%] relative right-[13px]  m-auto">
         <div className="flex items-center justify-between w-[99%]  m-auto">
           <div>
             <span className="text-[17px] font-bold text-[#141414]">

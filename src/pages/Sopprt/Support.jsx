@@ -5,6 +5,7 @@ import SupportItems from "./SupportItems";
 import DataSopprt from "./Data/DataSopprt";
 import { React, useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
+import Supports from "../../components/navbars/support";
 const Support = () => {
   const [loddings, setlodding] = useState(false);
 
@@ -31,6 +32,7 @@ const Support = () => {
       ) : (
         <>
           <HeaderSupport />
+          <Supports/>
           <DrawerPlacement />
           <SupportItems />
           <DataSopprt />

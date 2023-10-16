@@ -108,7 +108,7 @@ const Blogs1 = ({ id }) => {
             <Accommodations />
             <SpecialContexts titels={post.titels} />
             <Footers />
-          </div>{" "}
+          </div>
         </>
       )}
     </div>

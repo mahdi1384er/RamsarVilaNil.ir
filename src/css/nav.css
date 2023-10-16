@@ -1,8 +1,6 @@
 @import "rsuite/dist/rsuite.css";
 
-
-
-.rdrNextButton i{
+.rdrNextButton i {
   position: relative;
   right: 7px;
 }
@@ -14,7 +12,6 @@
 .rdrMonth {
   width: 100%;
 }
-
 
 .rs-sidenav-nav > .rs-sidenav-item,
 .rs-sidenav-nav > .rs-dropdown .rs-dropdown-toggle {
@@ -65,7 +62,7 @@ body {
   padding-bottom: 4rem;
 }
 
-.slick-track{
+.slick-track {
   height: 250px;
 }
 
@@ -202,6 +199,11 @@ body {
 .sizeItemsBox {
   margin: 0 -7px;
 }
+.slick-slider {
+  width: 105%;
+  position: relative;
+  right: -16px;
+}
 
 .instagram {
   background: linear-gradient(
@@ -231,13 +233,7 @@ body {
       transform: rotate(360deg);
     }
   }
-
-  
 }
-
-
-
-
 
 /* import { Swiper, SwiperSlide } from "swiper/react";
 import { React, useState, useEffect } from "react";

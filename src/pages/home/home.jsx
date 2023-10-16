@@ -14,6 +14,7 @@ import About from "../../components/about/about";
 import Uzer from "../../components/uzer/uzer";
 import { React, useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
+import Supports from "../../components/navbars/support";
 
 const Home = () => {
   const [loddings, setlodding] = useState(false);
@@ -41,6 +42,7 @@ const Home = () => {
       ) : (
         <>
           <Header />
+          <Supports/>
           <PopularIContext />
           <DrawerPlacement />
           <ExcellentContext />

@@ -1,35 +1,17 @@
 import React, { useState, useEffect, useRef } from "react";
 import { BiSupport } from "react-icons/bi";
 import { Popover, Whisper, Button, ButtonToolbar } from "rsuite";
+import { NavLink } from "react-router-dom";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const speaker = (
-  
-  <Popover
-    title="درحال پردازش پشتیبانی لطفا صبر کنید..."
-    className="w-[347px] h-[458px] ml-[148px] mb-[100px] "
-  >
-    <div className="">
-      <iframe
-        src="https://deadsimplechat.com/vBdx7SPV-"
-        width="400px"
-        height="600px"
-        className="w-[347px] h-[458px] relative left-[10px] bottom-[54px] z-[-4px]"
-      ></iframe>
-    </div>
-  </Popover>
-);
 
 const Supports = () => {
   const [show, setShow] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const triggerRef = React.useRef();
-  const open = () => triggerRef.current.open();
-  const close = () => triggerRef.current.close();
-  const [loading, setLoading] = React.useState(true);
 
   React.useEffect(() => {
     setTimeout(() => setLoading(false), 2000);
@@ -63,24 +45,17 @@ const Supports = () => {
 
   return (
     <>
-      <ul
-        className={`suport navbars flex justify-around shadow-2xl ${
-          show && "hidden"
-        } flex items-center   justify-between backdrop-blur-2xl fixed  right-[323px] left-0 bottom-[64px] z-10 shadow-2xl w-[44px] h-[44px] bg-white  p-0 rounded-[100px] `}
-      >
-        <ButtonToolbar>
-          <Whisper
-            placement="top"
-            trigger="click"
-            controlId="control-id-click"
-            speaker={speaker}
-          >
-            <Button>
-              <BiSupport className="text-[29px] text-blue-500 font-bold" />
-            </Button>
-          </Whisper>
-        </ButtonToolbar>
-      </ul>
+      <NavLink to={"/suport"}>
+        <ul
+          className={`suport navbars flex justify-around shadow-2xl ${
+            show && "hidden"
+          } flex items-center   justify-between backdrop-blur-2xl fixed  right-[336px] left-0 bottom-[64px] z-10 shadow-2xl w-[44px] h-[44px] bg-white  p-0 rounded-[100px] `}
+        >
+          <Button>
+            <BiSupport className="text-[29px] text-blue-500 font-bold" />
+          </Button>
+        </ul>
+      </NavLink>
     </>
   );
 };

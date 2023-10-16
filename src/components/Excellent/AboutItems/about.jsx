@@ -9,7 +9,7 @@ const About = ({ TitelReserv, TitelAbout, textTitel }) => {
                 درباره اقامتگاه
               </span>
             </div>
-            <div className="flex flex-col mt-[8px] h-[215px]">
+            <div className="flex flex-col mt-[8px]">
               <div>
                 <span className="text-[14px] font-bold text-black">
                   {TitelReserv}
@@ -21,7 +21,7 @@ const About = ({ TitelReserv, TitelAbout, textTitel }) => {
               </div>
             </div>
           </div>
-          <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[20px]"></div>
+          <div className="w-[102%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[20px]"></div>
         </div>
       </section>
     </>

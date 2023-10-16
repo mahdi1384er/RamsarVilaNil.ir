@@ -19,7 +19,7 @@ const Apps = () => {
 
 
   return (
-    <section className="w-[96%] relative bottom-[10px]  h-[291px] top-[57px] m-auto">
+    <section className="w-[98%] relative bottom-[10px]  h-[355px] top-[140px] m-auto">
       <div className="relative top-[60px] w-[95%] h-[424px] m-auto ">
         <div className="mb-[10px] flex items-center justify-between"></div>
 
@@ -43,7 +43,7 @@ const Apps = () => {
           <span className="seperator w-full"></span>
         </div>
       </div>
-      <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[20px]"></div>
+      <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[40px]"></div>
     </section>
   );
 };

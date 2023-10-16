@@ -5,6 +5,8 @@ import Capacity from "./CapacityItems/Capacity";
 import RoomsItems from "./RoomsItems/roomsItems";
 import Possibilities from "./Possibilities/Possibilities";
 import Reserv from "./reserv/Reserv";
+import NavbarsBlogs from "./navbars/navbarsBlogs";
+import DataItem from "./dataItem/dataItem";
 
 const Itemsblogs = ({
   TitelReserv,
@@ -26,16 +28,17 @@ const Itemsblogs = ({
   imgsSliders7,
   imgsSliders8,
   imgsSliders9,
-  data
+  data,
+  ids
 }) => {
   return (
     <>
       <section className="w-full  h-[1027px] m-auto">
         <div className="containerItemsBlogs w-[100%] h-[700px] bg-[#f8f8f8]  m-auto relative bottom-[118px]">
           <div className="relative top-[30px] w-[95%] h-[660px] m-auto ">
-            <div className="mb-[10px]">
-              <span className="text-[17px] font-bold text-black">تصاویر</span>
-            </div>
+            <a className="mb-[10px]" href={ids}>
+              <span className="text-[17px] font-bold text-black" id={ids}>تصاویر</span>
+            </a>
             <div>
               <Carousel
                 imgsSliders={imgsSliders}
@@ -49,7 +52,9 @@ const Itemsblogs = ({
                 imgsSliders9={imgsSliders9}
               />
             </div>
-            <div className="mt-[30px]">
+            <NavbarsBlogs ids={ids}/>
+            <div className="">
+              <DataItem />
               <About TitelReserv={TitelReserv} TitelAbout={TitelAbout} />
               <Capacity
                 StandardCapacity={StandardCapacity}

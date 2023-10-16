@@ -6,9 +6,9 @@ const Capacity = ({
 }) => {
   return (
     <>
-      <section className="w-[96%] mt-[20px] m-auto">
+      <section className="w-[98%] mt-[20px] m-auto">
         <div>
-          <div className="flex flex-col">
+          <div className="shadoboxRomms flex flex-col w-[101%] p-[9px] rounded-[7px]">
             <div>
               <span className="text-[17px] font-bold text-black">
                 ظرفیت اقامتگاه
@@ -45,7 +45,7 @@ const Capacity = ({
               </div>
             </div>
           </div>
-          <div className="w-[100%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[20px]"></div>
+          <div className="w-[101%] m-auto border-[1px] border-solid border-[#dfdfdf] mt-[20px]"></div>
         </div>
       </section>
     </>

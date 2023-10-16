@@ -1,6 +1,9 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { BsFillCircleFill } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { LiaTelegramPlane } from "react-icons/lia";
 
 const SupportItems = () => {
   const showToastMessage = () => {
@@ -28,12 +31,15 @@ const SupportItems = () => {
       theme: "light",
     });
   };
+
   return (
     <>
-      <section className="w-full mt-[28px]  h-[0] m-auto mb-[390px]">
-        <div className="w-[95%] m-auto">
+      <section className="w-[100%] relative right-[7px] mt-[28px]  h-[0] m-auto mb-[390px]">
+        <div className="w-[100%] m-auto relative right-[7px]">
           <div className="flex items-center">
-            <div className="bg-blue-600 rounded-[100%] w-[6px] h-[6px] relative top-[1px]"></div>
+            <div className="relative bottom-[11px]">
+              <BsFillCircleFill className="text-blue-600 w-[8px]" />
+            </div>
             <div>
               <span className="text-[17px] text-black font-bold pr-[6px]">
                 برای ارتباط با ما کافیه به شماره های زیر واتساب یا تماس بگیرید :
@@ -41,12 +47,12 @@ const SupportItems = () => {
             </div>
           </div>
 
-          <div className="mt-[17px] m-auto   w-[96%] h-[90px] flex items-center flex-wrap justify-around ">
-            <div className="flex items-center w-[50%] justify-evenly">
+          <div className="mt-[17px] m-auto   w-[96%] h-[116px] flex  flex-wrap justify-between ">
+            <div className="flex items-center  justify-evenly">
               <div className="pb-[4px] ">
                 <span className="text-[17px] text-black"> تلفن اداره: </span>
               </div>
-              <div>
+              <div className="pr-[4px]">
                 <button onClick={showToastMessage}>
                   <a href="tel:01155215255" className="text-[16px]">
                     011-55215255
@@ -55,45 +61,57 @@ const SupportItems = () => {
               </div>
             </div>
 
-            <div className="flex items-center w-[50%] justify-evenly">
-              <div className="pb-[4px]">
-                <span className="text-[17px] text-black">بهرامی: </span>
+            <div className="flex items-center  justify-evenly">
+              <div className="pb-[4px] relative left-[37px]">
+                <span className="text-[17px] text-black"> بهرامی: </span>
               </div>
-              <div>
+              <div className="pr-[4px] relative left-[36px]">
                 <button onClick={showToastMessage}>
                   <a href="tel:09300616152">09300616152</a>
                 </button>
               </div>
             </div>
 
-            <div className="flex items-center w-[50%] justify-evenly">
+            <div className="flex items-center  justify-evenly">
               <div className="pb-[4px]">
-                <span className="text-[17px] text-black"> ابراهیمی :</span>
+                <span className="text-[17px] text-black"> ابراهیمی: </span>
               </div>
-              <div>
+              <div className="pr-[4px]">
                 <button onClick={showToastMessage}>
                   <a href="tel:09112921952">009112921952</a>
                 </button>
               </div>
             </div>
-            <div className="flex items-center w-[50%] justify-evenly">
+            <div className="flex items-center  justify-evenly">
               <div className="pb-[4px]">
                 <span className="text-[17px] text-black"> ایزک شیریان: </span>
               </div>
-              <div>
+              <div className="pr-[4px]">
                 <button onClick={showToastMessage}>
                   <a href="tel:09379287791">09379287791</a>
                 </button>
               </div>
             </div>
+            <div className="flex items-center  justify-evenly">
+              <div className="pb-[4px]">
+                <span className="text-[17px] text-black">سروش حدادی: </span>
+              </div>
+              <div className="pr-[4px]">
+                <button onClick={showToastMessage}>
+                  <a href="tel:09379287791">0903687667</a>
+                </button>
+              </div>
+            </div>
           </div>
 
-          <div className="mt-[40px]">
-            <div className="bg-blue-600 rounded-[100%] w-[6px] h-[6px] relative top-[15px]"></div>
+          <div className="mt-[12px]">
+            <div className="relative top-[20px]">
+              <BsFillCircleFill className="text-blue-600 w-[8px]" />
+            </div>
             <div className="mr-[5px]">
               <ToastContainer rtl />
-              <span className="text-[17px] text-black font-bold pr-[6px]">
-                با خیال راحت به رامسر باما اعتماد کنید :
+              <span className="text-[17px] text-black font-bold pr-[8px]">
+                با ما همراه شوید
               </span>
             </div>
             <div className="w-[160px]">
@@ -102,25 +120,44 @@ const SupportItems = () => {
                   onClick={showToastMessage2}
                   className="flex justify-between items-center mt-[20px] w-[200px] mr-[14px]"
                 >
-                  <div className="">
-                    <img src="img/imgs/ins.svg" alt="" className="w-[40px]" />
+                  <div className="w-[200px] flex items-center">
+                    <div>
+                      <a href="https://instagram.com/ramsar_vila_nil?igshid=OGQ5ZDc2ODk2ZA==">
+                        <BsInstagram className="instgram pr-[38px]  w-[120px] h-[34px] rounded-[6px] text-white p-[3px]" />
+                      </a>
+                    </div>
+                    <div className="relative left-[100px] text-white top-[2px] text-[15px]">
+                      <span>20k</span>
+                    </div>
                   </div>
-                  <div>
-                    <span className="text-[17px]">پیج اینستگرام ما : </span>
-                    <a href="https://instagram.com/ramsar_vila_nil?igshid=OGQ5ZDc2ODk2ZA==">
-                      Ramsar_bama_com
-                    </a>
+                  <div className="w-[200px] flex items-center">
+                    <div>
+                      <a href="https://instagram.com/ramsar_vila_nil?igshid=OGQ5ZDc2ODk2ZA==">
+                        <LiaTelegramPlane className="talegram pr-[38px]  w-[120px] h-[34px] rounded-[6px] text-white p-[3px]" />
+                      </a>
+                    </div>
+                    <div className="relative left-[100px] text-white top-[2px] text-[15px]">
+                      <span>10k</span>
+                    </div>
                   </div>
                 </button>
               </div>
-              <div className="flex items-center justify-center mt-[30px] ml-[20px]">
-                <div>
-                  <img src="/img/imgs/6.svg" alt="" className="w-[70px]" />
-                </div>
-                <div>
-                  <img src="/img/imgs/8.svg" alt="" className="w-[70px]" />
+              <div className="mr-[5px] w-[300px] mt-[30px]">
+                <ToastContainer rtl />
+                <div className="flex items-center">
+                  <div>
+                    <div className="relative top-[20px]">
+                      <BsFillCircleFill className="text-blue-600 w-[8px]" />
+                    </div>
+                    <div className="mr-[7px]">
+                      <span className="text-[17px] text-black font-bold pr-[6px]">
+                        با خیال راحت به رامسرباما اعتماد کنید.
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <div className="flex items-center justify-center mt-[0px] ml-[20px]"></div>
             </div>
           </div>
           <ToastContainer />
