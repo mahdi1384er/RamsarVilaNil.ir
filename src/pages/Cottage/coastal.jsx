@@ -6,7 +6,7 @@ import CottageElemnt from "./CottageElemnt/CottageElemnt";
 import Cottages from "./coastalexcellent/exceltems";
 import NilRamsarItems from "./NilRamsar/NilRamsarItems";
 import { React, useState, useEffect } from "react";
-import ScaleLoader  from "react-spinners/ScaleLoader";
+import HashLoader from "react-spinners/HashLoader";
 import Supports from "../../components/navbars/support";
 
 const Cottage = () => {
@@ -21,14 +21,14 @@ const Cottage = () => {
   return (
     <>
        {loddings ? (
-         <ScaleLoader 
+         <HashLoader
          color="#0e7ad3"
          loading={loddings}
          size={106}
          speedMultiplier={1.2}
          aria-label="Loading Spinner"
          data-testid="loader"
-         className="text-center m-auto flex justify-center relative  top-[170px]"
+         className="relative right-[170px] top-[170px]"
        />)
       :<>
       <DrawerPlacement />
