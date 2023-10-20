@@ -13,6 +13,10 @@
     font-family: "MyFont";
   }
 
+  .rdrDays {
+    width: 112%;
+  }
+
   .rs-modal-dialog {
     width: 103%;
     position: relative;
@@ -91,12 +95,11 @@
     width: 100%;
   }
 
-
-
   .shadoboxRomms {
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   }
-
 
   .imgsdata {
     width: 99%;
@@ -106,12 +109,14 @@
     height: 200px;
   }
 
- 
-    .card-collapse {
-      overflow: hidden;
-      transition: height 0.3s ease-out;
-    }
-  
+  .slick-list {
+    height: 446px;
+  }
+
+  .card-collapse {
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+  }
 
   .containerItemsBlogs {
     border-radius: 20px 20px 0 0;
@@ -128,7 +133,6 @@
   .links:focus {
     border: none;
   }
-
 
   .suport {
     box-shadow: rgba(46, 46, 46, 0.16) 0px 0px 8px,
@@ -164,11 +168,6 @@
     border-radius: 30px;
   }
 
-
-
-  
-  
-
   .align-middle {
     display: none;
   }
@@ -200,8 +199,8 @@
 
   .HeaderBg {
     position: relative;
-    right: -2px;
-    width: 107%;
+    right: 0;
+    width: 111%;
     /* background-image: url("/img/imgs/sa.jpg"); */
     background-attachment: fixed;
     border-radius: 0 0 15px 15px;
@@ -417,7 +416,13 @@
   }
 
   .sizeItemsBox {
-    width: 106%;
+    width: 111%;
+  }
+
+  .slick-list {
+    width: 109%;
+    position: relative;
+    right: 18px;
   }
 
   .instagram {

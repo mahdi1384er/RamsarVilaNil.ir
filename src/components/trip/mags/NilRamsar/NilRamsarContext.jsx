@@ -30,12 +30,12 @@ const TrustData = [
   
 ];
 
-const NilRamsarContext = () => {
+const NilRamsarContexts = () => {
   return (
     // * get data
 
-    <section className="h-[300px] w-[105%]">
-      <div className="w-[111%] m-auto flex items-center flex-col">
+    <section className="h-[300px]">
+      <div className="w-[100%] m-auto flex items-center flex-col">
         <div className="flex  relative left-[10px] flex-col w-full">
           <div className="text-center m-auto">
             <p className="font-bold text-black text-[17px] border-solid pb-[5px] w-[300px] border-blue-600 border-b-[3px] rounded-[10px]">
@@ -45,9 +45,9 @@ const NilRamsarContext = () => {
         </div>
 
         <Swiper
-          className="wiper container testimonials__container  h-[540px]"
+          className="wiper container w-[101%] testimonials__container  h-[540px]"
           // install Swiper modules
-          spaceBetween={-26}
+          spaceBetween={46}
           slidesPerView={1}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
@@ -104,4 +104,4 @@ const NilRamsarContext = () => {
   );
 };
 
-export default NilRamsarContext;
+export default NilRamsarContexts;

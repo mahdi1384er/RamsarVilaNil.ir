@@ -1,7 +1,7 @@
-const Junlehost = () => {
+const Junlehosts = () => {
   return (
     <>
-      <section className="w-full mt-[10px] h-[200px] m-auto text-white relative right-[13px]">
+      <section className="w-full mt-[10px] h-[200px] m-auto text-white relative right-[-8px]">
         <div className="w-[100%] relative right-[7px] m-auto flex flex-col items-center">
           <div className=" mb-[10px]">
             <span className="font-bold text-[17px] text-black text-center">
@@ -37,4 +37,4 @@ const Junlehost = () => {
   );
 };
 
-export default Junlehost;
+export default Junlehosts;

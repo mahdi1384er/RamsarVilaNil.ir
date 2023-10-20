@@ -23,6 +23,7 @@ import MagssHaders from "../components/trip/mags/magseHeader";
 import Headersmages2 from "../components/trip/mags/Headersmages2";
 import Headersmages3 from "../components/trip/mags/headersmages3";
 import SuportS from "../components/navbars/SuportS";
+import NotFhont from "../components/NotFhont/NotFhont";
 
 
 
@@ -34,11 +35,12 @@ const AppNav = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="" element={<Home />} />
+          <Route path="/*" element={<NotFhont />} />
           <Route path="/rooms" element={<Rooms />} />
           <Route path="/host" element={<Host />} />
           <Route path="/support" element={<Support />} />
           <Route path="/Jungle" element={<Jungle />} />
-          <Route path="/Coastal" element={<Coastal />} />
+          {/* <Route path="/Coastal" element={<Coastal />} /> */}
           <Route path="/Cottage" element={<Cottage />} />
           <Route path="/blogs/:id" element={<Blogs1 />} />
           <Route path="/special/:id" element={<Blogs2 />} />
@@ -51,7 +53,7 @@ const AppNav = () => {
           <Route path="/Cottages/:id" element={<Blogs9 />} />
           <Route path="/Popular/:id" element={<Blogs10 />} />
           <Route path="/Mags" element={<MagssHaders />} />
-          <Route path="/Mags2" element={<Headersmages2 />} />
+          {/* <Route path="/Mags2" element={<Headersmages2 />} /> */}
           <Route path="/Mags3" element={<Headersmages3/>} />
           <Route path="/suport" element={<SuportS/>} />
         </Route>

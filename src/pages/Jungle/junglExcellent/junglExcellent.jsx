@@ -19,7 +19,7 @@ const JunglExcellent = () => {
           </div>
 
 
-          <div className="flex items-center justify-between overflow-scroll mt-[8px] ml-[-8px] mr-[-8px] relative bottom-[28px]">
+          <div className="flex w-[108%] items-center justify-between overflow-scroll mt-[8px] ml-[-8px] mr-[-8px] relative bottom-[28px]">
             <JunglExcellentItems />
           </div>
         </div>

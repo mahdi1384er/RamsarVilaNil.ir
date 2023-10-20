@@ -19,7 +19,7 @@ const LuxuryContext = () => {
           </div>
 
 
-          <div className="flex w-[112%] items-center justify-between overflow-scroll mt-[6px] ml-[-18px] mr-[-8px] relative bottom-[28px]">
+          <div className="flex w-[119%] items-center justify-between overflow-scroll mt-[6px] ml-[-18px] mr-[-8px] relative bottom-[28px]">
             <LKuxuryItems />
           </div>
         </div>

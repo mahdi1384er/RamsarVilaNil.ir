@@ -10,7 +10,7 @@ const HeaderSupport = () => {
           ارتباط با ما
         </span>
       </div>
-      <header className="bg-fixed bg-contain overflow-auto  h-[251px] w-[103%] m-auto mt-[23px]  relative right-[9px] rounded-[9px]">
+      <header className="bg-fixed bg-contain overflow-auto  h-[251px] w-[109%] m-auto mt-[23px]  relative right-[3px] rounded-[9px]">
         <div className="w-[100%] h-full m-auto rounded-[10px]">
           <Supportbg />
           <NavBarsScrool />

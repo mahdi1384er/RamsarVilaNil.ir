@@ -11,7 +11,7 @@ const CottageHeader = () => {
         اقامتگاه های کلبه سوئیسی
         </span>
       </div>
-      <header className="flex  bg-fixed bg-contain overflow-auto  h-[90%] w-[100%] m-auto mt-[15px] relative right-[9px] rounded-[8px]">
+      <header className="flex  bg-fixed bg-contain overflow-auto  h-[90%] w-[106%] m-auto mt-[15px] relative right-[9px] rounded-[8px]">
         <Cottagess/>
         <div className="w-[94%] h-full m-auto">
           <NavBarsScrool className="w-[24px] h-[30px]" />

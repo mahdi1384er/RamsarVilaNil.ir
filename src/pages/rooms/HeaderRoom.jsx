@@ -13,7 +13,7 @@ const HeaderRooms = () => {
           اقامتگاها
         </span>
       </div>
-      <header className="bg-fixed bg-contain overflow-auto  h-[251px] w-[100%] m-auto mt-[23px] relative right-[9px] rounded-[9px]">
+      <header className="bg-fixed bg-contain overflow-auto  h-[251px] w-[106%] m-auto mt-[23px] relative right-[9px] rounded-[9px]">
         <div className="w-[93%] h-full m-auto">
           <Roomsbg/>
           <NavBarsScrool />

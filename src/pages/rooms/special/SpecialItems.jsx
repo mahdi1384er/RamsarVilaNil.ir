@@ -40,7 +40,7 @@ const SpecialItems = () => {
           </div>
 
           <Swiper
-            className="container testimonials__container h-[266px] "
+            className="container w-[105%] testimonials__container h-[266px] "
             // install Swiper modules
             // modules={[Pagination, Autoplay]}
             spaceBetween={-80}

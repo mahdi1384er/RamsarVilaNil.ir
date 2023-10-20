@@ -66,6 +66,11 @@ body {
   height: 250px;
 }
 
+.rdrDays {
+  width: 112%;
+}
+
+
 .container {
   width: 324px;
   margin-left: -16px;
@@ -203,6 +208,11 @@ body {
   width: 105%;
   position: relative;
   right: -16px;
+  height: 525px;
+}
+
+.slick-list {
+  border-radius: 11px;
 }
 
 .instagram {

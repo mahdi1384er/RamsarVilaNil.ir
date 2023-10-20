@@ -49,7 +49,7 @@ const Supports = () => {
         <ul
           className={`suport navbars flex justify-around shadow-2xl ${
             show && "hidden"
-          } flex items-center   justify-between backdrop-blur-2xl fixed  right-[336px] left-0 bottom-[64px] z-10 shadow-2xl w-[44px] h-[44px] bg-white  p-0 rounded-[100px] `}
+          } flex items-center justify-between backdrop-blur-2xl fixed  right-[334px] left-0 bottom-[64px] z-10 shadow-2xl w-[44px] h-[44px] bg-white  p-0 rounded-[100px] `}
         >
           <Button>
             <BiSupport className="text-[29px] text-blue-500 font-bold" />

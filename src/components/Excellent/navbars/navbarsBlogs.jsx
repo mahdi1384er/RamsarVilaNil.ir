@@ -3,10 +3,8 @@ import React, { useState, useEffect } from "react";
 // import DrawerPlacement from "./Drawer";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
-import { BiLeftArrowAlt } from "react-icons/bi";
 import { BiSearch } from "react-icons/bi";
 import { BiChevronLeft } from "react-icons/bi";
-import DrawerPlacement from "../../navbars/Drawer";
 import {
   Drawer,
   Button,
@@ -20,8 +18,6 @@ import { BiHome } from "react-icons/bi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { MdVilla } from "react-icons/md";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
-import serchboxBlogs from "./serchboxBlogs";
-import { FaAngleLeft } from "react-icons/fa";
 
 const NavbarsBlogs = ({ids}) => {
   const [data, setdata] = useState([]);

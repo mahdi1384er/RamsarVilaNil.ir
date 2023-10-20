@@ -34,7 +34,7 @@ const Itemsblogs = ({
   return (
     <>
       <section className="w-full  h-[1027px] m-auto">
-        <div className="containerItemsBlogs w-[100%] h-[700px] bg-[#f8f8f8]  m-auto relative bottom-[118px]">
+        <div className="containerItemsBlogs w-[99%]  h-[700px] bg-[#f8f8f8]  m-auto relative bottom-[118px] right-[4px]">
           <div className="relative top-[30px] w-[95%] h-[660px] m-auto ">
             <a className="mb-[10px]" href={ids}>
               <span className="text-[17px] font-bold text-black" id={ids}>تصاویر</span>

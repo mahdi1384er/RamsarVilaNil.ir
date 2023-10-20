@@ -6,6 +6,9 @@ import { MdOutlineMail } from "react-icons/md";
 import Suportdata from "./suportdata";
 import { FaAngleDown } from "react-icons/fa6";
 import { AiOutlineBell } from "react-icons/ai";
+import OpenEmail from "./openEmeail";
+import OpenCal from "./openCal";
+import Opendata from "./opendata";
 
 const SuportS = () => {
   return (
@@ -66,7 +69,6 @@ const SuportS = () => {
                     </span>
                   </div>
                 </div>
-                
 
                 <div className="shadoboxRomms flex items-center justify-between mt-[15px] list-group list-group-flush  p-2 bg-[#ffff] rounded-[6px]">
                   <Suportdata title="با رد یا لغو شدن درخواست رزرو چه می‌شود ؟">
@@ -87,27 +89,36 @@ const SuportS = () => {
             </div>
           </div>
         </div>
-        <div className="m-auto w-[106%]">
+        <div className="m-auto w-[118%]">
           <div className="flex items-center justify-around mt-[49px]">
-            <div className="flex items-center justify-center flex-col w-[40%] m-[4px] h-[60px] bg-white rounded-[6px] shadoboxRomms">
+            <div className="flex items-center pt-[13px] justify-center flex-col w-[40%] m-[4px] h-[60px] bg-white rounded-[6px] shadoboxRomms">
               <div>
                 <MdOutlineMail className="text-[25px] text-blue-600" />
               </div>
-              <div>
+              <div className="w-[60%]">
                 <span className="text-[14px]">ارسال ایمیل</span>
+                <div className="w-[100px]">
+                  <OpenEmail />
+                </div>
               </div>
             </div>
             <div className="flex items-center justify-center flex-col w-[40%] m-[4px] h-[60px] bg-white rounded-[6px] shadoboxRomms">
-              <div>
+              <div className="h-[27px] w-[24px]">
                 <BiSupport className="text-[25px] text-blue-600" />
+                <div className="w-[100px]">
+                  <OpenCal />
+                </div>
               </div>
               <div>
                 <span className="text-[14px]">تماس باما</span>
               </div>
             </div>
             <div className="flex items-center justify-center flex-col w-[40%] m-[4px] h-[60px] bg-white rounded-[6px] shadoboxRomms">
-              <div>
-                <AiOutlineBell className="text-[25px] text-blue-600" />
+              <div className="h-[28px]">
+                <AiOutlineBell className="relative right-[33px] text-[25px] text-blue-600" />
+                <div className="">
+                  <Opendata />
+                </div>
               </div>
               <div>
                 <span className="text-[14px]">راهنما</span>

@@ -11,7 +11,7 @@ const PopularIContext = () => {
             </h2>
           </div>
 
-          <div className="flex w-[103%] items-center justify-between overflow-scroll mt-[7px] relative left-[5px] ">
+          <div className="flex w-[109%] items-center justify-between overflow-scroll mt-[7px] relative left-[9px] ">
               <PopularItems />
           </div>
         </div>

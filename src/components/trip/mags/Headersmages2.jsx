@@ -1,5 +1,7 @@
-import NavBarsScrool from "./NavBarsJungle";
 import MagssHaders2 from "./MagssHaders2";
+import NavBarsScrool from "../../navbars/NavBars";
+
+
 
 // import Alders from "./aler";
 import Footress from "./Footre";
@@ -12,7 +14,7 @@ const Headersmages2 = () => {
         مکان های دیدنی رامسر
         </span>
       </div>
-      <header className="MagesageHeaders2    bg-fixed bg-contain overflow-auto  h-[194px] w-[96%] m-auto mt-[10px]">
+      <header className="rounded-[11px] bg-fixed bg-contain overflow-auto relative right-[3px]  w-[108%] m-auto mt-[25px]">
         <div className="w-[94%] h-full m-auto">
           <NavBarsScrool className="w-[24px] h-[30px]" />
         </div>

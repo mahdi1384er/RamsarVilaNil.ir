@@ -2,11 +2,10 @@ import { NavLink } from "react-router-dom";
 import NilRamsarItemss from "../NilRamsar/NilRamsarItems";
 import DrawerPlacement from "../../navbars/Drawer";
 
-
 const MagssHaders2 = () => {
   return (
     <>
-      <section className="m-auto mt-[20px] w-[95%] h-[4800px] rounded-[8px] p-2 shadow-xl border-1 border-solid border-gray-300 ">
+      <section className="m-auto mt-[12px] w-[107%] relative right-[5px] h-[5111px] rounded-[8px] p-2 shadow-xl border-1 border-solid border-gray-300 ">
         <div className="flex flex-col ">
           <div>
             <span className="text-[17px] font-bold text-[#141414]">
@@ -308,11 +307,15 @@ const MagssHaders2 = () => {
         <div className="flex flex-col  mt-[20px]">
           <div className="mt-[20px]">
             <div className="text-justify">
-              <span className="text-[17px] font-bold text-black">پرسش‌های متداول :</span>
+              <span className="text-[17px] font-bold text-black">
+                پرسش‌های متداول :
+              </span>
             </div>
             <br />
             <div className="text-justify text-[17px] leading-[26px]">
-              <span className="font-bold text-black text-[16px]">نام قدیمی رامسر چیست؟</span>
+              <span className="font-bold text-black text-[16px]">
+                نام قدیمی رامسر چیست؟
+              </span>
               <br />
               <span className="text-[16px]">
                 در گذشته یعنی زمانی که رضا شاه به این شهر سفر می‌کرد، شهر رامسر
@@ -323,16 +326,18 @@ const MagssHaders2 = () => {
                 یخچال‌های طبیعی تنها گوشه‌ای از زیبایی‌های ییلاق لپاسر محسوب
                 می‌شه.
                 <br />
-            
               </span>
             </div>
           </div>
           <div className="mt-[20px]">
             <div className="text-justify text-[17px] leading-[26px]">
-              <span className="font-bold text-black text-[16px]">مشهورترین جاذبه گردشگری رامسر کجاست؟</span>
+              <span className="font-bold text-black text-[16px]">
+                مشهورترین جاذبه گردشگری رامسر کجاست؟
+              </span>
               <br />
               <span className="text-[16px]">
-              جواهرده مشهورترین جاذبه گردشگری رامسر است که به نگین فیروزه کوه‌های البرز شهرت دارد.
+                جواهرده مشهورترین جاذبه گردشگری رامسر است که به نگین فیروزه
+                کوه‌های البرز شهرت دارد.
               </span>
               <span>
                 مناظر کوهستان، چشمه‌های فراوون با آب گوارا، دشت‌های سرسبز و
@@ -341,16 +346,17 @@ const MagssHaders2 = () => {
                 <br />
                 <br />
                 <br />
-                در نهایت <span className="text-[#105fb9] mt-[20px]">رامسر باما</span> سفر
+                در نهایت{" "}
+                <span className="text-[#105fb9] mt-[20px]">رامسر باما</span> سفر
                 خوشی را برای شما آرزومند است.
               </span>
             </div>
           </div>
         </div>
-       <div className="mt-[30px]">
-       <NilRamsarItemss />
-       <DrawerPlacement/>
-       </div>
+        <div className="mt-[30px]">
+          <NilRamsarItemss />
+          <DrawerPlacement />
+        </div>
       </section>
     </>
   );

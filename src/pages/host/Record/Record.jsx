@@ -13,7 +13,7 @@ const Record = () => {
   return (
     <>
       <section className="w-[100%] mt-[47px]  h-[64px] m-auto mb-[1021px]">
-        <div className="w-[100%] m-auto pl-[4px] relative right-[12px]">
+        <div className="w-[107%] m-auto pl-[4px] relative right-[7px]">
           <ToastContainer rtl />
           <div className="text-center ">
             <span className="text-[18px] pb-[5px] text-black font-bold border-b-[3px] rounded-[10px] bottom-[10px] border-blue-600">

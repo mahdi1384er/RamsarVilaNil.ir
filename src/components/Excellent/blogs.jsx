@@ -39,7 +39,7 @@ const Blogs1 = ({ id }) => {
   }, []);
 
   return (
-    <div className="w-[106%] h-[900px] bg-gray-200">
+    <div className="w-[111%] relative right-[-2px] h-[900px] bg-gray-200">
       {loddings ? (
         <HashLoader
           color="#0e7ad3"
@@ -52,15 +52,15 @@ const Blogs1 = ({ id }) => {
         />
       ) : (
         <>
-          <div className="imgsdata h-[300px] post-container">
+          <div className="imgsdata w-[99%] h-[300px] post-container">
             <img
               src={post.img} // <----- HERE
               alt="2"
-              className="relative right-[3px] h-[547px] w-full bottom-[14px] opacity-90"
+              className="relative right-[6px] h-[547px] w-[111%] bottom-[14px] opacity-90"
             />
 
             <div className=" relative bottom-[210px]">
-              <div className="relative bottom-[28px]">
+              <div className="relative bottom-[28px] right-[5px]">
                 <span class="abousts top-[18px] backdrop-blur-2xl text-[30px] text-white relative right-[10px]">
                   {post.title}
                 </span>
@@ -68,11 +68,11 @@ const Blogs1 = ({ id }) => {
               <div></div>
               <div className="flex w-[183px] mt-[10px] justify-between">
                 <div>
-                  <span className="text-[17px] relative right-[10px] text-white rounded-[50px] bg-blue-600 pr-[13px] pl-[13px] pt-[3px] pb-[3px]">
+                  <span className="text-[17px] relative right-[17px] text-white rounded-[50px] bg-blue-600 pr-[13px] pl-[13px] pt-[3px] pb-[3px]">
                     {post.author}
                   </span>
                 </div>
-                <div className="w-[99px] relative bottom-[3px]">
+                <div className="w-[99px] relative bottom-[3px] right-[14px]">
                   <div>
                     <Rate
                       readOnly

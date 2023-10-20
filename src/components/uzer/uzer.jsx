@@ -28,7 +28,7 @@ const Uzer = () => {
     }),
     (
       <>
-        <section className="w-full h-[319px] m-auto mt-[59px]">
+        <section className="w-full relative h-[319px] m-auto mt-[59px]">
           <div className="w-[100%] m-auto">
             <div className="m-0 text-center flex items-center justify-center">
               <span class="w-[100px] relative right-[6px] text-center flex justify-center items-center text-[17px] text-black font-bold border-b-[3px] rounded-[10px] bottom-[0px] border-blue-600">
@@ -36,7 +36,7 @@ const Uzer = () => {
               </span>
             </div>
 
-            <Slider {...settings} className="text-center relative right-[-25px] w-[106%]">
+            <Slider {...settings} className="text-center relative right-[-25px] w-[111%]">
               {data.map((item, index) => {
                 return (
                   <>

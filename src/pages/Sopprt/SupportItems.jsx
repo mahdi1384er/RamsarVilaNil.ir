@@ -47,7 +47,7 @@ const SupportItems = () => {
             </div>
           </div>
 
-          <div className="mt-[17px] m-auto   w-[96%] h-[116px] flex  flex-wrap justify-between ">
+          <div className="mt-[17px] m-auto   w-[105%] h-[116px] flex  flex-wrap justify-between ">
             <div className="flex items-center  justify-evenly">
               <div className="pb-[4px] ">
                 <span className="text-[17px] text-black"> تلفن اداره: </span>

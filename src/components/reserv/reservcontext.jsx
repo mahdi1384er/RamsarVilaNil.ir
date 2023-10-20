@@ -2,7 +2,7 @@ import RKuxuryItems from "./reserv";
 
 const Reservcontext = () => {
   return (
-    <section className="w-[92%] h-[229px] m-auto mt-[45px]">
+    <section className="w-[94%] mr-[18px] h-[229px] m-auto mt-[45px]">
       <div className="w-[100%]   m-auto">
         <div className="flex flex-col">
           <div className="relative bottom-[7px]">
@@ -19,7 +19,7 @@ const Reservcontext = () => {
           </div>
 
 
-          <div className="flex w-[113%] items-center justify-between overflow-scroll mt-[6px] ml-[-8px] mr-[-8px] relative bottom-[28px]">
+          <div className="flex w-[115%] items-center justify-between overflow-scroll mt-[6px] ml-[-8px] mr-[-8px] relative bottom-[28px]">
             <RKuxuryItems />
           </div>
         </div>

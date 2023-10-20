@@ -31,8 +31,8 @@ const Footer = () => {
         .catch((eror) => console.log(eror));
     }),
     (
-      <footer className="w-full mt-[150px] h-[350px] m-auto bg-[#D9D9D9]">
-        <div className="w-[105%]  bg-[#D9D9D9] p-2 flex flex-col justify-between">
+      <footer className="w-[104%] mt-[150px] h-[350px] m-auto bg-[#D9D9D9]">
+        <div className="w-[106%]  bg-[#D9D9D9] p-2 flex flex-col justify-between">
           <div className="flex items-center justify-between m-auto">
             <div className="w-[40%]">
               <span className="text-[16px] font-bold ml-[5px] text-black">

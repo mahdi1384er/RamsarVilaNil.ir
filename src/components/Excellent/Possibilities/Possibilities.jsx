@@ -29,7 +29,7 @@ const Possibilities = ({ author, data }) => {
           <div>
             <span className="text-[17px] font-bold text-black">امکانات</span>
           </div>
-          <div className="flex h-[276px] justify-around w-[102%] relative left-[12px] ">
+          <div className="flex h-[276px] justify-around w-[108%] relative left-[12px] ">
             <div className="flex flex-wrap mt-[2px] w-[100%] h-[69px] justify-around">
               <div>
                 <div className="mt-[14px] flex items-center w-[60px] justify-between text-black">

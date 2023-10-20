@@ -36,7 +36,7 @@ const SuporttData = [
 const Support = () => {
   return (
     <>
-      <section className="w-[100%] mt-[60px] h-[100px] relative right-[11px] m-auto">
+      <section className="w-[105%] mt-[60px] h-[100px] relative right-[11px] m-auto">
         <div className="flex flex-wrap justify-between">
           {SuporttData.map((item, index) => {
             return (

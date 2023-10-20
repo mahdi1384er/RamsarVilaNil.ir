@@ -3,7 +3,7 @@ import { BsFillCircleFill } from "react-icons/bs";
 const Hostsection = () => {
   return (
     <>
-      <section className="w-[100%] mt-[28px]  relative right-[8px] h-[64px] m-auto ">
+      <section className="w-[104%] mt-[28px]  relative right-[8px] h-[64px] m-auto ">
         <div className="w-[100%] m-auto relative right-[6px]">
           <div>
             <span className="text-[18px] text-black font-bold">

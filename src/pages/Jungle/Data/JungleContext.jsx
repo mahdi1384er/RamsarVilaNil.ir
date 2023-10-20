@@ -42,7 +42,7 @@ const JungleContext = () => {
   const [data, setdata] = useState([]);
 
   return (
-    <section className="flex w-[106%] items-center justify-start">
+    <section className="flex w-[111%] items-center justify-start">
       <Swiper
         modules={[Autoplay]}
         centeredSlides={true}

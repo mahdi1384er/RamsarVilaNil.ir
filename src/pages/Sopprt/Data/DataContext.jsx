@@ -42,7 +42,7 @@ const SuporttData = [
 const DataContext = () => {
   return (
     <>
-      <section className="w-[100%] mt-[-102px] h-[100px] relative  m-auto">
+      <section className="w-[104%] mt-[-102px] h-[100px] relative  m-auto">
         <div className="flex flex-wrap justify-between">
         <Swiper
         modules={[Autoplay]}

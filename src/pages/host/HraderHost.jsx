@@ -10,7 +10,7 @@ const HraderHost = () => {
           میزبانی
         </span>
       </div>
-      <header className="bg-fixed bg-contain overflow-auto  h-[251px] w-[104%] m-auto mt-[23px] relative right-[4px] rounded-[9px]">
+      <header className="bg-fixed bg-contain overflow-auto  h-[251px] w-[109%] m-auto mt-[23px] relative right-[4px] rounded-[9px]">
         <div className="w-[100%] h-full m-auto">
           <HostBg/>
           <NavBarsScrool />

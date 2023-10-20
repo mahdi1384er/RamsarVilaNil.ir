@@ -1,7 +1,7 @@
 const SectionJungle = () => {
   return (
     <>
-      <section className="w-full mt-[10px] h-[64px] m-auto">
+      <section className="w-[111%] mt-[10px] h-[64px] m-auto">
         <div className="w-[95%] m-auto">
           <div className="flex items-center justify-between w-[99%]  m-auto">
             <div>

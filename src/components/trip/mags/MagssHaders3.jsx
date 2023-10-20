@@ -1,12 +1,11 @@
 import { NavLink } from "react-router-dom";
-import NilRamsarItemss from "../NilRamsar/NilRamsarItems";
-import Junlehost from "../../../pages/Jungle/Junlehost/Junlehost";
+import Junlehosts from "./Junlehost/Junlehost";
 import DrawerPlacement from "../../navbars/Drawer";
 
 const MagssHaders3 = () => {
   return (
     <>
-      <section className="m-auto mt-[20px] w-[95%] h-[1190px] rounded-[8px] p-2 shadow-xl border-1 border-solid border-gray-300 ">
+      <section className="m-auto relative right-[11px] mt-[-24px] w-[104%] h-[789px] rounded-[8px] p-2 shadow-xl border-1 border-solid border-gray-300 ">
         <div>
           <div className="leading-[26px] text-justify">
             <span className="text-[17px] font-bold text-black">
@@ -44,8 +43,7 @@ const MagssHaders3 = () => {
           </div>
         </div>
         <div className="mt-[30px]">
-          <Junlehost />
-          <NilRamsarItemss />
+          <Junlehosts />
           <DrawerPlacement/>
         </div>
       </section>
