@@ -24,7 +24,7 @@ const Reserv = ({ priecs }) => {
             <div class="btnsan p-[4px] w-[140px] h-[40px] flex items-center justify-center  rounded-[5px] bg-[#0373F3]">
               <button className="buton">
                 <a
-                  href="https://wa.me/09300616152/?text=urlencodedtext"
+                  href="https://wa.me/9809300616152"
                   class="bt text-white"
                 >
                   <span className="text-[15px] btnsans">درخواست رزرو</span>

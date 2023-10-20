@@ -78,7 +78,7 @@ const SupportItems = () => {
               </div>
               <div className="pr-[4px]">
                 <button onClick={showToastMessage}>
-                  <a href="tel:09112921952">009112921952</a>
+                  <a href="tel:09112921952">09112921952</a>
                 </button>
               </div>
             </div>
