@@ -148,7 +148,7 @@ const NavbarsBlogs = ({ids}) => {
               <span>
                 <serchboxBlogs />
               </span>
-              <span className="flex items-center justify-center">
+              <span className="flex items-center justify-center relative left-[4px]">
                 <NavLink to={"/"}>
                   <div className="bg-white w-[20px] h-[20px] p-[16px] rounded-[50px]">
                     <BiChevronLeft className="back text-[37px] relative bottom-[18px] left-[18px]" />

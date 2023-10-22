@@ -91,6 +91,54 @@
     --container-width-sm: 90%;
   }
 
+  .btnAfter::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    width: 36.2px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.75;
+    filter: blur(10px);
+    transition: transform 0s ease 0s;
+    transform: translateZ(0px);
+    will-change: transform;
+    animation: 3s cubic-bezier(0, 0, 0, 1.75) 0s infinite normal none running Shines;
+  }
+
+  .btnAfters::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    width: 11.2px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.75;
+    filter: blur(10px);
+    transition: transform 0s ease 0s;
+    transform: translateZ(0px);
+    will-change: transform;
+    animation: 3s cubic-bezier(0, 0, 0, 1.75) 0s infinite normal none running Shines;
+  }
+
+
+
+
+  @keyframes Shines {
+    0% {
+      transform: translateX(164px) skewX(-15deg);
+    }
+    100% {
+      transform: translateX(-50px) skewX(-15deg);
+    }
+  }
+
+
+
   .rdrMonth {
     width: 100%;
   }
@@ -100,6 +148,31 @@
       rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
       rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   }
+
+
+  .dJZVSs:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    width: 36.1px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.75;
+    filter: blur(10px);
+    transition: transform 0s ease 0s;
+    transform: translateZ(0px);
+    will-change: transform;
+    animation: 3s cubic-bezier(0, 0, 0, 1.75) 0s infinite normal none running Shine;
+}
+
+.kes {
+  width: 70px;
+    height: 70px;
+    border: 3px solid #0373f3;
+    border-radius: 50%;
+}
 
   .imgsdata {
     width: 99%;

@@ -31,7 +31,7 @@ const Rooms = () => {
             speedMultiplier={1.2}
             aria-label="Loading Spinner"
             data-testid="loader"
-            className="relative right-[170px] top-[170px]"
+            className="relative  m-auto flex items-center justify-center right-[20px] top-[170px]"
           />
         </div>
       ) : (

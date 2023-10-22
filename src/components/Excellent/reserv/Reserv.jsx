@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import ApplyingReserv from "./ApplyingReserv/ApplyingReserv";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -22,14 +22,17 @@ const Reserv = ({ priecs }) => {
             </div>
 
             <div class="btnsan p-[4px] w-[140px] h-[40px] flex items-center justify-center  rounded-[5px] bg-[#0373F3]">
-              <button className="buton">
-                <a
+              <div className="buton relative top-[18px]" >
+                {/* <a
                   href="https://wa.me/9809300616152"
                   class="bt text-white"
-                >
-                  <span className="text-[15px] btnsans">درخواست رزرو</span>
-                </a>
-              </button>
+                > */}
+                <button className="btnAfters text-[15px] text-white btnsans relative top-[6px]">درخواست رزرو</button>
+              <div >
+                <ApplyingReserv />
+              </div>
+                {/* </a> */}
+              </div>
             </div>
           </div>
         </ul>

@@ -29,7 +29,7 @@ const SuportS = () => {
           </div>
           <div className=" w-[111%] relative left-[10px] p-2  rounded-[6px] ">
             <div>
-              <div className="content">
+              <div className="content w-[107%]">
                 <div className="shadoboxRomms  flex items-center justify-between list-group list-group-flush  p-2 bg-[#ffff] rounded-[6px]">
                   <Suportdata title="چطور رزرو کنم ؟">
                     <p>
