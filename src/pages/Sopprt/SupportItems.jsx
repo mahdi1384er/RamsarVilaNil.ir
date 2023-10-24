@@ -32,6 +32,20 @@ const SupportItems = () => {
     });
   };
 
+  
+  const showToastMessage3 = () => {
+    toast.success("به زودی به صفحه کانال تلگرام رامسرباما وارد می شوید.", {
+      position: "top-right",
+      autoClose: false,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: 1,
+      theme: "light",
+    });
+  };
+
   return (
     <>
       <section className="w-[100%] relative right-[7px] mt-[28px]  h-[0] m-auto mb-[390px]">
@@ -98,7 +112,7 @@ const SupportItems = () => {
               </div>
               <div className="pr-[4px]">
                 <button onClick={showToastMessage}>
-                  <a href="tel:09379287791">0903687667</a>
+                  <a href="tel:09026800425">09026800425</a>
                 </button>
               </div>
             </div>
@@ -130,9 +144,14 @@ const SupportItems = () => {
                       <span>20k</span>
                     </div>
                   </div>
+                </button>
+                <button
+                  onClick={showToastMessage3}
+                  className="flex justify-between items-center mt-[20px] w-[200px] mr-[14px]"
+                >
                   <div className="w-[200px] flex items-center">
                     <div>
-                      <a href="https://instagram.com/ramsar_vila_nil?igshid=OGQ5ZDc2ODk2ZA==">
+                      <a href="https://t.me/ramsarbama">
                         <LiaTelegramPlane className="talegram pr-[38px]  w-[120px] h-[34px] rounded-[6px] text-white p-[3px]" />
                       </a>
                     </div>
@@ -140,6 +159,7 @@ const SupportItems = () => {
                       <span>10k</span>
                     </div>
                   </div>
+
                 </button>
               </div>
               <div className="mr-[5px] w-[300px] mt-[30px]">

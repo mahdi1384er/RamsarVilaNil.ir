@@ -125,7 +125,7 @@ const Openreserv = () => {
           <Modal.Body>
             <table className="flex items-center justify-center">
               <tbody>
-              <a href="https://wa.me/9809300616152" class="bt text-white">
+              <a href="tel:09300616152" class="bt text-white">
                 <div class="w-[192px] h-[40px] p-2 rounded-[6px] bg-blue-600 text-white relative top-[10px] flex items-center justify-between">
                   <button >تماس با پشتیبانی رامسر باما</button>
                   <span>

@@ -6,7 +6,6 @@ function classNames(...classes) {
 
 const Reserv = ({ priecs }) => {
   const [show, setShow] = useState(false);
-  const [lastScrollY, setLastScrollY] = useState(0);
 
   return (
     <>
@@ -22,16 +21,13 @@ const Reserv = ({ priecs }) => {
             </div>
 
             <div class="btnsan p-[4px] w-[140px] h-[40px] flex items-center justify-center  rounded-[5px] bg-[#0373F3]">
-              <div className="buton relative top-[18px]" >
-                {/* <a
-                  href="https://wa.me/9809300616152"
-                  class="bt text-white"
-                > */}
-                <button className="btnAfters text-[15px] text-white btnsans relative top-[6px]">درخواست رزرو</button>
-              <div >
-                <ApplyingReserv />
-              </div>
-                {/* </a> */}
+              <div className="buton relative top-[18px]">
+                <button className="btnAfters text-[15px] text-white btnsans relative top-[6px]">
+                  درخواست رزرو
+                </button>
+                <div>
+                  <ApplyingReserv />
+                </div>
               </div>
             </div>
           </div>
@@ -43,4 +39,3 @@ const Reserv = ({ priecs }) => {
 
 export default Reserv;
 
-//

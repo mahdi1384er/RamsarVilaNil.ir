@@ -5,6 +5,8 @@ import { NavLink } from "react-router-dom";
 import { IconButton } from "@material-tailwind/react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { BsInstagram } from "react-icons/bs";
+import { LiaTelegramPlane } from "react-icons/lia";
 
 const Footer = () => {
   const [data, setdata] = useState([]);
@@ -17,7 +19,28 @@ const Footer = () => {
 
   const showToastMessage2 = () => {
     toast.success("به زودی به صفحه پیج اینستگرام رامسرباما وارد می شوید.", {
-      position: toast.POSITION.TOP_RIGHT,
+      position: "top-right",
+      autoClose: false,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: 1,
+      theme: "light",
+    });
+  };
+
+  
+  const showToastMessage3 = () => {
+    toast.success("به زودی به صفحه کانال تلگرام رامسرباما وارد می شوید.", {
+      position: "top-right",
+      autoClose: false,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: 1,
+      theme: "light",
     });
   };
 
@@ -75,26 +98,43 @@ const Footer = () => {
                 return <img src={item.img} className="w-[120px] h-[60px]" alt="" />;
               })} */}
             </div>
-            <div className="mt-[23px]">
-              <div>
-                <span className="text-[16px] font-bold text-black">
+            <div className="mt-[23px] relative right-[23px]">
+              <div className="flex items-center flex-col ">
+                <span className="text-[16px] font-bold text-black relative right-[-28px]">
                   باما همراه شوید
                 </span>
-                <div className="mt-[8px] mr-[3px]">
-                  <button onClick={showToastMessage2}>
-                    <IconButton>
-                      <a href="https://instagram.com/ramsar_bama_com?igshid=MzMyNGUyNmU2YQ==">
-                        <div className="instagram w-[90px] h-[33px] p-[4px] rounded-[6px] flex items-center justify-around">
-                          <div className="mt-[3px]">
-                            <span className="text-[14px] text-white ">20k</span>
-                          </div>
-                          <div>
-                            <AiOutlineInstagram className="text-[22px] text-white " />
-                          </div>
-                        </div>
+                <div className="mt-[8px] mr-[3px] flex items-center flex-col">
+                <button
+                  onClick={showToastMessage2}
+                  className="flex justify-between items-center mt-[20px] w-[200px] mr-[14px]"
+                >
+                  <div className="w-[200px] flex items-center">
+                    <div>
+                      <a href="https://instagram.com/ramsar_vila_nil?igshid=OGQ5ZDc2ODk2ZA==">
+                        <BsInstagram className="instgram pr-[38px]  w-[120px] h-[34px] rounded-[6px] text-white p-[3px]" />
                       </a>
-                    </IconButton>
-                  </button>
+                    </div>
+                    <div className="relative left-[100px] text-white top-[2px] text-[15px]">
+                      <span>20k</span>
+                    </div>
+                  </div>
+                </button>
+                <button
+                  onClick={showToastMessage3}
+                  className="flex justify-between items-center mt-[20px] w-[200px] mr-[14px]"
+                >
+                  <div className="w-[200px] flex items-center">
+                    <div>
+                      <a href="https://t.me/ramsarbama">
+                        <LiaTelegramPlane className="talegram pr-[38px]  w-[120px] h-[34px] rounded-[6px] text-white p-[3px]" />
+                      </a>
+                    </div>
+                    <div className="relative left-[100px] text-white top-[2px] text-[15px]">
+                      <span>10k</span>
+                    </div>
+                  </div>
+
+                </button>
                 </div>
               </div>
             </div>
@@ -138,7 +178,5 @@ const Footer = () => {
       </footer>
     )
   );
-
- 
 };
 export default Footer;

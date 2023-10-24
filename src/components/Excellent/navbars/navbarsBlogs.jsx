@@ -167,7 +167,6 @@ const NavbarsBlogs = ({ids}) => {
               display:display,
               transition: "all 1s",
               position:hegit,
-              transition:displays
             }}
             className="navbarsReservs  text-white flex  m-auto w-[100%] h-[63px] items-center justify-between backdrop-blur-2xl fixed top-[62px] right-0 left-0 z-10 p-2  pr-[24px] pl-[24px] animated"
           >
