@@ -27,7 +27,7 @@ const OpenCal = () => {
       <div className="">
         <ButtonToolbar
           onClick={handleOpen}
-          className="relative bottom-[35px] w-[90px] "
+          className="relative bottom-[35px] w-[90px] h-[60px]"
         >
           <Button></Button>
         </ButtonToolbar>
@@ -58,7 +58,9 @@ const OpenCal = () => {
                 </div>
                 <div className="flex items-center justify-center mt-[5px] font-bold">
                   <div>
-                    <span className="relative bottom-[1px] left-[5px]">شماره تماس :</span>
+                    <span className="relative bottom-[1px] left-[5px]">
+                      شماره تماس :
+                    </span>
                   </div>
                   <div>
                     <span>
@@ -72,20 +74,22 @@ const OpenCal = () => {
           </Modal.Body>
 
           <Modal.Body>
-            <table className="flex items-center justify-center">
-              <tbody className="w-[159%] flex items-center justify-center">
-                <div className="w-[159%]  h-[40px] p-2 rounded-[6px] bg-blue-600 text-white relative top-[10px] flex items-center justify-center">
-                  <div className="pl-[9px]">
-                    <span>
-                      <AiOutlinePhone className="text-[19px]" />
-                    </span>
+            <a href="tel:09300616152">
+              <table className="flex items-center justify-center">
+                <tbody className="w-[159%] flex items-center justify-center">
+                  <div className="w-[159%]  h-[40px] p-2 rounded-[6px] bg-blue-600 text-white relative top-[10px] flex items-center justify-center">
+                    <div className="pl-[9px]">
+                      <span>
+                        <AiOutlinePhone className="text-[19px]" />
+                      </span>
+                    </div>
+                    <div>
+                      <span>تماس با تلفن پشتیبانی</span>
+                    </div>
                   </div>
-                  <div>
-                    <span>تماس با تلفن پشتیبانی</span>
-                  </div>
-                </div>
-              </tbody>
-            </table>
+                </tbody>
+              </table>
+            </a>
           </Modal.Body>
           <Modal.Footer className="w-[63px]">
             <Button onClick={handleClose} appearance="primary"></Button>

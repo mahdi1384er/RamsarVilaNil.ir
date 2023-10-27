@@ -189,6 +189,7 @@
 
   .card-collapse {
     overflow: hidden;
+    height: 207px;
     transition: height 0.3s ease-out;
   }
 

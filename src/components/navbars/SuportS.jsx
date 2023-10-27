@@ -32,15 +32,16 @@ const SuportS = () => {
               <div className="content w-[107%]">
                 <div className="shadoboxRomms  flex items-center justify-between list-group list-group-flush  p-2 bg-[#ffff] rounded-[6px]">
                   <Suportdata title="چطور رزرو کنم ؟">
-                    <p>
+                    <p className="leading-[23px] ">
                       پس از مشخص کردن تاریخ ورود و خروج و تعداد نفرات، درخواست
-                      رزرو خود را به‌صورت رایگان ثبت کنید تا برای میزبان ارسال
-                      ‌شود. میزبان در صورت خالی بودن و مهیا بودن اقامتگاه، رزرو
-                      را تایید می‌کند. سپس پیامکی مبنی بر تایید رزرو برای شما
-                      ارسال می‌شود و شما حداکثر 30 دقیقه فرصت خواهید داشت تا با
-                      پرداخت مبلغ صورتحساب، رزرو را قطعی کرده و سند رزرو حاوی
-                      صورتحساب، شماره تماس میزبان، آدرس اقامتگاه و سایر اطلاعات
-                      رزرو را دریافت کنید.
+                      رزرو خود را به‌صورت رایگان ثبت کنید تا برای پشتیبانی
+                      رامسرباما ارسال ‌شود. در صورت خالی بودن و مهیا بودن
+                      اقامتگاه، رامسرباما با شما تماس خواهد گرفت و رزرو قطعی
+                      می‌شود. سپس پیامکی مبنی بر تایید رزرو برای شما ارسال
+                      می‌شود و شما حداکثر 30 دقیقه فرصت خواهید داشت تا با پرداخت
+                      مبلغ صورتحساب، رزرو را قطعی کرده و سند رزرو حاوی صورتحساب،
+                      شماره تماس میزبان، آدرس اقامتگاه و سایر اطلاعات رزرو را
+                      دریافت کنید.
                     </p>
                   </Suportdata>
                   <div>
@@ -53,14 +54,26 @@ const SuportS = () => {
                 <div className="shadoboxRomms flex items-center justify-between mt-[15px] list-group list-group-flush  p-2 bg-[#ffff] rounded-[6px]">
                   <Suportdata title="چطور می‌توانم با رامسرباما تماس بگیرم؟">
                     <p>
-                      پس از مشخص کردن تاریخ ورود و خروج و تعداد نفرات، درخواست
-                      رزرو خود را به‌صورت رایگان ثبت کنید تا برای میزبان ارسال
-                      ‌شود. میزبان در صورت خالی بودن و مهیا بودن اقامتگاه، رزرو
-                      را تایید می‌کند. سپس پیامکی مبنی بر تایید رزرو برای شما
-                      ارسال می‌شود و شما حداکثر 30 دقیقه فرصت خواهید داشت تا با
-                      پرداخت مبلغ صورتحساب، رزرو را قطعی کرده و سند رزرو حاوی
-                      صورتحساب، شماره تماس میزبان، آدرس اقامتگاه و سایر اطلاعات
-                      رزرو را دریافت کنید.
+                      برای تماس و ارتباط با پشتیبانی رامسرباما کافیه به شماره
+                      های زیر تماس حاصل نمایید :
+                      <br />
+                      <div class="mt-[17px] m-auto   w-[108%] h-[116px] flex flex-wrap justify-between ">
+                        <div class="flex items-center  justify-evenly">
+                          <div class="pb-[4px] ">
+                            <span class="text-[17px] text-black">
+                              {" "}
+                              تلفن اداره:{" "}
+                            </span>
+                          </div>
+                          <div class="pr-[4px]">
+                            <button>
+                              <a href="tel:01155215255" class="text-[16px]">
+                                011-55215255
+                              </a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
                     </p>
                   </Suportdata>
                   <div>
@@ -89,13 +102,14 @@ const SuportS = () => {
             </div>
           </div>
         </div>
-        <div className="m-auto w-[118%]">
-          <div className="flex items-center justify-around mt-[49px]">
+
+        <div className="m-auto w-[117%] ">
+          <div className="flex items-center justify-around mt-[49px] relative left-[8px]">
             <div className="flex items-center pt-[13px] justify-center flex-col w-[40%] m-[4px] h-[60px] bg-white rounded-[6px] shadoboxRomms">
               <div>
                 <MdOutlineMail className="text-[25px] text-blue-600" />
               </div>
-              <div className="w-[60%]">
+              <div className="w-[60%] h-[37px]">
                 <span className="text-[14px]">ارسال ایمیل</span>
                 <div className="w-[100px]">
                   <OpenEmail />
@@ -103,15 +117,18 @@ const SuportS = () => {
               </div>
             </div>
             <div className="flex items-center justify-center flex-col w-[40%] m-[4px] h-[60px] bg-white rounded-[6px] shadoboxRomms">
-              <div className="h-[27px] w-[24px]">
-                <BiSupport className="text-[25px] text-blue-600" />
-                <div className="w-[100px]">
-                  <OpenCal />
+
+                <div className="h-[27px] w-[24px]">
+                  <BiSupport className="text-[25px] text-blue-600" />
+                  <div className="w-[100px]">
+                    
+                    <OpenCal />
+                  </div>
                 </div>
-              </div>
-              <div>
-                <span className="text-[14px]">تماس باما</span>
-              </div>
+                <div>
+                  <span className="text-[14px]">تماس باما</span>
+                </div>
+             
             </div>
             <div className="flex items-center justify-center flex-col w-[40%] m-[4px] h-[60px] bg-white rounded-[6px] shadoboxRomms">
               <div className="h-[28px]">

@@ -26,7 +26,7 @@ const OpenEmail = () => {
       <div className="">
         <ButtonToolbar
           onClick={handleOpen}
-          className="relative bottom-[35px] w-[90px] "
+          className="relative bottom-[35px] w-[90px] h-[60px]"
         >
           <Button></Button>
         </ButtonToolbar>
@@ -34,7 +34,7 @@ const OpenEmail = () => {
         <Modal
           open={open}
           onClose={handleClose}
-          className="relative bottom-[-290px]"
+          className="relative bottom-[-290px] "
           onEntered={handleEntered}
           onExited={() => {
             setRows(0);
@@ -63,13 +63,15 @@ const OpenEmail = () => {
           </Modal.Body>
 
           <Modal.Body>
+          <a href="email:ramsrbama@gmail.com">
             <table className="flex items-center justify-center">
               <tbody >
-                <div className="w-[150px] h-[40px] p-2 rounded-[6px] bg-blue-600 text-white relative top-[10px] flex items-center justify-center">
-                  <span>ramsarbama@.com</span>
+                <div className="w-[190px] h-[40px] p-2 rounded-[6px] bg-blue-600 text-white relative top-[10px] flex items-center justify-center">
+                  <span>ramsrbama@gmail.com</span>
                 </div>
               </tbody>
             </table>
+            </a>
           </Modal.Body>
           <Modal.Footer className="w-[63px]">
             <Button onClick={handleClose} appearance="primary"></Button>

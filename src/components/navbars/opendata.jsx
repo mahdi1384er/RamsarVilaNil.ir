@@ -28,7 +28,7 @@ const Opendata = () => {
       <div className="">
         <ButtonToolbar
           onClick={handleOpen}
-          className="relative bottom-[35px] w-[90px] "
+          className="relative bottom-[35px] w-[90px] h-[60px]"
         >
           <Button></Button>
         </ButtonToolbar>
@@ -117,6 +117,7 @@ const Opendata = () => {
           </Modal.Body>
 
           <Modal.Body>
+          <a href="tel:09300616152">
             <table className="flex items-center justify-center">
               <tbody className="w-[159%] flex items-center justify-center">
                 <div className="w-[159%]  h-[40px] p-2 rounded-[6px] bg-blue-600 text-white relative top-[10px] flex items-center justify-center">
@@ -131,6 +132,7 @@ const Opendata = () => {
                 </div>
               </tbody>
             </table>
+            </a>
             <div className=" w-[200px]  h-[40px] p-2 rounded-[6px] bg-blue-600 text-white relative top-[20px] flex items-center justify-center m-auto">
               <div className="pl-[9px]">
                 <span>

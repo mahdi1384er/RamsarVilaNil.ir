@@ -54,6 +54,7 @@ const NavBarsScrool = () => {
       draggable: true,
       progress: 1,
       theme: "light",
+      className:"w-[76%]"
     });
   };
 
