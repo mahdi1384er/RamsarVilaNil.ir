@@ -110,7 +110,7 @@ const Footer = () => {
                 >
                   <div className="w-[200px] flex items-center">
                     <div>
-                      <a href="https://instagram.com/ramsar_vila_nil?igshid=OGQ5ZDc2ODk2ZA==">
+                      <a href="https://instagram.com/ramsar_bama_com?igshid=MzMyNGUyNmU2YQ==">
                         <BsInstagram className="instgram pr-[38px]  w-[120px] h-[34px] rounded-[6px] text-white p-[3px]" />
                       </a>
                     </div>

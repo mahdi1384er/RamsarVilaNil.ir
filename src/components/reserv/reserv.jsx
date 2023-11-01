@@ -73,7 +73,7 @@ const RKuxuryItems = () => {
                                 {item.title}
                               </p>
                             </div>
-                            <div className="flex items-center relative w-[148px] justify-between bottom-[14px]">
+                            <div className="flex items-center relative w-[106%] justify-between bottom-[14px]">
                               <div>
                                 <p className="text-[#41413f]  text-[11px] ">
                                   {item.authors}
